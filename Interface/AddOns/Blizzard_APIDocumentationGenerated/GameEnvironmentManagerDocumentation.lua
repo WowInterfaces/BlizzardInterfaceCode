@@ -7,6 +7,15 @@ local GameEnvironmentManager =
 	Functions =
 	{
 		{
+			Name = "GetCurrentEventRealmQueues",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "gameEnvironment", Type = "EventRealmQueues", Nilable = false },
+			},
+		},
+		{
 			Name = "GetCurrentGameEnvironment",
 			Type = "Function",
 
@@ -28,6 +37,15 @@ local GameEnvironmentManager =
 
 	Events =
 	{
+		{
+			Name = "EventRealmQueuesUpdated",
+			Type = "Event",
+			LiteralName = "EVENT_REALM_QUEUES_UPDATED",
+			Payload =
+			{
+				{ Name = "gameEnvironment", Type = "EventRealmQueues", Nilable = false },
+			},
+		},
 		{
 			Name = "GameEnvironmentSwitched",
 			Type = "Event",

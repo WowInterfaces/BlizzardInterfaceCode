@@ -66,6 +66,7 @@ local PlayerScript =
 		{
 			Name = "CanLootUnit",
 			Type = "Function",
+			MayReturnNothing = true,
 
 			Arguments =
 			{
@@ -221,12 +222,30 @@ local PlayerScript =
 			},
 		},
 		{
+			Name = "GetMastery",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "result", Type = "number", Nilable = false },
+			},
+		},
+		{
 			Name = "GetNormalizedRealmName",
 			Type = "Function",
 
 			Returns =
 			{
 				{ Name = "result", Type = "cstring", Nilable = false },
+			},
+		},
+		{
+			Name = "GetOverrideSpellPowerByAP",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "result", Type = "number", Nilable = false },
 			},
 		},
 		{
@@ -259,6 +278,7 @@ local PlayerScript =
 		{
 			Name = "GetRestState",
 			Type = "Function",
+			MayReturnNothing = true,
 
 			Returns =
 			{
@@ -371,6 +391,20 @@ local PlayerScript =
 			},
 		},
 		{
+			Name = "IsItemPreferredArmorType",
+			Type = "Function",
+
+			Arguments =
+			{
+				{ Name = "itemLocation", Type = "ItemLocation", Mixin = "ItemLocationMixin", Nilable = false },
+			},
+
+			Returns =
+			{
+				{ Name = "isItemPreferredArmorType", Type = "bool", Nilable = false },
+			},
+		},
+		{
 			Name = "IsPVPTimerRunning",
 			Type = "Function",
 
@@ -432,6 +466,10 @@ local PlayerScript =
 			{
 				{ Name = "result", Type = "bool", Nilable = true },
 			},
+		},
+		{
+			Name = "PortGraveyard",
+			Type = "Function",
 		},
 		{
 			Name = "RandomRoll",
@@ -564,7 +602,7 @@ local PlayerScript =
 
 			Arguments =
 			{
-				{ Name = "name", Type = "cstring", Nilable = false },
+				{ Name = "name", Type = "cstring", Nilable = false, Default = "0" },
 				{ Name = "exactMatch", Type = "bool", Nilable = false, Default = false },
 			},
 		},
@@ -601,6 +639,18 @@ local PlayerScript =
 
 	Tables =
 	{
+		{
+			Name = "PlayerAttackPowerInfo",
+			Type = "Structure",
+			Fields =
+			{
+				{ Name = "mainHandAttackPower", Type = "number", Nilable = false },
+				{ Name = "offHandAttackPower", Type = "number", Nilable = false },
+				{ Name = "rangedAttackPower", Type = "number", Nilable = false },
+				{ Name = "baseAttackPower", Type = "number", Nilable = false },
+				{ Name = "baseRangedAttackPower", Type = "number", Nilable = false },
+			},
+		},
 	},
 };
 

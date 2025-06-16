@@ -1,5 +1,19 @@
--- This file is executed at the end of addon load
+-- This is currently empty, but these changes are going in as a hotfix.
+-- In an effort to minimize risk and other issues, leaving the file around.
+local l10nTable = {
+	deDE = {},
+	enGB = {},
+	enUS = {},
+	esES = {},
+	esMX = {},
+	frFR = {},
+	itIT = {},
+	koKR = {},
+	ptBR = {},
+	ptPT = {},
+	ruRU = {},
+	zhCN = {},
+	zhTW = {},
+};
 
-GMChatStatusFrameDescription:SetWidth(190);
-GMChatStatusFrameTitleText:SetPoint("TOPLEFT", GMChatStatusFrameBorderLeft, "TOPRIGHT", 0, -14);
-GMChatStatusFrameDescription:SetPoint("TOPLEFT", GMChatStatusFrameTitleText, "BOTTOMLEFT", 0, 2);
+SetupLocalization(l10nTable);

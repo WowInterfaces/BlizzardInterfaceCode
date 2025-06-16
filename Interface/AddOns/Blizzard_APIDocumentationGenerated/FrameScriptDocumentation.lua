@@ -12,11 +12,21 @@ local FrameScript =
 			Arguments =
 			{
 				{ Name = "popupStyle", Type = "bool", Nilable = false, Default = true },
+				{ Name = "topMost", Type = "bool", Nilable = false, Default = false },
 			},
 
 			Returns =
 			{
 				{ Name = "window", Type = "SimpleWindow", Nilable = true },
+			},
+		},
+		{
+			Name = "GetCallstackHeight",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "height", Type = "number", Nilable = false },
 			},
 		},
 		{
@@ -29,8 +39,18 @@ local FrameScript =
 			},
 		},
 		{
+			Name = "GetErrorCallstackHeight",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "height", Type = "number", Nilable = true },
+			},
+		},
+		{
 			Name = "GetEventTime",
 			Type = "Function",
+			MayReturnNothing = true,
 
 			Arguments =
 			{
@@ -52,6 +72,15 @@ local FrameScript =
 			Arguments =
 			{
 				{ Name = "text", Type = "cstring", Nilable = false },
+			},
+		},
+		{
+			Name = "SetErrorCallstackHeight",
+			Type = "Function",
+
+			Arguments =
+			{
+				{ Name = "height", Type = "number", Nilable = true },
 			},
 		},
 	},
