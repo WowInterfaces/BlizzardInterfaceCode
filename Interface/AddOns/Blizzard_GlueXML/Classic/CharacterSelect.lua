@@ -141,7 +141,7 @@ function CharacterSelectLockedButtonMixin:OnClick()
 end
 
 local function ShouldShowHighResButton()
-	return not C_BattleNet.AreHighResTexturesInstalled();
+	return AreHighResTexturesAvailable() and not C_BattleNet.AreHighResTexturesInstalled();
 end
 
 function CharacterSelectStoreButton_OnLoad(self)
@@ -3158,6 +3158,32 @@ function CharacterUpgradeSecondChanceWarningFrameConfirmButton_Update(self, elap
 	self.hideTimer = math.min(self.hideTimer + elapsed, BOOST_BUTTON_DELAY);
 	if(self.hideTimer >= BOOST_BUTTON_DELAY and not CharacterUpgradeSecondChanceWarningBackground.ConfirmButton:IsEnabled()) then
 		CharacterUpgradeSecondChanceWarningBackground.ConfirmButton:Enable();
+	end
+end
+
+function CharacterUpgradeMaxLevelWarningFrameConfirmButton_OnClick(self)
+    CharacterUpgradeMaxLevelWarningFrame.warningAccepted = true;
+    CharacterUpgradeMaxLevelWarningFrame:Hide();
+    CharacterServicesMasterFinishButton_OnClick(CharacterServicesMasterFinishButton);
+end
+
+function CharacterUpgradeMaxLevelWarningFrameCancelButton_OnClick(self)
+    PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
+    CharacterUpgradeMaxLevelWarningFrame:Hide();
+    CharacterUpgradeMaxLevelWarningFrame.warningAccepted = false;
+end
+
+function CharacterUpgradeMaxLevelWarningFrameConfirmButton_OnShow(self)
+	self.hideTimer = 0;
+end
+
+function CharacterUpgradeMaxLevelWarningFrameConfirmButton_Update(self, elapsed)
+	GlueParent_DeathKnightButtonSwap(self);
+
+	if(self.hideTimer == nil) then self.hideTimer = 0 end;
+	self.hideTimer = math.min(self.hideTimer + elapsed, BOOST_BUTTON_DELAY);
+	if(self.hideTimer >= BOOST_BUTTON_DELAY and not CharacterUpgradeMaxLevelWarningBackground.ConfirmButton:IsEnabled()) then
+		CharacterUpgradeMaxLevelWarningBackground.ConfirmButton:Enable();
 	end
 end
 
