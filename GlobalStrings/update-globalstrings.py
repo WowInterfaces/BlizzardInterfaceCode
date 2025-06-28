@@ -58,8 +58,8 @@ for locale in locales:
         url = base_url + "&locale=" + locale
 
     csv_dir = os.path.join(os.path.curdir, "csv")
-    csv_file = f"{table_name}.{game_build}.{locale}.csv"
-    lua_file = f"{table_name}.{game_build}.{locale}.lua"
+    csv_file = f"{table_name}.{locale}.csv"
+    lua_file = f"{table_name}.{locale}.lua"
     
     os.makedirs(csv_dir, exist_ok=True)
     csv_file = os.path.join(csv_dir, csv_file)
