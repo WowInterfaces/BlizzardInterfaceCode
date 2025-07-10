@@ -11,7 +11,7 @@ os.environ["http_proxy"] = "http://127.0.0.1:1080"
 os.environ["https_proxy"] = "http://127.0.0.1:1080"
 
 table_name = "GlobalStrings"
-game_build = "3.4.4.61581"
+game_build = "3.4.5.61937"
 locales = ["enUS", "deDE", "esES", "frFR", "ruRU", "zhCN", "zhTW", "koKR"]
 # locales = ["enUS", "zhCN", "zhTW"]
 

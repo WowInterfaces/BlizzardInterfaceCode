@@ -1786,7 +1786,7 @@ haz clic manteniendo pulsada la tecla Mayús sobre un nombre de la ventana de ch
 11545,NEXT_ABILITY,"Siguiente facultad",1
 11546,SKILLS,Hab.,1
 11547,CHAT_HELP_TEXT_LINE1,"Comandos del chat:",1
-11548,CHAT_HELP_TEXT_LINE10,"/silencio, /advertir, /novoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un jugador",1
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,"Escribe /unirse <nombre del canal> [contraseña] para crear un canal o unirse a uno que ya existe.",1
 11550,GUILD_HELP_TEXT_LINE8,"El comando /hdegradar <jugador> degrada un rango a un jugador en tu hermandad.",1
 11551,STARTUP_TEXT_LINE1,"Escribe /ayuda para ver una lista de varios comandos.",1
@@ -1895,9 +1895,10 @@ haz clic manteniendo pulsada la tecla Mayús sobre un nombre de la ventana de ch
 11662,SLASH_GUILD_UNINVITE3,/gremove,1
 11663,CHAT_UNSET_MODERATOR_NOTICE,"|Hchannel:%d|h[%s]|h %s ha perdido los privilegios de moderación.",1
 11664,CHAT_SET_VOICE_NOTICE,"|Hchannel:%d|h[%s]|h Voz otorgada a %s.",1
+12033,KEY_BUTTON3,"Botón central de ratón",1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvitar, /chatinvitar <canal> <jugador>: invitar a un jugador a un canal",1
 11666,CHAT_HELP_TEXT_LINE12,"/cexpulsar <canal> <jugador>: expulsar a un jugador de un canal",1
-11667,CHAT_HELP_TEXT_LINE15,"/moderar <canal>: activar/desactivar la moderación de un canal",1
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/aus, /nm: Establecen las marcas Ausente o No molestar",1
 11669,GUILD_HELP_TEXT_LINE2,"El comando /hinfo ofrece información básica sobre tu hermandad",1
 11670,GUILD_HELP_TEXT_LINE6,"El comando /hexpulsar <jugador> quita a un jugador de tu hermandad",1
@@ -1978,7 +1979,6 @@ haz clic manteniendo pulsada la tecla Mayús sobre un nombre de la ventana de ch
 11747,VOICEMACRO_0_Gn_0,"¿Me puedes ayudar?",1
 11748,VOICEMACRO_3_Gn_1,"¡Salgamos de aquí!",1
 11749,VOICEMACRO_5_Gn_1,"¡Casi no me queda maná!",1
-12549,EMOTE26_CMD5,/grats,1
 11750,HELPFRAME_HOME_TEXT,"Los maestros de juego te pueden ayudar con los siguientes problemas:",1
 11751,HELPFRAME_STUCK_BUTTON_DESCRIPTION,"Estar atascado físicamente en una zona del mapa",1
 11752,SHOW_OFFLINE_MEMBERS,"Miemb. desconectados",1
@@ -2175,6 +2175,7 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 11940,ERR_TAXITOOFARAWAY,"¡Estás demasiado lejos de la parada del transporte!",1
 11941,SPELL_ON_NEXT_RANGED,"Velocidad de ataque",1
 11942,SPELL_RANGE_AREA,"Área alrededor del taumaturgo",1
+12327,EMOTE108_CMD1,/boggle,1
 11943,SPELL_TARGET_CHAIN_TEMPLATE,"Objetivo %s, y %d máx. en cadena",1
 11944,SPELL_TARGET_TYPE_DEAD8_DESC,"mascota muerta",1
 11945,SPELL_TARGET_TYPE_DEAD13_DESC,"enemigos muertos",1
@@ -2260,7 +2261,6 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12030,BINDING_NAME_TARGETPARTYMEMBER1,"Seleccionar miembro 1 del grupo",1
 12031,BINDING_NAME_TARGETPARTYPET2,"Seleccionar mascota 2 del grupo",1
 12032,BINDING_NAME_ASSISTTARGET,"Ayudar al objetivo",1
-12033,KEY_BUTTON3,"Botón central de ratón",1
 12034,BINDING_NAME_TOGGLEBACKPACK,"Abrir/cerrar mochila",1
 12035,BINDING_NAME_SCREENSHOT,"Captura de pantalla",1
 12036,BINDING_NAME_SETVIEW3,"Establecer vista 3",1
@@ -2532,7 +2532,6 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12323,COMBATLOG_XPGAIN_FIRSTPERSON,"%s muere, obtienes %d p. de experiencia.",1
 12325,TRADESKILL_SERVICE_STEP,"Desarrollo de habilidades",1
 12326,EMOTE41_CMD2,/impatient,1
-12327,EMOTE108_CMD1,/boggle,1
 12328,ERR_CANT_SWAP,"Estos objetos no se pueden intercambiar.",1
 12329,ERR_NO_BANK_HERE,"Estás demasiado lejos de un banco.",1
 12330,EMOTE46_CMD2,/risilla,1
@@ -2630,7 +2629,6 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12428,LEVEL_RANGE,"Rango niveles",1
 12429,SPELL_FAILED_CANT_BE_DISENCHANTED,"El objeto no se puede desencantar",1
 12430,PERIODICAURADAMAGESELFOTHER,"%s sufre %d p. de daño %s de tu %s.",1
-12550,EMOTE29_CMD3,/cower,1
 12431,PERIODICAURAHEALOTHERSELF,"Obtienes %1$d p. salud del %3$s de %2$s.",1
 12432,SIMPLECASTOTHERSELF,"%s te lanza %s.",1
 12433,EMOTE154_CMD1,/elogio,1
@@ -2745,6 +2743,8 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12546,EMOTE24_CMD2,/palmas,1
 12547,EMOTE25_CMD2,/confused,1
 12548,EMOTE26_CMD4,/congratulate,1
+12549,EMOTE26_CMD5,/grats,1
+12550,EMOTE29_CMD3,/cower,1
 12551,EMOTE68_CMD3,/asentir,1
 12552,EMOTE68_CMD4,/si,1
 12553,EMOTE69_CMD3,/moco,1
@@ -2843,8 +2843,6 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12654,VOICEMACRO_7_Tr_0,"Tú te quedas aquí.",1
 12655,VOICEMACRO_2_Tr_1_FEMALE,"¡Hazlos sufrir!",1
 12656,ERR_PET_SPELL_OUT_OF_RANGE,"Tu mascota está fuera de alcance.",1
-12739,VOICEMACRO_LABEL_RASPBERRY2,frambuesa,1
-12740,ITEM_ENCHANT_TIME_LEFT_MIN,"%s (%d min)",1
 12657,GUILD_PETITION_LEADER_INSTRUCTIONS,"Selecciona al jugador que deseas invitar y haz clic sobre <solicitar firma>. Cuando hayas completado los estatutos, entrégalos en el registro de hermandades para formalizarlos.",1
 12658,HOME,Principal,1
 12659,HELPFRAME_BUG_BUTTON_TEXT,"Informar de un fallo:",1
@@ -2925,6 +2923,8 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 12736,BINDING_NAME_SETVIEW1,"Establecer vista 1",1
 12737,BINDING_NAME_TOGGLEGAMEMENU,"Mostrar/ocultar el menú Opciones",1
 12738,VOICEMACRO_LABEL_INCOMING2,inc,1
+12739,VOICEMACRO_LABEL_RASPBERRY2,frambuesa,1
+12740,ITEM_ENCHANT_TIME_LEFT_MIN,"%s (%d min)",1
 12741,ERR_LOOT_NO_UI,"Ahora mismo no puedes despojar.",1
 12742,AT_WAR,"En guerra",1
 12744,MARKED_DND,"Ahora estás Ocupado: %s.",1
@@ -3577,7 +3577,6 @@ minutos para estar|r |cffffd200completamente descansado|r|cffffffff.|r",1
 13497,VOICEMACRO_15_Gn_2,"Creo que no.",1
 13498,VOICEMACRO_16_Gn_0,Gracias.,1
 13499,VOICEMACRO_16_Gn_1,"Te debo una.",1
-13600,ERR_RAID_YOU_LEFT,"Has abandonado el grupo de banda.",1
 13500,ERR_QUEST_ONLY_ONE_TIMED,"No puedes participar en más de una misión contrarreloj al mismo tiempo.",1
 13501,PET_HAPPINESS1,Descontento,1
 13502,RESURRECT_REQUEST_NO_SICKNESS,"%s desea resucitarte.",1
@@ -3670,7 +3669,7 @@ Reducción de daño ante un atacante de nivel %d:: %.1f%%",1
 13597,ADD_RAID_MEMBER,Reclutar,1
 13598,ERR_QUEST_NEED_PREREQS,"No cumples los requisitos necesarios para esa misión",1
 13599,ERR_RAID_YOU_JOINED,"Te has unido a un grupo de banda.",1
-13683,SLASH_CHAT_PASSWORD2,/pass,1
+13600,ERR_RAID_YOU_LEFT,"Has abandonado el grupo de banda.",1
 13601,ERR_RAID_MEMBER_ADDED_S,"%s se ha unido al grupo de banda.",1
 13602,ERR_RAID_MEMBER_REMOVED_S,"%s se ha marchado del grupo de banda.",1
 13603,RAID_MESSAGE,Banda,1
@@ -3752,6 +3751,7 @@ Reducción de daño ante un atacante de nivel %d:: %.1f%%",1
 13680,EMOTE58_CMD1,/hungry,1
 13681,EMOTE114_CMD2,/insult,1
 13682,SLASH_UNINVITE3,/echar,1
+13683,SLASH_CHAT_PASSWORD2,/pass,1
 13684,CHAT_HELP_TEXT_LINE7,"/contraseña, /clave <canal> <contraseña>: cambiar contraseña",1
 13685,EMOTE71_CMD1,/peer,1
 13686,EMOTE130_CMD4,/pest,1
@@ -3829,8 +3829,9 @@ Reducción de daño ante un atacante de nivel %d:: %.1f%%",1
 13761,VOICEMACRO_20_Ta_3,"Ya sabes, los tauren nacen cazadores. ¿Has visto alguna vez a un tauren coger un salmón de un río? Es realmente emocionante. Y... ¿alguna vez has visto a un tauren acechar una serpiente? Por supuesto que no lo has visto. Eso es porque los tauren son expertos en camuflarse con el entorno.",1
 13762,VOICEMACRO_19_Ta_4_FEMALE,"¿Te gustaría ver un buen baile en zuecos?",1
 13763,VOICEMACRO_20_Ta_1_FEMALE,"Una vez me reí tan fuerte que pringué todo el suelo de leche.",1
-15564,HONOR_GAINED,"Honor ganado",1
 13764,VOICEMACRO_20_Tr_1,"Me encantan las féminas regordetas, fofas y con halitosis.",1
+13837,LOOT_ROLL_YOU_WON,"|HlootHistory:%d|h[Loot]|h: Has ganado: %s",1
+13839,EMOTE7_CMD1,/beckon,1
 13765,VOICEMACRO_19_Gn_4_FEMALE,"No me parece que la escala del 1 al 10 sea suficiente para capturar pequeños detalles de compatibilidad. Preferiría una escala de compatibilidad dimensional de 12 con parámetros adicionales para la aptitud mecánica y de torsión.",1
 13766,VOICEMACRO_19_Tr_1,"Nosotros, los trols, nos emparejamos para toda la vida. Eso sí, nos encanta reencarnarnos a cada rato.",1
 13767,VOICEMACRO_20_Ni_7,"No me molestan los gnomos, pero siempre pienso que me voy a tropezar con uno.",1
@@ -3892,11 +3893,8 @@ Reducción de daño ante un atacante de nivel %d:: %.1f%%",1
 13827,LOOT_ROLL_ALL_PASSED,"|HlootHistory:%d|h[Botín]|h: Todos han pasado de: %s",1
 13834,ERR_PROFICIENCY_GAINED_S,"Has ganado %s p. de destreza.",1
 13835,EMOTE155_CMD1,/tren,1
-15565,FACTION_ALLIANCE,Alianza,3
 13836,LOOT_ROLL_WON,"|HlootHistory:%d|h[Loot]|h: %s ha ganado: %s",1
-13837,LOOT_ROLL_YOU_WON,"|HlootHistory:%d|h[Loot]|h: Has ganado: %s",1
 13838,LOOT_NEED_BEFORE_GREED,"Botín: necesidad antes que codicia",1
-13839,EMOTE7_CMD1,/beckon,1
 13840,EMOTE68_CMD2,/yes,1
 13841,EMOTE80_CMD1,/scratch,1
 13842,EMOTE95_CMD1,/talkex,1
@@ -4048,7 +4046,6 @@ fuera de combate.",1
 14001,TUTORIAL33,"Pulsa la barra espaciadora para que tu personaje salte. Salta para superar obstáculos y también si no consigues salir del agua a tierra firme.",1
 14002,TUTORIAL35,"Has hecho clic sobre un maestro de vuelo, que doma aves voladoras para el transporte de personas de un lugar a otro. Por una módica suma, podrás volar rápidamente hasta otros maestros de vuelo con los que hayas interactuado anteriormente. Cuando descubras nuevas ciudades, busca a los maestros de vuelo para poder llegar allí volando rápidamente en futuras ocasiones.",1
 14003,TUTORIAL36,"Uno de tus objetos está perdiendo durabilidad. El icono de armadura situado debajo del minimapa muestra en amarillo las partes dañadas. Busca a un mercader local para repararlo antes de que se rompa.",1
-14078,DISPELFAILEDOTHERSELF,"%s no ha podido disipar tu %s.",1
 14004,TUTORIAL37,"¡Uno de tus objetos se ha roto! El icono de la armadura, debajo del minimapa, indica el objeto roto en color rojo. Para repararlo, acude a algún mercader en una aldea. Hasta que lo hagas, no sacarás partido alguno de ese objeto.",1
 14005,ERR_LOGGING_OUT,Desconectando...,1
 14006,ERR_TARGET_LOGGING_OUT,"Ese jugador está desconectándose",1
@@ -4122,6 +4119,7 @@ fuera de combate.",1
 14074,CHAT_MSG_MONSTER_EMOTE,"Criatura: emoción",1
 14075,CHARACTER_POINTS_CHANGED,"Los puntos del personaje han cambiado",1
 14076,DAMAGESHIELDOTHERSELF,"%s refracta %d %s p. de daño sobre ti.",1
+14078,DISPELFAILEDOTHERSELF,"%s no ha podido disipar tu %s.",1
 14079,IMMUNESPELLSELFOTHER,"%s es inmune a tu %s.",1
 14080,AUCTION_TIME_LEFT2_DETAIL,"Entre 30 minutos y 2 horas",1
 14081,VSABSORBSELFOTHER,"Atacas. %s absorbe todo el daño.",1
@@ -4192,9 +4190,10 @@ la fuerza (y por otro lado, por tu escudo).",1
 14177,TUTORIAL_TITLE39,Grupos,1
 14178,TUTORIAL_TITLE40,"El libro de hechizos",1
 14179,TUTORIAL_TITLE41,"Misiones de élite",1
-14301,OPTION_TOOLTIP_SHOW_PLAYER_NAMES,"Muestra siempre los nombres de jugadores en el mundo.",1
-14302,OPTION_TOOLTIP_SHOW_GUILD_NAMES,"Muestra siempre los nombres de hermandades de jugadores en el mundo.",1
 14180,TUTORIAL39,"Puedes invitar a otros jugadores a unir fuerzas contigo para derrotar a enemigos con más facilidad. Muchas misiones difíciles se completan fácilmente en grupo y el crédito de la misión se divide entre sus miembros. Además, los grupos ganan bonus de experiencia que los jugadores en solitario no.",1
+14304,OPTION_TOOLTIP_AUTO_FOLLOW_SPEED,"Ajusta la velocidad de movimiento de la cámara en los modos de seguimiento Siempre o Inteligente.",1
+14305,MOUSE_LOOK_SPEED,"Velocidad de visión del ratón",1
+14797,SPELL_CAST_CHANNELED,Canalizado,1
 14181,TUTORIAL40,"¡Has aprendido un hechizo o una facultad nueva! Usa el botón Libro de hechizos y facultades que encontrarás en la barra de acción para abrir el libro de hechizos. Haz clic con el botón izquierdo del ratón y arrastra un hechizo o una facultad para moverlo a la barra de acción. El libro de hechizos está organizado por categorías, tal y como indican las pestañas que sobresalen de la parte derecha del libro.",1
 14182,TUTORIAL41,"Has aceptado una misión de élite. Estas misiones se resuelven mejor en grupo, ya que te llevarán a regiones habitadas por criaturas de élite también. Estas criaturas son bastante más fuertes que los monstruos normales. Sin embargo, también ganarás más experiencia si las derrotas. Reconocerás a una criatura de élite por el marco dorado de dragón que rodea su retrato.",1
 14197,FACTION_STANDING_LABEL8,Exaltado,1
@@ -4263,9 +4262,9 @@ Resistencia contra el nivel %d: |cffffffff%s|r",1
 14298,OPTION_TOOLTIP_MOUSE_SENSITIVITY,"Ajusta la velocidad de movimiento del cursor.",1
 14299,OPTION_TOOLTIP_SHOW_DAMAGE,"Muestra el daño que infliges a criaturas en cifras sobre ellas.",1
 14300,OPTION_TOOLTIP_SHOW_NPC_NAMES,"Muestra siempre los nombres de PNJ en el mundo.",1
+14301,OPTION_TOOLTIP_SHOW_PLAYER_NAMES,"Muestra siempre los nombres de jugadores en el mundo.",1
+14302,OPTION_TOOLTIP_SHOW_GUILD_NAMES,"Muestra siempre los nombres de hermandades de jugadores en el mundo.",1
 14303,OPTION_TOOLTIP_SHOW_PLAYER_TITLES,"Muestra siempre los títulos de jugadores en el mundo.",1
-14304,OPTION_TOOLTIP_AUTO_FOLLOW_SPEED,"Ajusta la velocidad de movimiento de la cámara en los modos de seguimiento Siempre o Inteligente.",1
-14305,MOUSE_LOOK_SPEED,"Velocidad de visión del ratón",1
 14306,OPTION_TOOLTIP_MOUSE_LOOK_SPEED,"Ajusta la velocidad de giro de cámara con el ratón.",1
 14307,OPTION_TOOLTIP_FOLLOW_TERRAIN,"Cambio automático de la cámara según el terreno. Si tu personaje sube una pendiente, la cámara rota hacia arriba; si desciende, rota hacia abajo.",1
 14308,OPTION_TOOLTIP_HEAD_BOB,"Simula la inclinación de la cabeza al estar en perspectiva de primera persona.",1
@@ -4439,12 +4438,10 @@ Muchas gracias por jugar. ¡Te deseamos buena suerte en tus aventuras!",1
 14524,CHAT_OPTIONS_LABEL,"Opciones de chat",1
 14525,NEWBIE_TOOLTIP_CHATOPTIONS,"Haz clic con el botón derecho del ratón para obtener una lista de las opciones de esta ventana que puedes personalizar. Haz clic con el botón izquierdo del ratón y arrastra la ventana para moverla.",1
 14526,PARTY_OPTIONS_LABEL,"Opciones de grupo",1
-14786,PLAYER,Jugador,1
-14787,ELITE,Élite,1
-14788,BOSS,Jefe,1
-14789,TOOLTIP_UNIT_LEVEL,"Nivel %s",1
 14527,NEWBIE_TOOLTIP_PARTYOPTIONS,"Si formas parte de un grupo, haz clic derecho sobre tu retrato para ver el menú de opciones de grupo. Este menú te permitirá dejar el grupo o ver las reglas de botín establecidas. Los líderes de grupo pueden añadir o expulsar a miembros, así como cambiar las reglas de botín.",1
 14528,PLAYER_OPTIONS_LABEL,"Opciones de jugador",1
+14795,RESURRECTABLE,Resucitable,1
+14796,SPELL_CAST_TIME_INSTANT_NO_MANA,Instantáneo,1
 14529,NEWBIE_TOOLTIP_PLAYEROPTIONS,"Haz clic derecho para ver los comandos especiales de interacción con otro jugador. Puedes inspeccionar su equipo, enviar una invitación para formar un grupo, comerciar o desafiar al otro jugador a un duelo. El líder del grupo puede ascender o eliminar a los demás jugadores del grupo.",1
 14530,SPELLDISMISSPETSELF,"Tu %s se ha retirado.",1
 14531,SPELLDISMISSPETOTHER,"%2$s de %1$s se retira.",1
@@ -4490,8 +4487,6 @@ Muchas gracias por jugar. ¡Te deseamos buena suerte en tus aventuras!",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,"Te permite dar nombre a tu mascota. Solo se puede hacer una vez.",1
 14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Abandonas a tu mascota y la dejas volver a la naturaleza. Una vez abandonada no podrás volver a contar con su compañía.",1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,"Es la cantidad de salud con la que cuentas actualmente. Si llega a cero, morirás. La salud se regenera automáticamente cuando no estás en combate.",1
-14790,TOOLTIP_UNIT_LEVEL_TYPE,"Nivel %s (%s)",1
-14791,TOOLTIP_UNIT_LEVEL_CLASS,"Nivel %s %s",1
 14612,NEWBIE_TOOLTIP_MANABAR0,"Es la cantidad de maná que tienes actualmente. Para lanzar hechizos se necesita maná. El maná se regenera automáticamente a partir de 5 segundos después de lanzar cualquier hechizo.",1
 14613,NEWBIE_TOOLTIP_MANABAR1,"Los guerreros (y los druidas en la forma de oso o en la forma de oso temible) necesitan ira para usar sus habilidades.",1
 14614,NEWBIE_TOOLTIP_MANABAR3,"Los pícaros (y los druidas en la forma de gato) necesitan energía para usar sus habilidades.",1
@@ -4554,12 +4549,15 @@ Muchas gracias por jugar. ¡Te deseamos buena suerte en tus aventuras!",1
 14783,DRUNK_MESSAGE_OTHER3,"%s parece borracho.",1
 14784,DRUNK_MESSAGE_OTHER4,"%s tiene un ciego monumental.",1
 14785,CORPSE,Cadáver,1
+14786,PLAYER,Jugador,1
+14787,ELITE,Élite,1
+14788,BOSS,Jefe,1
+14789,TOOLTIP_UNIT_LEVEL,"Nivel %s",1
+14790,TOOLTIP_UNIT_LEVEL_TYPE,"Nivel %s (%s)",1
+14791,TOOLTIP_UNIT_LEVEL_CLASS,"Nivel %s %s",1
 14792,TOOLTIP_UNIT_LEVEL_CLASS_TYPE,"Nivel %s %s (%s)",1
 14793,PVP_ENABLED,JcJ,1
 14794,PVP_DISABLED,"JcJ desactivado",1
-14795,RESURRECTABLE,Resucitable,1
-14796,SPELL_CAST_TIME_INSTANT_NO_MANA,Instantáneo,1
-14797,SPELL_CAST_CHANNELED,Canalizado,1
 14817,SHOW_CLOAK,"Mostrar capa",1
 14818,OPTION_TOOLTIP_SHOW_CLOAK,"Desactiva esta casilla para ocultar la capa de tu personaje.",1
 14819,OPTION_TOOLTIP_SHOW_HELM,"Desactiva esta casilla para ocultar el yelmo de tu personaje.",1
@@ -4626,11 +4624,11 @@ Muchas gracias por jugar. ¡Te deseamos buena suerte en tus aventuras!",1
 15108,BINDING_NAME_MULTIACTIONBAR1BUTTON11,"Botón 11 de la barra de acción 2",1
 15109,BINDING_NAME_MULTIACTIONBAR1BUTTON12,"Botón 12 de la barra de acción 2",1
 15110,BINDING_HEADER_MULTIACTIONBAR,"Barras múltiples",1
-15562,KILLS,Muertos,1
 15111,BINDING_NAME_MULTIACTIONBAR2BUTTON1,"Botón 1 de la barra de acción 3",1
 15112,BINDING_NAME_MULTIACTIONBAR2BUTTON2,"Botón 2 de la barra de acción 3",1
 15113,BINDING_NAME_MULTIACTIONBAR2BUTTON3,"Botón 3 de la barra de acción 3",1
 15114,BINDING_NAME_MULTIACTIONBAR2BUTTON4,"Botón 4 de la barra de acción 3",1
+16089,INVTYPE_RELIC,Reliquia,1
 15116,BINDING_NAME_MULTIACTIONBAR2BUTTON5,"Botón 5 de la barra de acción 3",1
 15117,BINDING_NAME_MULTIACTIONBAR2BUTTON6,"Botón 6 de la barra de acción 3",1
 15118,BINDING_NAME_MULTIACTIONBAR2BUTTON7,"Botón 7 de la barra de acción 3",1
@@ -4692,12 +4690,12 @@ Muchas gracias por jugar. ¡Te deseamos buena suerte en tus aventuras!",1
 15262,EMOTE169_CMD1,/palmada,1
 15281,ERR_PET_SPELL_NOPATH,"No hay caminos disponibles para tu mascota",1
 15282,SPELL_TARGET_TYPE16_DESC,"miembro de banda",1
-15563,DEATHS,Muertes,1
 15283,SPELL_TARGET_TYPE_DEAD16_DESC,"miembro de banda muerto",1
 15284,SPELL_TARGET_TYPE17_DESC,"miembros de banda",1
 15285,SPELL_TARGET_TYPE_DEAD17_DESC,"miembros muertos de banda",1
 15286,SPELL_FAILED_TARGET_NOT_IN_RAID,"El objetivo no pertenece a tu grupo o banda.",1
 15301,EMOTE58_CMD5,/pizza,1
+16090,FACTION_INACTIVE,Inactivo,1
 15302,AUCTION_REMOVED_MAIL_SUBJECT,"Subasta cancelada: %s",1
 15303,EMOTE170_CMD1,/medioaplauso,1
 15304,GM_EMAIL_NAME,"Asistencia al cliente",1
@@ -4780,6 +4778,10 @@ Se te eliminará de la cola en %s",1
 15544,PVP_TOGGLE_OFF_VERBOSE,"Perderás la marca de combate JcJ si pasas 5 minutos o más en un territorio amigo sin acción JcJ.",1
 15545,PUBLICNOTE_BUTTON_TOOLTIP,"Haz clic para ver tu nota pública",1
 15561,BINDING_NAME_TOGGLEWORLDSTATESCORES,"Mostrar/ocultar la pantalla de puntuación",1
+15562,KILLS,Muertos,1
+15563,DEATHS,Muertes,1
+15564,HONOR_GAINED,"Honor ganado",1
+15565,FACTION_ALLIANCE,Alianza,3
 15566,FACTION_HORDE,Horda,3
 15567,STAT_TEMPLATE,"Estadísticas (%s)",1
 15568,RETURN_TO_WORLD,"Salir de CDB",1
@@ -4840,6 +4842,7 @@ capturadas",1
 15709,SPELLIMMUNESELFSELF,"Tu %s ha fallado. Eres inmune.",1
 15710,SPELLDEFLECTEDSELFSELF,"Has reflejado tu %s.",1
 15711,SPELLREFLECTSELFSELF,"Has refractado tu %s.",1
+17181,SLASH_MAINASSISTOFF1,/maoff,1
 15712,SPELLMISSSELFSELF,"Tu %s falla.",1
 15713,HIDE_PULLOUT_BG,"Ocultar fondo",1
 15721,SPELL_FAILED_TARGET_FREEFORALL,"El objetivo está actualmente en modo combate JcJ libre para todos",1
@@ -4910,7 +4913,8 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 15928,LOCK_BATTLEFIELDMINIMAP,"Bloquear el mapa de zona",1
 15929,BATTLEFIELDMINIMAP_OPACITY_LABEL,"Cambiar la opacidad",1
 15930,BATTLEFIELDMINIMAP_OPTIONS_LABEL,"Opciones del mapa de zona",1
-17699,RUNE_COST_FROST,"%s escarcha",1
+16087,MACRO_ACTION_FORBIDDEN,"Se ha bloqueado un script de una macro de una acción disponible solo para la interfaz del usuario de Blizzard.",1
+17276,GUILD_BANK_LOG,Registro,1
 15931,NEWBIE_TOOLTIP_BATTLEFIELDMINIMAP_OPTIONS,"Haz clic con el botón derecho del ratón para obtener una lista de las opciones de esta ventana que puedes personalizar. Haz clic con el botón izquierdo del ratón y arrastra la ventana para moverla.",1
 15932,BATTLEFIELD_MINIMAP,"Mapa de la zona",1
 15933,PVP_RANK_LEADER,Líder,1
@@ -4980,7 +4984,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 15999,RAID_INSTANCE_WARNING_MIN_SOON,"El registro en la estancia %s acabará dentro de %d |4minuto:minutos;.",1
 16001,REPUTATION_FACTION_DESCRIPTION,"Estas son las facciones con las que has interactuado.",1
 16002,REPUTATION_STANDING_DESCRIPTION,"Cuanto más a la derecha esté la marca de tu barra de prestigio, más cerca estás del siguiente nivel de reputación con esa facción. Los niveles de prestigio, en orden ascendente, son: Odiado, Hostil, Adverso, Neutral, Amistoso, Honorable, Venerado y Exaltado.",1
-16181,READY_CHECK_NO_AFK,"Ningún jugador está Ausente",1
+16088,SPELL_FAILED_NOTHING_TO_DISPEL,"No puedes disipar nada",1
 16003,REPUTATION_AT_WAR_DESCRIPTION,"Determina cómo interactúas con los miembros de esta facción. Si activas la opción de guerra, tu reacción predeterminada será atacarles, mientras que si no está activada, no podrás atacarles.",1
 16004,REPUTATION_STATUS_PERMANENT_AT_WAR,"Nunca se puede estar en paz con los %s.",1
 16005,REPUTATION_STATUS_AT_WAR,"Estás en guerra con este grupo.",1
@@ -5050,10 +5054,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16084,SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND,"Debes equipar en la mano izquierda: %s",1
 16085,MOVE_TO_INACTIVE,Inactivo,1
 16086,SHOW_FACTION_ON_MAINSCREEN,"Mostrar barra de P.E.",1
-16087,MACRO_ACTION_FORBIDDEN,"Se ha bloqueado un script de una macro de una acción disponible solo para la interfaz del usuario de Blizzard.",1
-16088,SPELL_FAILED_NOTHING_TO_DISPEL,"No puedes disipar nada",1
-16089,INVTYPE_RELIC,Reliquia,1
-16090,FACTION_INACTIVE,Inactivo,1
 16091,WEATHER_DETAIL,"Intensidad climática",3
 16092,OPTION_TOOLTIP_WEATHER_DETAIL,"Controla la intensidad de los efectos atmosféricos. Disminuye la intensidad para mejorar el rendimiento.",3
 16093,RELICSLOT,Reliquia,1
@@ -5145,6 +5145,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 |cffffffff¿Estás listo?|r",1
 16179,READY_CHECK_START,"Iniciando comprobación para ver quiénes están listos...",1
 16180,READY_CHECK_YOU_WERE_AFK,"Estabas en modo Ausente durante una comprobación",1
+16181,READY_CHECK_NO_AFK,"Ningún jugador está Ausente",1
 16182,BINDING_NAME_RAIDTARGET1,"Asignar estrella a objetivo",1
 16183,BINDING_NAME_RAIDTARGET2,"Asignar círculo a objetivo",1
 16184,BINDING_NAME_RAIDTARGET3,"Asignar diamante a objetivo",1
@@ -5236,6 +5237,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16282,OPTION_TOOLTIP_TARGETOFTARGET2,"Muestra el objetivo de tu objetivo cuando estás en un grupo.",1
 16283,OPTION_TOOLTIP_TARGETOFTARGET3,"Muestra el objetivo de tu objetivo cuando estás solo.",1
 16284,OPTION_TOOLTIP_TARGETOFTARGET_PARTY,"Muestra el objetivo de tu objetivo cuando estás en un grupo.",1
+17534,LOOT,Botín,1
 16285,OPTION_TOOLTIP_TARGETOFTARGET_RAID,"Muestra el objetivo de tu objetivo cuando estás en una banda.",1
 16286,OPTION_TOOLTIP_TARGETOFTARGET_SOLO,"Muestra el objetivo de tu objetivo cuando estás solo.",1
 16288,SOLO,Solo,1
@@ -5550,7 +5552,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16660,ERR_MEETING_STONE_NEED_PARTY,"Debes estar en un grupo para usar una roca de encuentro",1
 16661,ERR_MEETING_STONE_TARGET_NOT_IN_PARTY,"Tu objetivo no está en el grupo",1
 16662,ERR_MEETING_STONE_TARGET_INVALID_LEVEL,"Tu objetivo no tiene el nivel requerido para esta roca de encuentro.",1
-17700,RUNE_COST_ONGOING,"En curso",1
 16663,ERR_MEETING_STONE_INVALID_TARGET,"No hay un objetivo seleccionado",1
 16664,AUTO_ADD_MEMBERS,"Añadir miembros automáticamente",1
 16665,TYPE,Tipo,1
@@ -5628,7 +5629,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16738,BLUE_GEM,|4azul:azules;,1
 16739,ENCHANT_CONDITION_EQUAL_VALUE,"exactamente %d |4gema:gemas; %s",1
 16740,ENCHANT_CONDITION_NOT_EQUAL_VALUE,"cualquier número excepto %d %s |4gema:gemas;",1
-18303,DISPELS,Disipación,1
 16741,ENCHANT_CONDITION_LESS_VALUE,"menos de %d |4gema:gemas; %s",1
 16742,ENCHANT_CONDITION_MORE_VALUE,"al menos %d |4gema:gemas; %s",1
 16743,ENCHANT_CONDITION_EQUAL_COMPARE,"un número igual de gemas %s y %s",1
@@ -5710,7 +5710,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16822,KBASE_DEFAULT_SEARCH_TEXT,"Escribe tus palabras clave aquí.",1
 16823,BENCHMARK_TAXI_MODE_ON,"Prueba de tiempo de taxi SÍ",1
 16824,BENCHMARK_TAXI_MODE_OFF,"Prueba de tiempo de taxi NO",1
-18304,ENCHANTS,Encantamientos,1
 16825,OPTION_TOOLTIP_LOCALE,"Elige el idioma en el que quieres jugar.",3
 16827,BINDING_NAME_TOGGLELFGLISTINGTAB,"Mostrar/ocultar panel BDG",1
 16828,BINDING_NAME_TOGGLELFGBROWSETAB,"Mostrar/ocultar panel BDM",1
@@ -5790,6 +5789,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 16916,TOOLTIP_RAID_CONTROL_TIP,"CTRL - Arrastra para clase",1
 16917,PET_BONUS_TOOLTIP_RANGED_ATTACK_POWER,"Aumenta el poder de ataque de tu mascota %s p.",1
 16918,PET_BONUS_TOOLTIP_STAMINA,"Aumenta el aguante de tu mascota %d p.",1
+17180,SLASH_MAINASSISTON4,/asistprinci,1
 16919,PET_BONUS_TOOLTIP_INTELLECT,"Aumenta el intelecto de tu mascota %d p.",1
 16920,PET_BONUS_TOOLTIP_ARMOR,"Aumenta la armadura de tu mascota %d p.",1
 16921,PET_BONUS_TOOLTIP_RESISTANCE,"Aumenta la resistencia de tu mascota %d p.",1
@@ -6027,8 +6027,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17177,SLASH_MAINASSISTON1,/ma,1
 17178,SLASH_MAINASSISTON2,/mainassist,1
 17179,SLASH_MAINASSISTON3,/ap,1
-17180,SLASH_MAINASSISTON4,/asistprinci,1
-17181,SLASH_MAINASSISTOFF1,/maoff,1
 17182,SLASH_MAINASSISTOFF2,/mainassistoff,1
 17183,SLASH_MAINASSISTOFF3,/noma,1
 17184,SLASH_MAINASSISTOFF4,/noasistprinci,1
@@ -6098,15 +6096,12 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17267,CHANNEL_CATEGORY_GROUP,Grupo,1
 17268,CHANNEL_CATEGORY_WORLD,Mundo,1
 17269,CHANNEL_CATEGORY_CUSTOM,Personales,1
-17354,ERR_VOICE_IGNORE_DELETED,"Silencio de voz retirado porque el personaje ya no existe.",1
-18305,PERIODIC,Periódico,1
 17270,ERROR_SLASH_EQUIP_TO_SLOT,"El formato correcto es /equipranu x [nombre de objeto] donde x es una ranura de objeto a la que se puede asignar un objeto con un número entre %d y %d.",1
 17271,CHANNEL_NEW_CHANNEL,"Canal nuevo",1
 17272,CHANNEL_CHANNEL_NAME,"Nombre de canal",1
 17273,PASSWORD,Contraseña,3
 17274,ERR_TOO_MUCH_GOLD,"En el límite de oro",1
 17275,GUILD_BANK,"Banco de hermandad",1
-17276,GUILD_BANK_LOG,Registro,1
 17277,ERR_APPROACHING_PARTIAL_PLAY_TIME_2,"Tu tiempo de conexión acumulado es de %s horas.",1
 17278,ERR_APPROACHING_NO_PLAY_TIME_2,"Has entrado en el tiempo de cansancio y tus recompensas han pasado al 50%% de lo normal. Por el bien de tu salud, desconéctate y descansa, haz ejercicio y organiza tu tiempo adecuadamente.",1
 17279,SHOW_PARTY_TEXT_TEXT,"Salud de grupo numérica",1
@@ -6180,7 +6175,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17351,ERR_VOICE_IGNORE_ADDED_S,"%s ahora no tiene voz.",1
 17352,ERR_VOICE_IGNORE_ALREADY_S,"%s ya no tiene voz.",1
 17353,ERR_VOICE_IGNORE_AMBIGUOUS,"Ese nombre es ambiguo, escribe algo más apropiado para el servidor.",1
-17525,BATTLEFIELD_MINIMAP_SHOW_NEVER,"No mostrar nunca",1
+17354,ERR_VOICE_IGNORE_DELETED,"Silencio de voz retirado porque el personaje ya no existe.",1
 17355,ERR_VOICE_IGNORE_FULL,"Ya no puedes silenciar la voz de más jugadores.",1
 17356,ERR_VOICE_IGNORE_NOT_FOUND,"No se ha encontrado al jugador.",1
 17357,ERR_VOICE_IGNORE_REMOVED_S,"%s ya tiene voz.",1
@@ -6261,8 +6256,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17437,AUTO_JOIN_VOICE,"Unirse auto. al chat de voz",1
 17438,AUTO_JOIN,"Unirse automáticamente",1
 17443,GUILDCONTROL_WITHDRAW_ITEMS,"Retirar objetos (acumulaciones/día):",1
-17524,TOGGLE_BATTLEFIELDMINIMAP_TOOLTIP,"Mostrar/ocultar el mapa de zona del juego. Acceso directo: %s",1
-17697,RUNE_COST_BLOOD,"%s sangre",1
 17444,ERR_MOVIE_RECORDING_WARNING_PERF,"Grabación detenida: Puede que las opciones de grabación de vídeo sean demasiado avanzadas para la configuración de este ordenador.",1
 17445,MOVIE_RECORDING_UNCOMPRESSED_RGB,"RGB no comprimido",1
 17446,MOVIE_RECORDING_AIC,"Apple Intermediate",1
@@ -6335,7 +6328,8 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17521,SLASH_TEAM_UNINVITE4,/tremove,1
 17522,ERROR_SLASH_TEAM_UNINVITE,"El formato adecuado es /eeliminar [2c2, 3c3, 5c5] [nombre del jugador]",1
 17523,KEY_BINDINGS_MAC,Teclado,1
-17698,RUNE_COST_UNHOLY,"%s profana",1
+17524,TOGGLE_BATTLEFIELDMINIMAP_TOOLTIP,"Mostrar/ocultar el mapa de zona del juego. Acceso directo: %s",1
+17525,BATTLEFIELD_MINIMAP_SHOW_NEVER,"No mostrar nunca",1
 17526,BATTLEFIELD_MINIMAP_SHOW_BATTLEGROUNDS,"Mostrar en los campos de batalla",1
 17527,BATTLEFIELD_MINIMAP_SHOW_ALWAYS,"Mostrar siempre",1
 17528,BUY_GUILDBANK_TAB,"Comprar nueva pestaña de banco de hermandad",1
@@ -6344,7 +6338,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17531,GUILDBANK_DEPOSIT,"Cantidad a depositar:",1
 17532,GUILDBANK_WITHDRAW,"Cantidad a retirar:",1
 17533,ACCEPT_ALT,Aceptar,1
-17534,LOOT,Botín,1
 17535,ERR_VOICESESSION_FULL,"La sesión de voz a la que intentas unirte está llena.",1
 17536,BINDING_NAME_TOGGLECHATTAB,"Mostrar/ocultar panel de chat",1
 17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,"Requiere habilidad Experto jinete",1
@@ -6489,11 +6482,16 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17694,GUILDBANK_WITHDRAWFORTAB_MONEY_FORMAT,"%s retiró %s para adquirir una pestaña de banco de hermandad",1
 17695,GUILDBANK_BUYTAB_MONEY_FORMAT,"%s adquirió una pestaña de banco de hermandad por %s",1
 17696,GUILDCONTROL_UPDATE_TEXT,"Actualizar texto",1
+17697,RUNE_COST_BLOOD,"%s sangre",1
+17698,RUNE_COST_UNHOLY,"%s profana",1
+17699,RUNE_COST_FROST,"%s escarcha",1
+17700,RUNE_COST_ONGOING,"En curso",1
 17702,SPELL_FAILED_NOT_IN_BATTLEGROUND,"No puedes hacer eso en el campo de batalla.",1
 17703,GUILD_BANK_TAB_INFO,Info.,1
 17704,MERCHANT_PAGE_NUMBER,"Página %s de %s",1
 17705,GUILDBANK_INFO_TITLE_FORMAT,"%s Info",1
 17706,SAVE_CHANGES,"Guardar cambios",1
+18310,EXTRA_ATTACKS,"Ataques extra",1
 17707,ERR_SPELL_FAILED_ALREADY_AT_FULL_MANA,"Ya tienes todo tu maná",1
 17708,QUEST_TOOLTIP_ACTIVE,"Estás en esta misión",1
 17709,COMBATLOG_XPGAIN_QUEST,"Obtienes %d p. de experiencia. (%s exp. %s bonus)",1
@@ -6567,7 +6565,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 17778,SPELL_FAILED_ONLY_IN_ARENA,"Eso solo puedes hacerlo en una arena.",1
 17779,UNIT_NAME_OWN,"Mi nombre",1
 17780,OPTION_TOOLTIP_UNIT_NAME_OWN,"Muestra el nombre de tu personaje en el mundo del juego.",1
-18200,ACTION_SPELL_AURA_APPLIED_DOSE_DEBUFF_POSSESSIVE,1,1
 17781,OPTION_TOOLTIP_UNIT_NAME_NPC,"Muestra los nombres de los PNJ en el mundo del juego.",1
 17782,UNIT_NAME_NPC,"Nombres de PNJ",1
 17783,UNIT_NAME_ENEMY_TOTEMS,Tótems,1
@@ -6811,6 +6808,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18023,ACTION_SPELL_PERIODIC_MISSED_DODGE_FULL_TEXT_NO_SOURCE,"%4$s esquivó el efecto periódico de %2$s.%6$s",1
 18024,ACTION_SPELL_PERIODIC_MISSED_EVADED,(Evadido),1
 18025,ACTION_SPELL_PERIODIC_MISSED_EVADED_FULL_TEXT,"%4$s evadió el efecto periódico de %2$s de %1$s.%6$s",1
+18205,ACTION_SPELL_AURA_REMOVED_DOSE_BUFF_POSSESSIVE,1,1
 18026,ACTION_SPELL_PERIODIC_MISSED_EVADED_FULL_TEXT_NO_SOURCE,"%4$s evadió el efecto periódico de %2$s.%6$s",1
 18027,ACTION_SPELL_PERIODIC_MISSED_IMMUNE,(Inmune),1
 18028,ACTION_SPELL_PERIODIC_MISSED_IMMUNE_FULL_TEXT,"%4$s era inmune a %2$s de %1$s.%6$s",1
@@ -6884,11 +6882,11 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18096,ACTION_ENVIRONMENTAL_DAMAGE_FATIGUE,Fatiga,1
 18097,ACTION_ENVIRONMENTAL_DAMAGE_FATIGUE_FULL_TEXT,"%4$s sufre agotamiento y pierde %9$s salud.",1
 18098,ACTION_ENVIRONMENTAL_DAMAGE_FALLING,Caída,1
-18302,BENEFICIAL,Beneficioso,1
 18099,ACTION_ENVIRONMENTAL_DAMAGE_FALLING_FULL_TEXT,"%4$s cae y pierde %9$s salud.",1
 18100,ACTION_ENVIRONMENTAL_DAMAGE_FIRE,Fuego,1
 18101,ACTION_ENVIRONMENTAL_DAMAGE_FIRE_FULL_TEXT,"%4$s sufre %9$s daño de Fuego.",1
 18102,ACTION_ENVIRONMENTAL_DAMAGE_LAVA,Lava,1
+18309,INTERRUPTS,interrumpe,1
 18103,ACTION_ENVIRONMENTAL_DAMAGE_LAVA_FULL_TEXT,"%4$s pierde %9$s salud por nadar en lava. %6$s",1
 18104,ACTION_ENVIRONMENTAL_DAMAGE_SLIME,Cieno,1
 18105,ACTION_ENVIRONMENTAL_DAMAGE_SLIME_FULL_TEXT,"%4$s pierde %9$s salud por nadar en el cieno. %6$s",1
@@ -6980,11 +6978,11 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18197,ACTION_SPELL_AURA_APPLIED_POSSESSIVE,1,1
 18198,ACTION_SPELL_AURA_APPLIED_BUFF_POSSESSIVE,0,1
 18199,ACTION_SPELL_AURA_APPLIED_DEBUFF_POSSESSIVE,1,1
+18200,ACTION_SPELL_AURA_APPLIED_DOSE_DEBUFF_POSSESSIVE,1,1
 18201,ACTION_SPELL_AURA_APPLIED_DOSE_BUFF_POSSESSIVE,1,1
 18202,ACTION_SPELL_AURA_REMOVED_POSSESSIVE,1,1
 18203,ACTION_SPELL_AURA_REMOVED_BUFF_POSSESSIVE,1,1
 18204,ACTION_SPELL_AURA_REMOVED_DEBUFF_POSSESSIVE,1,1
-18205,ACTION_SPELL_AURA_REMOVED_DOSE_BUFF_POSSESSIVE,1,1
 18207,ACTION_SPELL_AURA_REMOVED_DOSE_DEBUFF_POSSESSIVE,1,1
 18208,ACTION_SPELL_DISPEL_POSSESSIVE,1,1
 18209,ACTION_SPELL_DISPEL_BUFF_POSSESSIVE,1,1
@@ -7078,11 +7076,13 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18299,ICON_TAG_RAID_TARGET_MOON1,rt5,1
 18300,AURAS,Auras,1
 18301,HOSTILE,Hostil,1
+18302,BENEFICIAL,Beneficioso,1
+18303,DISPELS,Disipación,1
+18304,ENCHANTS,Encantamientos,1
+18305,PERIODIC,Periódico,1
 18306,HEALS,Sanaciones,1
 18307,POWER_GAINS,"Ganancia de poder",1
 18308,DRAINS,drena,1
-18309,INTERRUPTS,interrumpe,1
-18310,EXTRA_ATTACKS,"Ataques extra",1
 18311,SPELL_CASTING,"Hechizos lanzados",1
 18312,SPECIAL,Especial,1
 18313,ENVIRONMENTAL_DAMAGE,"Daño del entorno",1
@@ -7160,6 +7160,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18394,AURAS_COMBATLOG_TOOLTIP,"Mostrar mensajes sobre efectos de estados beneficiosos y dañinos.",1
 18395,BENEFICIAL_AURA_COMBATLOG_TOOLTIP,"Mostrar cuando ganas o pierdes un aura beneficiosa.",1
 18396,HARMFUL_AURA_COMBATLOG_TOOLTIP,"Mostrar cuando ganas o pierdes un aura dañina.",1
+19081,EMOTE306_CMD2,/retreat,1
 18397,DISPEL_AURA_COMBATLOG_TOOLTIP,"Mostrar cuando se elimina, rompe o roba un aura.",1
 18398,ENCHANT_AURA_COMBATLOG_TOOLTIP,"Mostrar cuando se gana o pierde un encantamiento de arma.",1
 18399,SPELLS_COMBATLOG_TOOLTIP,"Mostrar mensajes sobre hechizos y facultades especiales.",1
@@ -7223,6 +7224,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18458,QUICKBUTTON_NAME_DEFAULT,Predeterminado,1
 18459,QUICKBUTTON_NAME_FRIENDS,Amigos,1
 18460,ERR_GUILD_BANK_QUEST_ITEM,"No puedes almacenar objetos de misión en el banco de hermandad",1
+19082,EMOTE306_CMD4,/flee,1
 18461,ERR_GUILD_BANK_BOUND_ITEM,"No puedes almacenar objetos ligados a tu alma en el banco de hermandad",1
 18462,ERR_GUILD_BANK_WRAPPED_ITEM,"No puedes almacenar objetos envueltos en el banco de hermandad",1
 18463,JOIN_AS_PARTY,"Unirse como grupo",1
@@ -7304,6 +7306,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18601,ERR_REFER_A_FRIEND_NOT_NOW,"No puedes otorgar un nivel a ese jugador ahora mismo.",1
 18602,SPELL_FAILED_NOT_IN_RAID_INSTANCE,"No puedes hacer eso en una estancia de banda.",1
 18603,ERR_REFER_A_FRIEND_GRANT_LEVEL_MAX_I,"No puedes otorgar niveles a jugadores con nivel %d o superior",1
+19083,EMOTE368_CMD2,/blame,1
 18604,NEW_ACHIEVEMENT_EARNED,"Has conseguido el logro '%s'.",1
 18605,ERR_REFER_A_FRIEND_SUMMON_LEVEL_MAX_I,"No puedes invocar a un jugador con nivel superior a %d",1
 18606,ERR_REFER_A_FRIEND_SUMMON_COOLDOWN,"Solo puedes invocar a tu amigo cada hora",1
@@ -7382,7 +7385,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18686,ACTION_SPELL_AURA_REFRESH_DEBUFF_FULL_TEXT,"%2$s de %1$s restablecido en %4$s.",1
 18688,ACTION_SPELL_AURA_REFRESH_DEBUFF_POSSESSIVE,1,1
 18690,ERR_VENDOR_DOESNT_BUY,"No puedes venderle objetos a este mercader",1
-18787,ITEM_REQ_PURCHASE_GROUP,"Requiere %s",1
 18691,SPELL_FAILED_CUSTOM_ERROR_20,"Solo puedes pedir la ayuda a un vencedor del Reposo del Dragón en el Templo del Reposo del Dragón, el Baldío del Dragón, Reposo de Galakrond o La Espiral Maldita.",1
 18692,SPELL_FAILED_CUSTOM_ERROR_21,"Eso solo se puede usar en un engendro jormungar en la Caverna Corazón de Hielo.",1
 18694,UNITNAME_SUMMON_TITLE5,"Compañero de %s",1
@@ -7467,6 +7469,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18784,FACIAL_HAIR_PIERCINGS,Pendientes,3
 18785,FACIAL_HAIR_TUSKS,Colmillos,3
 18786,STATUS,Estado,1
+18787,ITEM_REQ_PURCHASE_GROUP,"Requiere %s",1
 18788,BARBERSHOP,Peluquería,1
 18789,RAF_SUMMON,"Invocar a amigo",1
 18790,RAF_GRANT_LEVEL,"Otorgar un nivel",1
@@ -7551,7 +7554,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 18875,CALENDAR_INVITE_LABEL,"¿A quién quieres invitar?",1
 18876,CALENDAR_LOCK_EVENT,"Bloquear evento",1
 18877,CALENDAR_REMOVE_INVITATION,"Eliminar invitación",1
-19078,EMOTE381_CMD2,/absent,1
 18878,CALENDAR_SET_DESCRIPTION_LABEL,"Descripción del evento en el calendario:",1
 18879,CALENDAR_VIEW_EVENT,"Ver evento",1
 18880,SPELL_FAILED_INCORRECT_AREA,"Estás en la zona incorrecta.",1
@@ -7746,11 +7748,9 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19075,CALENDAR_TOOLTIP_AUTOAPPROVE,"Si está seleccionado, el estado de los invitados que respondan a este evento cambiará automáticamente a aprobado, si no, los tendrás que aprobar manualmente.",1
 19076,CALENDAR_TOOLTIP_LOCKEVENT,"Si está seleccionado, los invitados no podrán responder a este evento.",1
 19077,CALENDAR_INVITELIST_SETINVITESTATUS,"Configurar el estado de la invitación",1
+19078,EMOTE381_CMD2,/absent,1
 19079,EMOTE83_CMD3,/holler,1
 19080,EMOTE304_CMD3,/incoming,1
-19081,EMOTE306_CMD2,/retreat,1
-19082,EMOTE306_CMD4,/flee,1
-19083,EMOTE368_CMD2,/blame,1
 19084,EMOTE369_CMD2,/blank,1
 19085,EMOTE370_CMD2,/brandish,1
 19086,EMOTE371_CMD2,/breath,1
@@ -7860,6 +7860,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19193,TITLE_REWARD,"Recompensa: %s",1
 19194,CALENDAR_MASSINVITE_ARENA_HELP,"Invitar a miembros del equipo de arena:",1
 19195,COMPARE_ACHIEVEMENTS,"Comparar logros",1
+19615,COMBAT_TEXT_DODGE,Esquivar,1
 19196,GUILDCONTROL_OPTION15,Reparar,1
 19197,CALENDAR_TOOLTIP_MASSINVITE,"Una invitación en masa llenará tu lista de invitaciones basándose en un filtro.|n|nNOTA: Una invitación en masa borrará tu lista de invitaciones actual.",1
 19198,SPELL_FAILED_ITEM_AT_MAX_CHARGES,"El objeto ya tiene el número máximo de cargas.",1
@@ -8018,7 +8019,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19364,DUNGEON_FLOOR_DALARAN2,"Los Bajos Fondos",1
 19365,CALENDAR_ERROR_SELF_INVITES_EXCEEDED,"Número máximo de invitados alcanzado. Elimina un evento antiguo para poder añadir otro.",1
 19366,CALENDAR_ERROR_OTHER_INVITES_EXCEEDED,"%s ya tiene el número máximo de eventos. Hay que eliminar un evento para recibir invitaciones a otros.",1
-20199,BOSS_DEAD,Muerto,1
 19369,ENCHANT_ITEM_MIN_SKILL,"Encantamiento requiere %s (%d)",1
 19370,ENCHANT_ITEM_REQ_SKILL,"Encantamiento requiere %s",1
 19371,SOCKET_ITEM_MIN_SKILL,"Ranura requiere %s (%d)",1
@@ -8091,8 +8091,8 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19438,VIDEO_QUALITY_SUBTEXT1,"Esta es la configuración gráfica mínima recomendada para el juego. Esta configuración ofrece un rendimiento excelente.",3
 19439,VIDEO_QUALITY_SUBTEXT2,"Detalle de texturas medio, distancia de dibujo corta, nivel de detalle de efectos de hechizos bajo. Esta configuración ofrece un buen rendimiento.",3
 19440,VIDEO_QUALITY_SUBTEXT3,"Gran detalle de texturas, distancia de dibujo mediana, nivel de detalle de efectos de hechizos medio. Esta configuración equilibra el rendimiento y la calidad.",3
-20656,REMOVE_IGNORE,Quitar,1
 19441,VIDEO_QUALITY_SUBTEXT4,"Gran detalle de texturas, distancia de dibujo más lejana, gran nivel de detalle de efectos de hechizos. Esta configuración ofrece gran calidad.",3
+19519,SPELL_FAILED_CUSTOM_ERROR_58,"El objetivo ya está bajo los efectos de un pergamino",1
 19442,VIDEO_QUALITY_SUBTEXT5,"Esta configuración ofrece la máxima calidad y se recomienda usarla únicamente en los sistemas más avanzados.",3
 19443,VOICE_LABEL,Voz,1
 19444,VOICE_SUBTEXT,"Estas opciones controlan el hardware de sonido y la configuración de entrada para el sistema de chat de voz.",1
@@ -8160,10 +8160,9 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19514,DURABILITY,Durabilidad,3
 19515,ENABLE_PET_SOUNDS,"Sonidos de mascotas",3
 19516,OPTION_TOOLTIP_ENABLE_PET_SOUNDS,"Activa y desactiva sonidos de inactividad y de agro de mascotas.",3
-20657,REMOVE_MUTE,Quitar,1
 19517,BF_NOT_IN,"No estás en un campo de batalla en este momento.",3
 19518,BATTLEFIELD_ALERT,"Tienes la posibilidad de entrar en %s. Se te eliminará de la cola de %s.",3
-19519,SPELL_FAILED_CUSTOM_ERROR_58,"El objetivo ya está bajo los efectos de un pergamino",1
+19614,COMBAT_TEXT_RESIST,Resistir,1
 19521,PAPERDOLLFRAME_TOOLTIP_FORMAT,%s,1
 19523,DMG,Daño,3
 19524,SPEED_ABBR,VEL,1
@@ -8251,8 +8250,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19611,SLASH_EQUIP_SET2,/equipset,1
 19612,COMBAT_TEXT_NONE,Nada,1
 19613,COMBAT_TEXT_MISS,Fallo,1
-19614,COMBAT_TEXT_RESIST,Resistir,1
-19615,COMBAT_TEXT_DODGE,Esquivar,1
 19616,COMBAT_TEXT_PARRY,Parar,1
 19617,COMBAT_TEXT_BLOCK,Bloquear,1
 19618,COMBAT_TEXT_EVADE,Evadir,1
@@ -8401,7 +8398,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19776,ERR_NOT_WHILE_FALLING,"No puedes hacer eso mientras saltas o caes",1
 19777,ERR_NOT_WHILE_FATIGUED,"No puedes hacer eso mientras estás fatigado",1
 19779,SPELL_FAILED_CUSTOM_ERROR_61,"Debes estar cerca de la doncella del Lago Aliento Invernal.",1
-20658,ECLIPSE,Eclipse,1
 19780,SPELL_FAILED_CUSTOM_ERROR_62,"Has aprendido todo de ese libro",1
 19781,ERR_EQUIPMENT_MANAGER_COMBAT_SWAP_S,"Algunos objetos del equipo %s no se cambiarán porque estás en combate.",1
 19782,POWER_TYPE_STEAM,"Presión de vapor",1
@@ -8486,6 +8482,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19861,ITEM_MOD_CRIT_TAKEN_RANGED_RATING_SHORT,"Índice de evasión de golpe crítico (a distancia)",1
 19862,ITEM_MOD_CRIT_TAKEN_SPELL_RATING_SHORT,"Índice de evasión de golpe crítico (hechizo)",1
 19863,ITEM_MOD_HASTE_MELEE_RATING_SHORT,"Índ. celeridad (cuerpo a cuerpo)",1
+20033,CLASS_COLORS,"Colores de clase",1
 19864,ITEM_MOD_HASTE_RANGED_RATING_SHORT,"Índ. celeridad (a distancia)",1
 19865,ITEM_MOD_HASTE_SPELL_RATING_SHORT,"Índ. celeridad (hechizo)",1
 19866,ITEM_MOD_HIT_RATING_SHORT,"Índice de golpe",1
@@ -8564,11 +8561,11 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 19942,BINDING_NAME_MULTICASTSUMMONBUTTON2,"Llamada de los ancestros",1
 19943,BINDING_NAME_MULTICASTSUMMONBUTTON3,"Llamada de los espíritus",1
 19944,BINDING_NAME_MULTICASTRECALLBUTTON1,"Regreso totémico",1
-20660,SET_NOTE,"Establecer nota",1
 19945,ACTION_UNIT_DISSIPATES,"se disipa",1
 19946,ACTION_UNIT_DISSIPATES_FULL_TEXT,"%4$s se disipa.",1
 19947,ACTION_UNIT_DISSIPATES_POSSESSIVE,0,1
 19948,BIND_TRADE_TIME_REMAINING,"Puedes comerciar con este objeto durante %s con jugadores que también reúnan los requisitos para quedárselo.",1
+20032,SPELL_FAILED_CUSTOM_ERROR_76,"Ya tienes la cantidad máxima de ira",1
 19949,ERR_TRADE_NOT_ON_TAPLIST,"Solo puedes comerciar objetos ligados con jugadores que desde un principio reunieran los requisitos para quedarse el objeto",1
 19952,ITEM_REQ_ARENA_RATING_3V3,"Requiere un índice de arena de %d|nen las ramas de 3c3 o 5c5",1
 19953,ITEM_REQ_ARENA_RATING_5V5,"Requiere un índice de arena de %d|nen las ramas de 5c5",1
@@ -8643,8 +8640,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20026,INSTANCE_ID,"ID de estancia: %d",1
 20027,HELPFRAME_OPENTICKET_FOLLOWUPTEXT,"Describe el problema relacionado:",1
 20028,UNITNAME_SUMMON_TITLE12,"Mayordomo de %s",1
-20032,SPELL_FAILED_CUSTOM_ERROR_76,"Ya tienes la cantidad máxima de ira",1
-20033,CLASS_COLORS,"Colores de clase",1
 20034,SHOW_CLASS_COLOR,"Mostrar color de clase",1
 20035,PVPBATTLEGROUND_WINTERGRASPTIMER,"Conquista del Invierno|n|cffffffff%s|r",1
 20036,PVPBATTLEGROUND_WINTERGRASPTIMER_TOOLTIP,"Próxima batalla de Conquista del Invierno: |cffffffff%s|r",1
@@ -8701,7 +8696,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20095,TRADE_POTENTIAL_BIND_ENCHANT,"Si se encanta el objeto, se ligará a ti.",1
 20096,ERR_TRADE_TEMP_ENCHANT_BOUND,"No puedes comerciar con un objeto que tenga una mejora temporal.",1
 20097,POWER_TYPE_HEAT,Calor,1
-20098,PRESS_TAB,"Pulsa Tabulador",1
+20098,PRESS_TAB,"Pulsa Tabulador",3
 20099,ITEM_MOD_HEALTH_REGEN,"Restaura %s p. de salud cada 5 s.",1
 20100,CALENDAR_STATUS_TENTATIVE,Provisional,1
 20101,MERCHANT_HONOR_POINTS,"%d Puntos de honor",1
@@ -8797,6 +8792,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20196,ASSEMBLING_GROUP,"Organizando grupo...",1
 20197,BOSSES,Jefes:,1
 20198,BOSS_ALIVE,Vivo,1
+20199,BOSS_DEAD,Muerto,1
 20200,SPECIFIC_DUNGEONS,"Mazmorras específicas",1
 20201,SPELL_FAILED_CUSTOM_ERROR_86,"No cumples los requisitos de nivel para este objeto.",1
 20202,ROLL_DISENCHANT,Desencantar,1
@@ -8858,6 +8854,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20261,UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,Esbirros,1
 20262,UNIT_NAMEPLATES_ALLOW_OVERLAP,"Permitir solapamiento de placas de nombres",1
 20263,OPTION_TOOLTIP_UNIT_NAMEPLATES_ALLOW_OVERLAP,"Las placas de nombre pueden solaparse si las unidades están en la misma línea de visión. Desactívalo para mantener separadas las placas de nombres de diferentes personajes.",1
+20339,BUTTON_LAG_SPELL,"Hechizos y facultades",1
 20264,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas, guardianes y tótems enemigos.",1
 20265,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMY_TOTEMS,"Activa esta opción para mostrar las placas de nombre de tótems enemigos.",1
 20266,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas, guardianes y tótems amistosos.",1
@@ -8932,7 +8929,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20336,BUTTON_LAG_MOVEMENT,Movimiento,1
 20337,BUTTON_LAG_MOVEMENT_TOOLTIP,"Retraso en el movimiento",1
 20338,BUTTON_LAG_MOVEMENT_NEWBIE,"Las criaturas y los jugadores aparecen o se teletransportan de un lugar a otro. Puede que corran en el sitio. Puede que veas que intentas atacar a criaturas que no están donde tú crees.",1
-20339,BUTTON_LAG_SPELL,"Hechizos y facultades",1
 20340,BUTTON_LAG_SPELL_TOOLTIP,"Retraso en hechizos y facultades",1
 20341,BUTTON_LAG_SPELL_NEWBIE,"Pasa mucho desde que usas un hechizo o facultad hasta que este realmente se ejecuta. Las facultades pueden actuar como si estuvieran en tiempo de reutilización aunque no lo estén.",1
 20342,HELPFRAME_REPORTLAG_TEXT1,"Tu informe sobre el retraso se ha enviado con éxito.",1
@@ -9072,7 +9068,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20479,ERR_ARENA_TEAM_PARTY_SIZE,"Tamaño de grupo incorrecto para esta arena.",1
 20480,ERR_QUEST_FORCE_REMOVED_S,"La misión %s se ha eliminado de tu Registro de misiones.",1
 20481,VOTE_BOOT_REASON_REQUIRED,"Escribe la razón de expulsión de %s:",1
-20654,PET_TALENTS,"Talentos mascota",1
 20482,CHAT_PARTY_GUIDE_GET,"|Hchannel:PARTY|h[Guía de mazmorra]|h %s:\32",1
 20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,"Añade o elimina la misión seleccionada de tu seguimiento de misiones.|nTambién puedes hacer Mayús+clic en una misión o en su icono.",1
 20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,"Cambiar tamaño del mapa del mundo",1
@@ -9145,7 +9140,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20553,LFD_HOLIDAY_REWARD_EXPLANATION2,"Cada victoria posterior a la primera del día te proporcionará:",1
 20554,AUCTION_CREATING,"Creando %d/%d",1
 20555,RANDOM_BATTLEGROUND,"Campo de batalla aleatorio",1
-20655,REMOVE_BLOCK,Quitar,1
 20556,RANDOM_BATTLEGROUND_EXPLANATION,"Completar campos de batalla aleatorios te proporcionará recompensas extra.",1
 20557,WIN,Victoria,1
 20558,LOSS,Derrota,1
@@ -9225,6 +9219,12 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20651,SPELL_USE_ALL_BALANCE_POSITIVE,"Usa 100% de energía solar",1
 20652,SPELL_USE_ALL_BALANCE_NEGATIVE,"Usa 100% de energía lunar",1
 20653,POWER_TYPE_SWING_VELOCITY,"Velocidad de oscilación",1
+20654,PET_TALENTS,"Talentos mascota",1
+20655,REMOVE_BLOCK,Quitar,1
+20656,REMOVE_IGNORE,Quitar,1
+20657,REMOVE_MUTE,Quitar,1
+20658,ECLIPSE,Eclipse,1
+20660,SET_NOTE,"Establecer nota",1
 20661,ERR_BG_DEVELOPER_ONLY,"En este momento este campo de batalla solo está disponible para pruebas de desarrollo.",1
 20662,APPRENTICE,Aprendiz,1
 20663,JOURNEYMAN,Oficial,1
@@ -9296,7 +9296,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20732,CHAT_PLAYER_INVITE_BANNED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h %s ha sido bloqueado.",1
 20733,CHAT_PLAYER_KICKED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h El jugador %s ha sido expulsado por %s.",1
 20734,CHAT_PLAYER_NOT_BANNED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h Jugador %s no fue bloqueado.",1
-20878,SPELL_FAILED_WEIGHT_TOO_MUCH,"Has facilitado demasiados objetos para lanzar este hechizo",1
 20735,CHAT_PLAYER_NOT_FOUND_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h El jugador %s no está en el canal.",1
 20736,CHAT_PLAYER_UNBANNED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h El jugador %s ha sido desbloqueado por %s.",1
 20737,CHAT_OWNER_CHANGED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h El gestor ha pasado a ser %s.",1
@@ -9367,7 +9366,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20804,BN_INLINE_TOAST_ALERT,"Alertas de Blizzard",1
 20805,BN_INLINE_TOAST_FRIEND_ONLINE,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s se ha conectado.",1
 20806,BN_INLINE_TOAST_FRIEND_OFFLINE,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s se ha desconectado.",1
-21312,DUNGEON_FLOOR_ULDAMAN2,"Trono de Khaz'goroth",1
 20807,BN_INLINE_TOAST_BROADCAST,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s",1
 20808,BN_INLINE_TOAST_BROADCAST_INFORM,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tTu mensaje se ha enviado.",1
 20810,BN_INLINE_TOAST_FRIEND_REQUEST,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tHas recibido una nueva solicitud de amistad.",1
@@ -9435,7 +9433,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 20873,BLOCK_INVITES_TOOLTIP,"Eliminar esta invitación y bloquear las invitaciones de este jugador.",1
 20875,RID_FRIEND_REQUEST_INFO,"Esta debería ser una persona que conoces y en la que confías en la vida real. Podréis hablar sin importar a qué juego de Blizzard estéis jugando. Si aceptas su solicitud de amistad, todos sus amigos podrán ver tu nombre real.",1
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,"No has facilitado suficientes objetos para lanzar este hechizo",1
-22338,SLASH_TARGET_MARKER2,/tm,1
+20878,SPELL_FAILED_WEIGHT_TOO_MUCH,"Has facilitado demasiados objetos para lanzar este hechizo",1
 20879,BN_BROADCAST_TOOLTIP,"Enviar un mensaje a tus amigos con ID real y con BattleTag.",1
 20880,ERR_REQUIRES_EXPANSION_S,"Requiere la expansión: %s",1
 20881,EXPANSION_NAME3,Cataclysm,1
@@ -9591,6 +9589,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21056,BUFF_STACKS_OVERFLOW,*,1
 21057,TALENT_EARLY_SPELLS_LABEL,"Ya aprendido: %s",1
 21058,GUILD_LEVEL_AND_FACTION,"Hermandad de nivel %1$s %2$s",1
+21503,GUILD_TAB_ROSTER_ABBR,Lista,1
 21059,GUILD_NEXT_PERK_LEVEL,"Siguiente ventaja: |cffff2020Nivel %s|r",1
 21060,GUILD_VIEW_ALL_PERKS_LINK,"[Ver todas las ventajas]",1
 21061,GUILD_VIEW_NEW_PERKS_LINK,"[Ver las nuevas ventajas de hermandad]",1
@@ -9828,9 +9827,11 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21309,NO_ROSTER_ACHIEVEMENT_POINTS,-,1
 21310,ACHIEVEMENT_POINTS,"Puntos de logros",1
 21311,DUNGEON_FLOOR_ULDAMAN1,"Sala de los Guardianes",1
+21312,DUNGEON_FLOOR_ULDAMAN2,"Trono de Khaz'goroth",1
 21313,DUNGEON_FLOOR_BLACKROCKSPIRE4,"Sala de Puño Negro",1
 21314,DUNGEON_FLOOR_BLACKROCKSPIRE1,Tazz'Alaor,1
 21315,DUNGEON_FLOOR_BLACKROCKSPIRE2,"Túneles de Arácnidas",1
+22165,WARGAMES,"Juegos de guerra",1
 21316,DUNGEON_FLOOR_BLACKROCKSPIRE3,"Ciudad Hordemar",1
 21317,DUNGEON_FLOOR_BLACKROCKSPIRE5,"Guarida de Halycon",1
 21318,DUNGEON_FLOOR_BLACKROCKSPIRE6,"Sala de la Batalla",1
@@ -9965,9 +9966,9 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21452,HELPFRAME_OPENTICKETINSTRUCTIONS_TEXT2,"Para ponerte en contacto con Asistencia al cliente, entra en |cffffd200https://battle.net/help/.",1
 21453,HELPFRAME_OPENTICKETINSTRUCTIONS_TEXT3,"Puedes encontrar más información en los Foros de World of Warcraft en |cffffd200www.wow-europe.com|r.",1
 21454,TUTORIAL5_HUNTER,"Para luchar contra tus enemigos, haz clic en |cffffd200Disparo Arcano|r en la |cffffd200barra de acción|r.",1
-21500,TUTORIAL11_TROLL,"¡Derrota a más |cffffd200dianas Tiki|r!",1
 21455,TUTORIAL5_DRUID,"Para luchar contra tus enemigos, haz clic en |cffffd200Cólera|r en la |cffffd200barra de acción|r.",1
 21456,TUTORIAL5_MAGE,"Para luchar contra tus enemigos, haz clic en |cffffd200Descarga de Pirofrío|r en la |cffffd200barra de acción|r.",1
+22410,DRAG_MODEL,Arrastrar,1
 21457,TUTORIAL5_SHAMAN,"Para luchar contra tus enemigos, haz clic en |cffffd200Descarga de relámpagos|r en la |cffffd200barra de acción|r.",1
 21458,TUTORIAL5_PALADIN,"Para luchar contra tus enemigos, haz clic en |cffffd200Golpe de cruzado|r en la |cffffd200barra de acción|r.",1
 21459,TUTORIAL5_ROGUE,"Para luchar contra tus enemigos, haz clic en |cffffd200Golpe siniestro|r en la |cffffd200barra de acción|r.",1
@@ -10010,9 +10011,9 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21497,TUTORIAL11_NIGHTELF,"¡Derrota a más |cffffd200sables de la noche jóvenes|r!",1
 21498,TUTORIAL11_GNOME,"¡Derrota a más |cffffd200gnomos parias enloquecidos|r!",1
 21499,TUTORIAL11_ORC,"¡Derrota a más |cffffd200jabalíes jaspeados|r!",1
+21500,TUTORIAL11_TROLL,"¡Derrota a más |cffffd200dianas Tiki|r!",1
 21501,TUTORIAL11_TAUREN,"¡Derrota a más |cffffd200invasores Erizapúas|r!",1
 21502,TUTORIAL11_SCOURGE,"¡Derrota a más |cffffd200zombis descerebrados|r!",1
-21503,GUILD_TAB_ROSTER_ABBR,Lista,1
 21504,GUILD_TAB_REWARDS_ABBR,Recomp.,1
 21505,GUILD_TAB_NEWS_ABBR,Noticias,1
 21506,GUILD_TAB_INFO_ABBR,Info.,1
@@ -10085,6 +10086,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21580,TALENT_SPEC_TANK_TOOLTIP,"Puede atraer la atención de enemigos y protege de daño a aliados.",1
 21581,TALENT_SPEC_HEALER_TOOLTIP,"Capaz de sanar a aliados heridos.",1
 21582,TALENT_SPEC_DAMAGER_TOOLTIP,"Experto en infligir daño a enemigos.",1
+21921,GUILDCONTROL_OPTION20,"Eliminar evento herm.",1
 21583,TUTORIAL57_TROLL_HUNTER,"Recuerda visitar a |cffffd200Ortezza|r. ¡Tiene una misión para ti! |cffffd200Haz clic derecho|r sobre ella cuando tu cursor aparezca como un |cffffd200signo de interrogación amarillo|r.",1
 21584,TUTORIAL57_TROLL_MAGE,"Recuerda visitar a |cffffd200Soratha|r. ¡Tiene una misión para ti! |cffffd200Haz clic derecho|r sobre él cuando tu cursor aparezca como un |cffffd200signo de interrogación amarillo|r.",1
 21585,TUTORIAL57_TROLL_WARLOCK,"Recuerda visitar a |cffffd200Voldreka|r. ¡Tiene una misión para ti! |cffffd200Haz clic derecho|r sobre él cuando tu cursor aparezca como un |cffffd200signo de interrogación amarillo|r.",1
@@ -10193,7 +10195,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21692,SLASH_CASTGLYPH2,/castglyph,1
 21693,TUTORIAL55_HUMAN,"¡Felicidades! Has matado a suficientes |cffffd200huarguerreros Roca Negra|r como para completar tu misión.|n|nVuelve con el |cffffd200alguacil McBride|r para reclamar tu recompensa.",1
 21694,TUTORIAL55_ORC,"¡Felicidades! Has matado a suficientes |cffffd200jabalíes jaspeados|r como para completar tu misión.|n|nVuelve con |cffffd200Gornek|r para reclamar tu recompensa.",1
-22410,DRAG_MODEL,Arrastrar,1
 21695,TUTORIAL55_SCOURGE,"¡Felicidades! Has matado a suficientes |cffffd200zombis descerebrados|r como para completar tu misión.|n|nVuelve con el |cffffd200enterrador Mordo|r para reclamar tu recompensa.",1
 21696,TUTORIAL55_TAUREN,"¡Felicidades! Has matado a suficientes |cffffd200invasores Erizapúas|r como para completar tu misión.|n|nVuelve con |cffffd200Grull Viento de Halcón|r para reclamar tu recompensa.",1
 21697,TUTORIAL55_DWARF,"¡Felicidades! Has matado a suficientes |cffffd200invasores Comepiedras|r como para completar tu misión.|n|nVuelve con |cffffd200Joren Cargacero|r para reclamar tu recompensa.",1
@@ -10251,9 +10252,9 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21751,GUILD_FACTION_TITLE_EXALTED,"Campeón de %s",1
 21752,TRADESKILL_RANK_WITH_MODIFIER,"%d |cff20ff20+ %d|r/%d",1
 21753,TRADESKILL_RANK,%d/%d,1
-21919,ACTION_BUTTON_USE_KEY_DOWN,"Ejecutar acción al pulsar tecla",1
 21754,SPELL_FAILED_CUSTOM_ERROR_123,"Eres demasiado sabio y poderoso para sacar algún beneficio de ese objeto.",1
 21755,STAT_HEALTH_PET_TOOLTIP,"Salud máxima. Si la salud de una criatura llega a cero, morirá.",1
+24407,STAT_AVOIDANCE,Elusión,1
 21756,ERR_CANT_BUY_QUANTITY,"No puedes comprar la cantidad especificada de ese objeto.",1
 21757,SOUND_CHANNELS_LOW,"Bajo (%d)",3
 21758,SOUND_CHANNELS_MEDIUM,"Medio (%d)",3
@@ -10324,7 +10325,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21836,PVP_NOT_LEADER,"Solo el líder del grupo puede añadir a tu grupo a la cola.",1
 21837,PVP_NO_QUEUE_GROUP,"No estás en un grupo válido para añadirte a la cola.",1
 21838,ERR_LEARN_MOUNT_S,"Has añadido la montura %s a tu colección.",1
-22005,DUNGEON_FLOOR_KARAZHAN12,"La Biblioteca superior",1
 21839,PVP_REWARD_FAILURE,"Debes pertenecer a un grupo válido y tener el nivel máximo para ganar puntos de conquista.",1
 21840,BN_BLOCK_FAILED_TOO_MANY_RID,"Ya has bloqueado el número máximo de jugadores con ID real y con BattleTag.",1
 21841,BN_BLOCK_FAILED_TOO_MANY_CID,"Ya has bloqueado el número máximo de personajes en el servicio de Blizzard.",1
@@ -10403,8 +10403,8 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 21916,STAT_RUNE_REGEN_FORMAT,"%.2f s",1
 21917,STAT_RUNE_REGEN_TOOLTIP,"El tiempo de recarga de cada una de tus runas.",1
 21918,ERR_INSUFF_TRACKED_CURRENCY_IS,"Debes ganar %d %s más en la temporada para comprar ese objeto.",1
+21919,ACTION_BUTTON_USE_KEY_DOWN,"Ejecutar acción al pulsar tecla",1
 21920,OPTION_TOOLTIP_ACTION_BUTTON_USE_KEY_DOWN,"Los atajos de los botones de acción responderán al pulsar una tecla y no al soltarla.",1
-21921,GUILDCONTROL_OPTION20,"Eliminar evento herm.",1
 21922,SPELL_FAILED_CUSTOM_ERROR_127,"Debes tener activo al menos un Choque de llamas.",1
 21923,GUILD_RECRUITMENT_LEVEL,Nivel,1
 21924,GUILD_OPEN_RECRUITMENT,"Apuntar hermandad",1
@@ -10483,6 +10483,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 22002,DUNGEON_FLOOR_KARAZHAN9,"La Sala de las Fieras",1
 22003,DUNGEON_FLOOR_KARAZHAN10,"Biblioteca del Guardián",1
 22004,DUNGEON_FLOOR_KARAZHAN11,"El Repositorio",1
+22005,DUNGEON_FLOOR_KARAZHAN12,"La Biblioteca superior",1
 22006,DUNGEON_FLOOR_KARAZHAN13,"El Mirador Celestial",1
 22007,DUNGEON_FLOOR_KARAZHAN14,"Sala del Tablero",1
 22008,DUNGEON_FLOOR_KARAZHAN15,"Estancias de Medivh",1
@@ -10559,6 +10560,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 22082,GUILDRECRUITMENT_ROLE2,"Indica que tu hermandad busca un tanque.",1
 22083,GUILDRECRUITMENT_ROLE3,"Indica que tu hermandad busca un sanador.",1
 22084,GUILDRECRUITMENT_ROLE1,"Indica que tu hermandad busca un DPS.",1
+22164,WARGAME_ARENA_SIZES,"2c2, 3c3, 5c5",1
 22085,TUTORIAL5,"Si haces clic derecho sobre un objetivo a tu alcance, entrarás en combate. Adoptarás automáticamente la posición de defensa.",1
 22086,SPELL_FAILED_CUSTOM_ERROR_134,"No puedes hacer eso mientras portas la bandera.",1
 22088,SPELL_FAILED_CUSTOM_ERROR_135,"No puedes hacer eso a los objetivos que portan la bandera.",1
@@ -10628,8 +10630,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 22161,WARGAME_REQ_ARENA,"|cffffffff%s|r\nRequisitos: %s2, 3, o 5 jugadores.|r",1
 22162,MINIMAP_TRACKING_TARGET,Objetivo,1
 22163,MINIMAP_TRACKING_FOCUS,"Objetivo enfocado",1
-22164,WARGAME_ARENA_SIZES,"2c2, 3c3, 5c5",1
-22165,WARGAMES,"Juegos de guerra",1
 22166,AUTO_ACTIVATE_ON,"Autoactivar perfil con:",1
 22167,AUTO_ACTIVATE_PROFILE_NO_TALENT,"El perfil nunca se autoactivará. No se ha seleccionado ninguna especialización de talentos.",1
 22168,AUTO_ACTIVATE_PROFILE_NO_SIZE,"El perfil nunca se autoactivará. No se ha seleccionado ningún tamaño de grupo.",1
@@ -10782,6 +10782,7 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 22335,SLASH_CLEAR_WORLD_MARKER3,/quitarmarcadormundo,1
 22336,SLASH_CLEAR_WORLD_MARKER4,/clearworldmarker,1
 22337,SLASH_TARGET_MARKER1,/mo,1
+22338,SLASH_TARGET_MARKER2,/tm,1
 22339,SLASH_TARGET_MARKER3,/marcadorobjetivo,1
 22340,SLASH_TARGET_MARKER4,/targetmarker,1
 22341,MAP_OPTIONS_TEXT,"Opciones del mapa",1
@@ -10998,7 +10999,6 @@ Si haces clic izquierdo mientras pulsas Control sobre un objeto que se pueda equ
 22566,SOR_INSTRUCTION_EMAIL,"Introduce una dirección de correo electrónico:",1
 22567,SOR_DEFAULT_MESSAGE,"¿Dónde te metes? ¡Vuelve a Azeroth!",1
 22568,SOR_NUM_REMAINING,"Invitaciones restantes hoy: %d",1
-24407,STAT_AVOIDANCE,Elusión,1
 22569,SOR_DISABLE_NO_INVITES_LEFT,"Hoy ya no puedes enviar más invitaciones.",1
 22570,SOR_DISABLE_CHOOSE_A_TARGET,"Elige a quién quieres enviar la invitación.",1
 22571,SOR_SUCCESSFULLY_SENT,"¡Se ha enviado tu Hechizo de resurrección!",1
@@ -15471,7 +15471,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34484,RACE_INFO_NIGHTELF_FEMALE,"Hace diez mil años, los elfos de la noche fundaron un vasto Imperio, pero el uso imprudente de la magia primaria los llevó a la ruina. Consternados, se retiraron a los bosques donde se aislaron hasta el regreso de su antiguo enemigo: la Legión Ardiente. Entonces no tuvieron más opción que abandonar su reclusión y luchar por su lugar en el nuevo mundo.",3
 34485,RACE_INFO_ORC,"La raza de los orcos es originaria del planeta Draenor. Este pueblo pacífico, de creencias chamánicas, fue esclavizado por la Legión Ardiente y forzado a participar en la guerra contra los humanos de Azeroth. Aunque tuvieron que pasar muchos años, al final escaparon de la corrupción de los demonios y recuperaron su libertad. A día de hoy, luchan por su honor en un mundo que los odia y desprecia.",3
 34486,RACE_INFO_ORC_FEMALE,"La raza de los orcos es originaria del planeta Draenor. Este pueblo pacífico, de creencias chamánicas, fue esclavizado por la Legión Ardiente y forzado a participar en la guerra contra los humanos de Azeroth. Aunque tuvieron que pasar muchos años, al final escaparon de la corrupción de los demonios y recuperaron su libertad. A día de hoy, luchan por su honor en un mundo que los odia y desprecia.",3
-34586,SERVER_SPLIT_CURRENT_CHOICE,"Selección actual:\n%s",2
+34588,SERVER_SPLIT_NOT_NOW,"Decidir más tarde",2
 34487,RACE_INFO_PANDAREN,"Envuelto en niebla durante eras, el antiguo reino de Pandaria ha conseguido mantenerse al margen de la guerra. Ahora que la niebla se ha disipado, los héroes pandaren dan un paso adelante para jurar lealtad a la Alianza o a la Horda. Los pandaren más aventureros proceden de La Isla Errante, una tierra misteriosa ajena al resto del mundo e incluso a Pandaria.",2
 34488,RACE_INFO_SCOURGE,"Fuera del alcance del Rey Exánime, los Renegados buscan la manera de derrocarlo. El alma en pena Sylvanas lidera su sed de venganza contra la Plaga. Los humanos ahora también son el enemigo, implacables en su intento de purgar de no-muertos el mundo. A los Renegados les importan poco incluso sus aliados; para ellos, la Horda no es más que una herramienta para promover sus oscuros planes.",3
 34489,RACE_INFO_SCOURGE_FEMALE,"Fuera del alcance del Rey Exánime, los Renegados buscan la manera de derrocarlo. El alma en pena Sylvanas lidera su sed de venganza contra la Plaga. Los humanos ahora también son el enemigo, implacables en su intento de purgar de no-muertos el mundo. A los Renegados les importan poco incluso sus aliados; para ellos, la Horda no es más que una herramienta para promover sus oscuros planes.",3
@@ -15509,7 +15509,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34521,REALM_TYPE,Tipo,2
 34522,REALM_TYPE_LOCALE_WARNING,"Intentas jugar en un reino de un idioma diferente.",2
 34523,REALM_TYPE_TOURNAMENT_WARNING,"Esta cuenta no está registrada para participar en los reinos de torneos.\n\nPara obtener más información sobre el Torneo de Arena de World of Warcraft, visita: www.wow-europe.com/es.",2
-34587,SERVER_SPLIT_DONT_CHANGE,"Deshacer selección",2
+34589,SERVER_SPLIT_PENDING,"División de reino pendiente...",2
 34524,RECRUIT_A_FRIEND_FACTION_SUGGESTION_ALLIANCE,"Tu amigo juega en la facción de la Alianza. Elige una de estas razas si queréis jugar juntos.",2
 34525,RECRUIT_A_FRIEND_FACTION_SUGGESTION_HORDE,"Tu amigo juega en la facción de la Horda. Elige una de estas razas si queréis jugar juntos.",2
 34526,REGEN,"REG. %.0f",2
@@ -15560,18 +15560,17 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34573,SELECT_RACE,"Selecciona una raza",2
 34574,SELECT_SPEC_ACTIVE_LABEL,"Elige tu especialización.",2
 34575,SELECT_SPEC_RESULTS_LABEL,Especialización:,2
-34576,SERVER_ALERT_BETA_URL,https://eu.battle.net/account/management/beta-profile.html ,2
 34577,SERVER_ALERT_BUTTON_TEXT,"Más información",2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,"Noticias de última hora",2
-34580,SERVER_ALERT_URL,http://eu.launcher.battle.net/service/tbc-client/alert/es-es,2
 34581,SERVER_DOWN,"Servidor no disponible",2
 34582,SERVER_SELECTION,"Selección de reino",2
 34583,SERVER_SPLIT,"La población de este reino ha alcanzado su capacidad máxima. Este reino se va a dividir en dos nuevos. Esto quiere decir que dividiremos el reino en dos y dividiremos a los jugadores entre los dos reinos. Los jugadores podrán elegir en qué reino prefieren estar hasta |cffffffff%s|r, cuando se completará el proceso. Si no seleccionas nada, te asignaremos automáticamente a un reino. Visita www.wow-europe.com/es para consultar más información.\n\nElige el reino que prefieras abajo. Puedes cambiar de idea hasta el día de división.",2
 34584,SERVER_SPLIT_BUTTON,"División de reino",2
 34585,SERVER_SPLIT_CHOOSE_BY,"Elegir por:",2
-34588,SERVER_SPLIT_NOT_NOW,"Decidir más tarde",2
-34589,SERVER_SPLIT_PENDING,"División de reino pendiente...",2
+34586,SERVER_SPLIT_CURRENT_CHOICE,"Selección actual:\n%s",2
+34587,SERVER_SPLIT_DONT_CHANGE,"Deshacer selección",2
+35303,LEGION,Legion,2
 34590,SERVER_SPLIT_REALM_CHOICE,"Has seleccionado '|cffffffff%s|r'",2
 34591,SERVER_SPLIT_SERVER_ONE,"Reino 1",2
 34592,SERVER_SPLIT_SERVER_TWO,"Reino 2",2
@@ -15727,7 +15726,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34774,HIT_LCD,GOL,1
 34775,DURABILITY_LCD,"DURA %d",1
 34776,SPELL_FAILED_CUSTOM_ERROR_289,"Ya has conseguido esta apariencia.",1
-34868,SPELL_FAILED_NO_BONE_SHIELD,"Requiere cargas de Escudo óseo",1
 34777,BATTLEFIELD_ALERT_LCD,"Tienes la posibilidad de entrar en %s. Se te eliminará de la cola de %s",1
 34778,ENTER_YOUR_EMAIL,"Escribe tu correo electrónico",2
 34780,TIME_LEFT_VERY_LONG,"Muchísimo tiempo",1
@@ -15793,6 +15791,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34865,DUNGEON_FLOOR_DALARAN7010,Dalaran,1
 34866,DUNGEON_FLOOR_DALARAN7011,"Los Bajos Fondos",1
 34867,DUNGEON_FLOOR_DALARAN7012,"Galería de Aegwynn",1
+34868,SPELL_FAILED_NO_BONE_SHIELD,"Requiere cargas de Escudo óseo",1
 34869,ARTIFACT_SHAMAN_RESTORATION_WEAPONNAME,Sharas'dal,1
 34870,ERR_INVALID_QUEST_TARGET,"Esa misión no es un objetivo válido.",1
 34871,ARTIFACT_WARLOCK_DEST,"Cetro de Sargeras",1
@@ -15924,7 +15923,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35003,HUNTER_PET_TENACITY_CORE_ABILITY_5,"Facultad pasiva que aumenta todo el daño que inflige tu mascota.",1
 35004,HUNTER_PET_TENACITY_CORE_ABILITY_6,"Facultad pasiva que aumenta la salud de tu mascota.",1
 35005,HUNTER_PET_CUNNING_CORE_ABILITY_1,"Facultad que reduce todo el daño que recibe tu mascota durante un breve período y elimina los efectos de reducción de movimiento.",1
-35077,DUNGEON_FLOOR_KARAZHANSCENARIO2,"El Gran Salón de Baile",1
 35006,HUNTER_PET_CUNNING_CORE_ABILITY_2,"Facultad que aumenta la velocidad de movimiento de tu mascota durante un breve período.",1
 35007,HUNTER_PET_CUNNING_CORE_ABILITY_3,"Facultad que hace que tu mascota comparta el daño recibido con el objetivo.",1
 35008,HUNTER_PET_CUNNING_CORE_ABILITY_4,"Facultad pasiva que aumenta la velocidad de movimiento de tu mascota.",1
@@ -15993,6 +15991,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35074,DUNGEON_FLOOR_ICECROWNCITADELDEATHKNIGHT3,"Ciudadela Corona de Hielo",1
 35075,DUNGEON_FLOOR_ICECROWNCITADELDEATHKNIGHT4,"El Trono Helado",1
 35076,DUNGEON_FLOOR_KARAZHANSCENARIO1,"Alcobas de los Sirvientes",1
+35077,DUNGEON_FLOOR_KARAZHANSCENARIO2,"El Gran Salón de Baile",1
 35078,DUNGEON_FLOOR_KARAZHANSCENARIO3,"La Sala de la Ópera",1
 35079,DUNGEON_FLOOR_KARAZHANSCENARIO4,"Biblioteca del Guardián",1
 35080,DUNGEON_FLOOR_MAGECLASSSHRINE1,"Salón del Guardián",1
@@ -16197,11 +16196,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35296,ARTIFACT_END_GAME_POWER_UNLINKED_TOOLTIP,"Se necesita tener comprados todos los demás rasgos",1
 35297,GARRISON_FOLLOWER_XP_ADDED_ZONE_SUPPORT,"%s ha ganado %d PE.",1
 35298,GARRISON_FOLLOWER_XP_ADDED_ZONE_SUPPORT_LEVEL_UP,"¡Ahora %s es nivel %d!",1
-35368,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON9,"La Sala de las Fieras",1
 35299,GARRISON_FOLLOWER_XP_ADDED_ZONE_SUPPORT_QUALITY_UP,"¡%s ha ganado un nivel de calidad!",1
 35300,GARRISON_MISSION_BONUS_REWARD_MOMENT,¡BONIFICACIÓN!,1
 35301,ERR_PETBATTLE_RESTRICTED_ACCOUNT,"Las cuentas Starter Edition no pueden participar en duelos de mascotas.",1
-35303,LEGION,Legion,2
 35304,DANGEROUS_SCRIPTS_WARNING,"Estás intentando usar un script personalizado. El uso de scripts puede poner en peligro a tu personaje y provocar la pérdida de oro y objetos.|n|n¿Quieres permitir el uso de scripts personalizados?",1
 35305,DUNGEON_FLOOR_SURAMARNOBLESDISTRICT0,"Corte de las Estrellas",1
 35306,ERR_BATTLEGROUND_JOIN_TOO_MANY_DAMAGE,"No puedes acceder a esta rama de la arena con más de dos DPS.",1
@@ -16265,9 +16262,11 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35365,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON6,"El Bancal del Maestro",1
 35366,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON7,"La Escalera Quebrada inferior",1
 35367,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON8,"La Escalera Quebrada superior",1
+35368,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON9,"La Sala de las Fieras",1
 35369,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON10,"Biblioteca del Guardián",1
 35370,QUESTLINE_LOCATED_ABOVE,"Situada encima",1
 35371,QUESTLINE_LOCATED_BELOW,"Situada debajo",1
+35523,TOOLTIP_TRACKER_FIND_GROUP_BUTTON,"Buscar grupo",1
 35375,SPELL_FAILED_CUSTOM_ERROR_321,"Debes estar en una posada para rasguear esa guitarra.",1
 35376,RAID_ENCOUNTERS,Encuentros,1
 35377,PVP_WEEKLY_REWARD,"Recompensa semanal",1
@@ -16343,6 +16342,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,"Activar/desactivar unión rápida",1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,"También en el grupo:",1
 35452,SOCIAL_QUEUE_AND_MORE,"y más",1
+35532,POSTMASTER_PIPE_KALIMDOR,Kalimdor,1
+35533,POSTMASTER_PIPE_EASTERNKINGDOMS,"Reinos del Este",1
 35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,"Te unes rápidamente a tus amigos y compañeros de banda cuando se ponen en cola o entran en un grupo ya creado.",1
 35455,CR_PARRY_BASE_STAT_TOOLTIP,"Aumenta la probabilidad de parar un %.2f%%|n|cff888888(Antes del rendimiento decreciente)|r",1
 35456,CR_DODGE_BASE_STAT_TOOLTIP,"Aumenta la probabilidad de esquivar un %.2f%%|n|cff888888(Antes del rendimiento decreciente)|r",1
@@ -16405,9 +16406,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35520,INVITE_CONFIRMATION_REQUEST_FRIEND_QUICKJOIN,"Un amigo de %s, %s, ha solicitado unirse a tu grupo a través de Unión rápida.",1
 35521,INVITE_CONFIRMATION_REQUEST_GUILD_QUICKJOIN,"Un compañero de hermandad de %s, %s, ha solicitado unirse a tu grupo a través de Unión rápida.",1
 35522,SPELL_FAILED_CUSTOM_ERROR_328,"No puedes cambiar de especialización en este momento.",1
-35523,TOOLTIP_TRACKER_FIND_GROUP_BUTTON,"Buscar grupo",1
-35532,POSTMASTER_PIPE_KALIMDOR,Kalimdor,1
-35533,POSTMASTER_PIPE_EASTERNKINGDOMS,"Reinos del Este",1
 35534,POSTMASTER_PIPE_OUTLAND,Terrallende,1
 35535,POSTMASTER_PIPE_NORTHREND,Rasganorte,1
 35536,POSTMASTER_PIPE_PANDARIA,Pandaria,1
@@ -16488,6 +16486,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,"Aquí puedes ver todos los conjuntos de apariencias que puedes obtener para tu clase.",1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,"Aquí puedes ver y aplicar los conjuntos de apariencias completados.",1
+35697,VISITABLE_URL37,https://battle.net/support/article/32222,2
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,"Sigue ganando reputación con facciones con las que seas Exaltado para recibir recompensas.",1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,¡Desbloquear!,2
 35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"¿Seguro que quieres desbloquear este personaje de prueba? Si haces clic en el botón ""¡Desbloquear!"", ya no podrás recibir ningún reembolso.",2
@@ -16561,11 +16560,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35691,SHORTDATENOYEAR_EU,%1$d/%2$d,1
 35692,CONTRIBUTION_RESULT_ERROR_INCORRECT_STATE,"El edificio debe estar en construcción",1
 35693,CONTRIBUTION_RESULT_ERROR_INVALID_ID,"Edificio desconocido",1
-35866,SLASH_COMMENTATOR_NAMETEAM3,/ne,1
 35694,CONTRIBUTION_RESULT_ERROR_UNABLE_TO_COMPLETE_QUEST,"No se puede contribuir ahora mismo",1
 35695,CALENDAR_HOLIDAYFRAME_BEGINSENDS,"%1$s|n|nComienza: %2$s %3$s|nAcaba: %4$s %5$s",1
 35696,CALENDAR_TOOLTIP_ONGOING,"En curso",1
-35697,VISITABLE_URL37,https://battle.net/support/article/32222,2
 35698,VISITABLE_URL38,https://www.battlenet.com.cn/support/zh/article/2537,2
 35699,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100,"|HurlIndex:37|h|cff006995Preguntas frecuentes sobre la Subida de personaje|r|h",3
 35700,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100_CN,"|HurlIndex:38|h|cff006995Preguntas frecuentes sobre la Subida de personaje|r|h",3
@@ -16633,7 +16630,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35766,PET_JOURNAL_SUMMON_RANDOM_FAVORITE_PET,"Invocar mascota de duelo\nfavorita aleatoria",1
 35768,LUA_WARNING,"Aviso de Lua",3
 35772,QUEST_OBJECTIVE_PROGRESS_BAR,%d%%,1
-35867,SLASH_COMMENTATOR_NAMETEAM4,/nt,1
 35779,TRANSMOG_SETS_TAB_DISABLED,"No tienes ningún conjunto de apariencias completo o que se pueda usar.",1
 35780,DUNGEON_FLOOR_TKARCATRAZSCENARIO1,"Bloque de Estasis: Trion",1
 35781,DUNGEON_FLOOR_TKARCATRAZSCENARIO2,"Bloque de Estasis: Maximus",1
@@ -16708,6 +16704,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35863,SLASH_COMMENTATOR_ASSIGNPLAYER4,/ap,1
 35864,SLASH_COMMENTATOR_NAMETEAM1,/nombrarequipo,1
 35865,SLASH_COMMENTATOR_NAMETEAM2,/nameteam,1
+35866,SLASH_COMMENTATOR_NAMETEAM3,/ne,1
+35867,SLASH_COMMENTATOR_NAMETEAM4,/nt,1
 35868,SLASH_COMMENTATOR_OVERRIDE1,/sobreescribirnombre,1
 35869,SLASH_COMMENTATOR_OVERRIDE2,/overridename,1
 35870,SLASH_COMMENTATOR_OVERRIDE3,/sn,1
@@ -16911,9 +16909,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36091,_JKL_TEST,_JKL_TEST,1
 36103,BOOST_TOKEN_TOOLTIP_TITLE,"Subida a nivel %s",2
 36104,BOOST_TOKEN_TOOLTIP_DESCRIPTION,"Sube a un personaje a nivel %s",2
-36356,COMMUNITY_MEMBER_ROLE_NAME_LEADER,Líder,1
 36105,ERR_GLYPH_TARGET_NOT_AVAILABLE,"En estos momentos el hechizo seleccionado está sobrescrito por un talento u otra facultad.",1
 36106,BACKPACK_AUTHENTICATOR_INCREASE_SIZE,"Aumentar tamaño de la mochila",1
+36184,POSTMASTER_LETTER_ONEKEG,"Barrilia, Cima Kun-Lai",1
 36107,BACKPACK_AUTHENTICATOR_DIALOG_DESCRIPTION,"Si proteges tu cuenta de World of Warcraft con el Blizzard Authenticator y el servicio Alertas de móvil, obtendrás 4 ranuras para mochila adicionales.|n|nEl Blizzard Authenticator es un servicio gratuito y fácil de usar que protege tu cuenta contra accesos no autorizados, y el servicio Alertas de móvil de Blizzard te envía notificaciones cuando se realiza algún cambio importante en tu cuenta.|n|nHaz clic en ""Activar"" para abrir la página de configuración de seguridad de cuenta.",1
 36108,BACKPACK_AUTHENTICATOR_EXTRA_SLOTS_ADDED,"Has obtenido 4 ranuras para mochila por tener un Authenticator vinculado a tu cuenta.",1
 36109,BACKPACK_AUTHENTICATOR_FULL_INVENTORY,"El inventario está lleno. Para poder recibir objetos, primero debes hacer sitio en las bolsas.",1
@@ -16981,7 +16979,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36181,POSTMASTER_LETTER_ALTAROFSHATAR,"Altar de Sha'tar, Valle Sombraluna",1
 36182,POSTMASTER_LETTER_COSMOWRENCH,"Cosmotirón, Tormenta Abisal",1
 36183,POSTMASTER_LETTER_DAWNSBLOSSOM,"Floralba, El Bosque de Jade",1
-36184,POSTMASTER_LETTER_ONEKEG,"Barrilia, Cima Kun-Lai",1
 36185,POSTMASTER_LETTER_LONGYING,"Avanzada Longying, Estepas de Tong Long",1
 36186,POSTMASTER_LETTER_KLAXXIVESS,"Klaxxi'vess, Desierto del Pavor",1
 36187,POSTMASTER_LETTER_LIONSLANDING,"Desembarco del León, Espesura Krasarang",1
@@ -17126,6 +17123,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36353,COMMUNITY_MEMBER_LIST_DROP_DOWN_SET_NOTE,"Añadir nota de miembro",1
 36354,COMMUNITY_MEMBER_LIST_DROP_DOWN_ROLES,Funciones,1
 36355,COMMUNITY_MEMBER_ROLE_NAME_OWNER,Propietario,1
+36356,COMMUNITY_MEMBER_ROLE_NAME_LEADER,Líder,1
 36357,COMMUNITY_MEMBER_ROLE_NAME_MODERATOR,Moderador,1
 36358,COMMUNITY_MEMBER_ROLE_NAME_MEMBER,Miembro,1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,"Esperando respuesta del servidor de chat de voz. Vuelve a intentarlo en un minuto.",1
@@ -17193,10 +17191,10 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36502,COMMUNITIES_CREATE_DIALOG_BATTLE_NET_LABEL,"Crear grupo de Blizzard",1
 36506,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL_NO_FACTION,"Crear comunidad de World of Warcraft",1
 36507,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION,"- Muy útil para amigos dentro del juego|n- Invita a personajes de la %s de cualquier reino|n- Compatible con las funciones Calendario y Unión rápida",1
-36722,COMMUNITIES_INVITE_MANAGER_SHORT_TIME_FORMAT,%.2d:%.2d:%.2d,1
 36510,COMMUNITIES_STREAM_FORMAT_LEADERS_AND_MODERATORS_ONLY,"%s |A:communities-icon-lock:19:15|a",1
 36511,COMMUNITIES_CHANNEL_DESCRIPTION_INSTRUCTIONS,Opcional,1
 36513,COMMUNITIES_CHANNEL_TYPE_LABEL,"Solo moderadores",1
+40843,VOICE_CHAT_LEAVE,"Abandonar chat de voz",1
 36514,CONFIRM_REMOVE_COMMUNITY_MEMBER_LABEL,"¿Seguro que quieres eliminar a %s del grupo?",1
 36515,CONFIRM_REMOVE_CHARACTER_COMMUNITY_MEMBER_LABEL,"¿Seguro que quieres eliminar a %s de la comunidad?",1
 36516,COMMUNITIES_CHAT_TAB_TOOLTIP,Chat,1
@@ -17273,6 +17271,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36719,COMMUNITIES_INVITE_MANAGER_EXPIRES_NEVER,Nunca,1
 36720,COMMUNITIES_INVITE_MANAGER_EXPIRES,"%d minutos",1
 36721,COMMUNITIES_INVITE_MANAGER_NO_CHANNEL,-,1
+36722,COMMUNITIES_INVITE_MANAGER_SHORT_TIME_FORMAT,%.2d:%.2d:%.2d,1
 36723,COMMUNITIES_INVITE_MANAGER_COPY_LINK_BUTTON,"Copiar enlace",1
 36727,COMMUNITIES_ADD_TO_CHAT_DROP_DOWN_TITLE,"Ventana de chat",1
 36728,COMMUNITIES_ADD_TO_CHAT_DROP_DOWN_NEW_CHAT_WINDOW,"Nueva ventana",1
@@ -17343,7 +17342,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36818,ERROR_CLUB_TICKET_HAS_CONSUMED_ALLOWED_REDEEM_COUNT,"Ha expirado.",1
 36820,CHAT_CONFIG_CHANNEL_SETTINGS_TITLE_WITH_DRAG_INSTRUCTIONS,"Canales |cff808080(arrastrar para reordenar)|r",1
 36824,ATTACK_POWER_COLON,Poder:,1
-43935,EVENTTRACE_ARG_FMT,"Arg. %d:",3
 36825,BN_TOAST_NEW_CLUB_INVITATION,"Te han invitado a|n%s",1
 36829,OPTION_CONTRAST,Contraste,3
 36833,CHAT_COMMUNITIES_CHANNEL_BN_GET,%s:\32,1
@@ -17418,7 +17416,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 40840,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_ACTIVE,"Te has unido al canal de voz.",1
 40841,VOICE_CHAT_CHANNEL_ANNOUNCE_MEMBER_LEFT,"%s ha abandonado el canal de voz.",1
 40842,VOICE_CHAT_JOIN,"Unirse al chat de voz",1
-40843,VOICE_CHAT_LEAVE,"Abandonar chat de voz",1
 40844,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_LEFT,"Has abandonado el canal de voz.",1
 40846,ERR_GUILD_AND_COMMUNITIES_UNAVAILABLE,"Las comunidades y las hermandades no están disponibles en este momento",1
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,"Chat para móvil",1
@@ -17465,6 +17462,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41008,WOW_ERROR_333,"La cola de inicio de sesión de este reino está llena y no se puede aceptar a más jugadores. Elige otro reino.",2
 41019,VISITABLE_URL45,https://eu.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
+41090,BLIZZARD_STORE_VAS_ERROR_NOT_GUILD_MASTER,"- Los maestros de hermandad son los únicos que pueden usar los servicios de hermandad. Este personaje no es un maestro de hermandad.",3
+41091,BLIZZARD_STORE_VAS_ERROR_NOT_IN_GUILD,"- Debes estar en una hermandad para poder usar los servicios de hermandad. Este personaje no está en una hermandad.",3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,"ID real o BattleTag",1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Completar,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,"No completar",0
@@ -17474,6 +17473,17 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41105,CRITERIA_TREE_OPERATOR_COUNT,"Comenzar al menos",0
 41106,CRITERIA_TREE_OPERATOR_COMPLETE_AT_LEAST,"Completar al menos",0
 41107,CRITERIA_TREE_OPERATOR_WEIGHTED_CUMULATIVE,"La suma ponderada de requisitos es",0
+41113,BLIZZARD_STORE_VAS_ERROR_NEW_LEADER_INVALID,"- El personaje que has escogido como nuevo maestro de hermandad no es una opción válida. Escoge otro personaje.",3
+41118,BLIZZARD_STORE_VAS_ERROR_AUTHENTICATOR_INSUFFICIENT,"- Debes añadir un Authenticator e iniciar sesión con tu personaje maestro de hermandad al menos 7 días antes de adquirir un servicio de hermandad.|n|nSi quieres más información, consulta nuestro artículo |HurlIndex:47|h|cff006995No puedo iniciar un servicio de hermandad
+|r|h.",3
+41119,BLIZZARD_STORE_VAS_ERROR_ALREADY_RENAME_FLAGGED,"- Tu personaje maestro de hermandad tiene un cambio de nombre pendiente. Completa el cambio de nombre y vuelve a intentarlo.",3
+41120,BLIZZARD_STORE_VAS_ERROR_GM_SENORITY_INSUFFICIENT,"- Tu personaje debe ser maestro de hermandad durante al menos 7 días para poder adquirir este servicio.|nSi quieres más información, consulta nuestro artículo |HurlIndex:47|h|cff006995No puedo iniciar un servicio de hermandad
+|r|h.",3
+41121,BLIZZARD_STORE_VAS_ERROR_OPERATION_ALREADY_IN_PROGRESS,"- Tu transacción de servicio de hermandad reciente aún se está procesando.|n|nConsulta tu |HurlIndex:48|h|cff006995Historial de transacciones|r|h.",3
+41475,AUCTION_HOUSE_TOOLTIP_SELLER_FORMAT,"Vendedor: |cffffffff%s|r",1
+41122,BLIZZARD_STORE_VAS_ERROR_LOCKED_FOR_VAS,"- Tras adquirir un servicio de personaje o de hermandad para este personaje, debes esperar 30 días antes de poder adquirir un nuevo servicio de hermandad.|nSi quieres más información, consulta nuestro artículo |HurlIndex:47|h|cff006995No puedo iniciar un servicio de hermandad
+|r|h.",3
+41123,BLIZZARD_STORE_VAS_ERROR_MOVE_IN_PROGRESS,"- Tu adquisición de servicio de hermandad reciente aún se está procesando.|n|nConsulta tu |HurlIndex:48|h|cff006995Historial de transacciones|r|h.",3
 41124,AUCTION_CATEGORY_PROJECTILE,Proyectil,1
 41125,AUCTION_CATEGORY_QUIVER,Carcaj,1
 41126,AUCTION_CATEGORY_REAGENT,Componente,1
@@ -17549,7 +17559,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41459,VOICE_CHAT_DUCKING_SCALE,"Ajuste automático del chat de voz",1
 41466,LAUNCH_ETA,"Está programado que el mundo esté disponible en aproximadamente %d horas.",2
 41467,LAUNCH_ETA_SOON,"Está programado que el mundo esté disponible pronto.",2
-41475,AUCTION_HOUSE_TOOLTIP_SELLER_FORMAT,"Vendedor: |cffffffff%s|r",1
 41476,AUCTION_HOUSE_TOOLTIP_MULTIPLE_SELLERS_FORMAT,"Vendedores: |cffffffff%s|r",1
 41477,AUCTION_HOUSE_TOOLTIP_DURATION_FORMAT,"Tiempo restante: |cffffffff%s|r",1
 41478,AUCTION_HOUSE_TOOLTIP_TIME_LEFT_SHORT,"Menos de 30 min",5
@@ -17648,7 +17657,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41954,REALM_LAYERED,Capas,2
 41959,KIOSK_SESSION_EXPIRE_WARNING,"La demostración finalizará dentro de %d min.",3
 41961,KIOSK_SESSION_TIMER_CHANGED,"Temporizador de la sesión modificado.",3
-43940,EVENTTRACE_SHOW_TIMESTAMP,"Mostrar tiempo del evento",3
 41963,KIOSK_SESSION_EXPIRED_BODY,"Nos encantaría saber conocer tu opinión. Por favor, rellena una encuesta antes de salir.",1
 41964,KIOSK_SESSION_EXPIRED_TITLE,"Gracias por jugar",1
 41965,AUCTION_HOUSE_BUYOUT_MODE_TOOLTIP,"Desactiva esta casilla para permitir pujas en tu subasta",1
@@ -17792,7 +17800,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42876,JAILERS_TOWER_LEVEL_TOAST_COLDHEART,"Cruce Corazongélido",1
 42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,"La Parte Alta",1
 42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Para que funcione ""Pulsar para hablar"" cuando World of Warcraft no esté en primer plano, debes dar permiso de ""Accesibilidad"" a %s en las preferencias de Seguridad y Privacidad, ubicadas en Preferencias del Sistema. ¿Quieres abrir Preferencias del Sistema ahora?",3
 42883,MAC_INPUT_MONITORING1015,"Para que funcione ""Pulsar para hablar"" cuando World of Warcraft no esté en primer plano, debes dar permiso de ""Monitorización de entrada"" a %s en las preferencias de Seguridad y Privacidad, ubicadas en Preferencias del Sistema. ¿Quieres abrir Preferencias del Sistema ahora?",3
 42885,MAC_REQUEST_MICROPHONE1014,"Para utilizar el chat de voz, debes permitir que %s acceda al micrófono en las preferencias de Seguridad y Privacidad, ubicadas en Preferencias del Sistema. ¿Quieres abrir Preferencias del Sistema?",3
@@ -17852,7 +17860,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 43265,BURNING_CRUSADE_TRANSITION_CHOICE_CONFIRM,"El personaje %s quedará vinculado a Burning Crusade Classic.",2
 43267,BURNING_CRUSADE_TRANSITION_CHOICE_CONFIRM_TYPE,"Introduce el nombre del personaje para confirmar:",2
 43268,BURNING_CRUSADE_TRANSITION_ACTIVATECHARACTER_TOOLTIP_TITLE,"Activar clon",2
-43943,CREDITS_EXPANSION_NAME_0_0,"World of Warcraft (2004)",2
 43271,BURNING_CRUSADE_TRANSITION_ACTIVATECHARACTER_TOOLTIP_DESCRIPTION,"Este personaje está activo en WoW Classic Era. Desbloquea una copia clonada en el reino de Burning Crusade Classic.",2
 43273,BURNING_CRUSADE_TRANSITION_ACTIVATECHARACTER_TOOLTIP_ACTION,"<Haz clic para continuar>",2
 43275,SHOW_UNACTIVATED_CHARACTERS,"Mostrar clones disponibles",2
@@ -17923,6 +17930,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 43918,TEXT_TO_SPEECH_ADJUST_VOLUME,"Volumen de voz",1
 43925,BNET_ERROR_40014_HTML,"(CN Only) National ID Verification Failure",3
 43932,SLASH_TEXTTOSPEECH_VOICE,voz,1
+43935,EVENTTRACE_ARG_FMT,"Arg. %d:",3
+43940,EVENTTRACE_SHOW_TIMESTAMP,"Mostrar tiempo del evento",3
+43943,CREDITS_EXPANSION_NAME_0_0,"World of Warcraft (2004)",2
 43944,CREDITS_EXPANSION_NAME_1_0,"The Burning Crusade (2007)",2
 43945,CREDITS_EXPANSION_NAME_0_1,"World of Warcraft Classic (2019)",2
 43946,CREDITS_EXPANSION_NAME_1_1,"Burning Crusade Classic (2021)",2
@@ -17975,6 +17985,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 44059,SLASH_TEXTTOSPEECH_HELP_INSTANCE,"Activa o desactiva los mensajes de estancia",1
 44060,SLASH_TEXTTOSPEECH_HELP_INSTANCELEADER,"Activa o desactiva los mensajes del líder de estancia",1
 44061,SLASH_TEXTTOSPEECH_HELP_MENU,"Abre el menú de configuración de texto a voz",1
+49066,LFGBROWSE_ACTIVITY_COUNT,"%d |4actividad:actividades;",1
 44062,SLASH_TEXTTOSPEECH_HELP_MYMESSAGES,"Activa o desactiva la autonarración",1
 44063,SLASH_TEXTTOSPEECH_HELP_CREATURE_SAY,"Activa o desactiva los mensajes de las criaturas",1
 44064,SLASH_TEXTTOSPEECH_HELP_GUILDLEADER,"Activa o desactiva los mensajes de los oficiales",1
@@ -17994,7 +18005,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 44078,SLASH_TEXTTOSPEECH_HELP_VOLUME,"[%s - %s] - Escoge el volumen",1
 44079,SLASH_TEXTTOSPEECH_HELP_WHISPER,"Activa o desactiva los mensajes de susurros",1
 44080,SLASH_TEXTTOSPEECH_HELP_YELL,"Activa o desactiva los gritos",1
-44316,CURSOR_SIZE_DEFAULT,Predeterminado,3
 44081,SLASH_TEXTTOSPEECH_HELP_ACHIEVEMENT,"Activa o desactiva los anuncios de los logros",1
 44083,MSAA_LABEL,"Técnicas de multimuestreo",3
 44084,FXAA_CMAA_LABEL,"Técnicas basadas en imágenes",3
@@ -18045,6 +18055,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 44268,CHARACTER_SPECIFIC_SETTINGS,"Ajustes específicos del personaje",1
 44269,CHARACTER_SPECIFIC_SETTINGS_TOOLTIP,"Haz clic para alternar entre la configuración general y la específica de este personaje.",1
 44275,BEHAVIORAL_DETAILS_SOCIAL_TITLE,"Aviso - Comunicación",1
+48616,SLASH_TEXTTOSPEECH_HELP_CREATURE_WHISPER,"Activa o desactiva los susurros de criaturas",1
 44276,BEHAVIORAL_DETAILS_SOCIAL_MESSAGE,"Últimamente, tu forma de comunicarte no se corresponde con la de la mayoría de los jugadores de World of Warcraft.\n\nSe te ha denunciado varias veces por lenguaje inapropiado y, si la situación no cambia, puedes perder privilegios o ver tu cuenta suspendida temporalmente.\n\nPor favor, ayúdanos a crear la mejor comunidad de World of Warcraft posible adoptando una actitud positiva y evitando los mensajes de odio, discriminatorios, obscenos o perjudiciales.",1
 44277,BEHAVIORAL_DETAILS_TITLE_BAR,"Asistencia al cliente de WoW",1
 44278,BEHAVIORAL_DETAILS_CLOSE_BUTTON,Cerrar,1
@@ -18056,6 +18067,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 44300,LFG_AUTHENTICATOR_DESCRIPTION_BOX,"Vincula un Authenticator y el servicio Alertas de móvil a tu cuenta para desbloquear este campo.",1
 44314,MAC_SETTINGS_LABEL,"Opciones de teclado",3
 44315,MAC_SETTINGS_SUBTEXT,"[NL] Subtexto de las opciones del teclado TEMP",3
+44316,CURSOR_SIZE_DEFAULT,Predeterminado,3
 44317,CURSOR_SIZE,"Tamaño del cursor",3
 44318,CURSOR_SIZE_TOOLTIP,"Cambia el tamaño del cursor",3
 44339,REGIONAL_RESTRICT_CHAT_DIALOG_TITLE,"El chat se ha desactivado",1
@@ -18107,7 +18119,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48613,SLASH_TEXTTOSPEECH_BOSS_WHISPER,jefesusurrar,1
 48614,SLASH_TEXTTOSPEECH_HELP_CREATURE_YELL,"Activa o desactiva los gritos de criaturas",1
 48615,SLASH_TEXTTOSPEECH_HELP_CREATURE_EMOTE,"Activa o desactiva las emociones de criaturas",1
-48616,SLASH_TEXTTOSPEECH_HELP_CREATURE_WHISPER,"Activa o desactiva los susurros de criaturas",1
+48917,BLIZZARD_STORE_CURRENCY_FORMAT_UAH,"UAH %s",3
 48617,SLASH_TEXTTOSPEECH_HELP_BOSS_WHISPER,"Activa o desactiva los susurros de jefes",1
 48618,SLASH_TEXTTOSPEECH_HELP_BOSS_EMOTE,"Activa o desactiva las emociones de jefes",1
 48695,ERR_ARENA_TEAM_DISQUALIFIED,"Se ha descalificado a tu equipo del juego puntuado en esta rama.",1
@@ -18127,6 +18139,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,"La ventana está debajo del Notch, con una barra negra",3
 48774,LFG_LIST_CROSS_FACTION,"Limitado a la %s",1
 48775,LFG_LIST_CROSS_FACTION_TOOLTIP,"Solo los jugadores de la %s podrán ver tu grupo.|n|nEsto puede limitar la cantidad de solicitudes que recibas.",1
+48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,"- Termina antes el tutorial",3
 48779,LFG_LIST_TOOLTIP_LEADER_FACTION,"Líder: |cffffffff%s (%s)|r",1
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,"Nivel %d %s (%s)",1
 48783,INVTYPE_PROFESSION_TOOL,"Herramienta de profesión",1
@@ -18185,7 +18198,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48914,BLIZZARD_STORE_CURRENCY_FORMAT_GEL,"GEL %s",3
 48915,BLIZZARD_STORE_CURRENCY_FORMAT_TRY,"TRY %s",3
 48916,BLIZZARD_STORE_CURRENCY_FORMAT_KZT,"KZT %s",3
-48917,BLIZZARD_STORE_CURRENCY_FORMAT_UAH,"UAH %s",3
 48918,BLIZZARD_STORE_LICENSE_ACK_TEXT_GEL,"Al hacer clic en Pagar ahora, aceptas las |HurlIndex:16|h|cff71d5ffCondiciones de venta|r|h, así como la entrega inmediata de tu pedido. Perderás el derecho a cancelar tu pedido una vez haya comenzado el proceso de entrega.",3
 48919,BLIZZARD_STORE_LICENSE_ACK_TEXT_TRY,"Al hacer clic en Pagar ahora, aceptas las |HurlIndex:16|h|cff71d5ffCondiciones de venta|r|h, así como la entrega inmediata de tu pedido. Perderás el derecho a cancelar tu pedido una vez haya comenzado el proceso de entrega.",3
 48920,BLIZZARD_STORE_LICENSE_ACK_TEXT_KZT,"Al hacer clic en Pagar ahora, aceptas las |HurlIndex:16|h|cff71d5ffCondiciones de venta|r|h, así como la entrega inmediata de tu pedido. Perderás el derecho a cancelar tu pedido una vez haya comenzado el proceso de entrega.",3
@@ -18200,8 +18212,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48948,SOCIAL_CONTRACT_TITLE_BAR,"Contrato social",2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,Aceptar,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,"Salir del juego",2
-49319,ERR_INFORM_SUGGEST_INVITE_SS,"%1$s ha sugerido que %2$s te invite a su grupo.",1
-49324,BOOST_REALM_RESTRICTED,"No se pueden usar mejoras de subida de nivel en este reino.",2
 48952,SOCIAL_CONTRACT_TEXT1,"|cffffffffSaludos. ¡Te damos la bienvenida al mundo de Warcraft!|r|n|n|cffffd200Azeroth es un mundo con vida propia repleto de personas como tú. Aquí encontrarás otros jugadores con distintos trasfondos, culturas, experiencias e historias que han reunido para jugar a World of Warcraft. Todos los jugadores se merecen un mundo en el que estén seguros, así que tómate un momento para leer nuestro contrato social.|r|n|n|n|cffffffffMientras estés en Azeroth, procura hacer lo siguiente:|r|n|n",2
 48953,SOCIAL_CONTRACT_TEXT2,"|cffffd200- ¡Entra en contacto con otros jugadores y haz amigos! Si te muestras amable en un grupo, tus compañeros y tú lo pasaréis mejor. Un mensaje con un saludo amistoso puede ayudar a un grupo a funcionar mejor.|n|n- Juega en equipo con el resto de jugadores, ya sea en mazmorras, bandas, campos de batalla, arenas o misiones en el mundo. Hazlo lo mejor posible para apoyar a tu equipo utilizando la comunicación y las buenas formas para que todos podáis alcanzar el éxito.|n|n- Ayuda a otros jugadores que te encuentres en el mundo. Puede que necesiten ayuda para derrotar a un monstruo complicado o quizá solo un poco de sanación.|n|n- Colabora respondiendo a preguntas de otros jugadores en los canales del chat general o de comercio. Todos hemos sido novatos: ¡que alguien ofrezca su ayuda puede ser muy importante!|n|n",2
 48954,SOCIAL_CONTRACT_TEXT3,"Sabemos que Internet no siempre es un lugar seguro. Por ello, no se aceptan los siguientes comportamientos en Azeroth:|n|n- Apologías del odio, incluidos los comentarios negativos que afecten a aspectos de la identidad de los otros jugadores, como la raza, el género o la habilidad.|n|n- Acoso, amenazas o lenguajes y comportamientos abusivos u ofensivos.|n|n- Publicidad abusiva o de cualquier otro tipo u otros comportamientos negativos.|n|nSi agredes a otros aventureros con cualquiera de los comportamientos descritos anteriormente, te arriesgas a recibir sanciones que podrían desembocar en la suspensión de la cuenta.|n|nEl mundo es enorme y lo habita todo tipo de personas. Procura ser respetuoso con los demás y, si te parece que alguien está vulnerando este código, informa sobre ello para que nuestro equipo pueda investigarlo. Juntos, haremos que World of Warcraft sea un segundo hogar seguro para todos.|r",2
@@ -18239,7 +18249,6 @@ Tiempo estimado de espera: menos de 1 minuto",2
 49053,CHAR_CREATE_DEATHKNIGHT_DUPLICATE,"Solo puedes tener un personaje de clase héroe caballero de la Muerte en este reino.",2
 49054,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,"Debes tener un personaje ya existente con al menos nivel 55 en este reino para poder crear un caballero de la Muerte.",2
 49056,REPORT_GROUP_FINDER_ADVERTISEMENT,"Informar sobre publicidad",1
-49066,LFGBROWSE_ACTIVITY_COUNT,"%d |4actividad:actividades;",1
 49085,NEWBIE_TOOLTIP_LFGPARENT,"Haz clic aquí para buscar miembros y añadirlos a tu grupo.",1
 49091,SET_ROLE_TOOLTIP,"Haz clic aquí para establecer una función para esta configuración de talentos. Esto determinará tu función por defecto cuando te unas a un grupo.",1
 49109,LFGBROWSE_ACTIVITY_HEADER_DEFAULT,"Filtrar por actividad",1
@@ -18259,6 +18268,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 49293,CHAR_CREATE_NO_BOOST_CLASS,"No puedes subir de nivel esta raza",2
 49317,BODY_TYPE,"Tipo de cuerpo",3
 49318,ERR_INFORM_SUGGEST_INVITE_S,"%s ha sugerido que te invite su grupo.",1
+49319,ERR_INFORM_SUGGEST_INVITE_SS,"%1$s ha sugerido que %2$s te invite a su grupo.",1
+49324,BOOST_REALM_RESTRICTED,"No se pueden usar mejoras de subida de nivel en este reino.",2
 49332,CREDITS_EXPANSION_NAME_2_0,"Wrath of the Lich King (2008)",2
 49333,CREDITS_EXPANSION_NAME_2_1,"Wrath of the Lich King Classic (2022)",2
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,"Ya tienes una invitación pendiente",1
@@ -18359,6 +18370,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 49925,ENABLE_INTERACT_SOUND_OPTION,"Sonido de interacción",3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,"Reproduce un sonido cuando te vuelves capaz o incapaz de interactuar con un objetivo.",3
 49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,"%s %s",1
+50048,BLIZZARD_STORE_VAS_ERROR_HAS_CRAFTING_ORDERS,"- Elimina todos los pedidos de fabricación pendientes y aceptados de este personaje.",3
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,"No puedes cambiar de facción mientras sigas en un equipo de arena.",2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,"Opciones de filtrado del precio",1
 50148,AUCTION_SORT_OPTIONS_PROMPT,"Ordenar precios por:",1
@@ -18386,16 +18398,10 @@ Tiempo estimado de espera: menos de 1 minuto",2
 50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,"Error de descarga del archivo de progreso: no se ha podido sobrescribir el archivo de salida",2
 50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,"Descargar archivo de progreso",2
 50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020Los reinos de World of Warcraft no estarán disponibles temporalmente en esta región a partir del 23 de enero de 2023.|r|n|n|cffffd200Puedes descargar tu progreso del juego (que incluye los personajes y objetos de tus cuentas de World of Warcraft) para poder restaurarlo en el futuro.|r|n|n|cffffd200Al guardar tu progreso en local, se bloqueará tu cuenta con independencia del tiempo de juego que te quede. Guarda el archivo en un lugar seguro, confiamos en activar su uso más adelante.|r|n|n|n</p><h1>|cffffffffGuarda tu progreso en local.|r</h1><p>|n|cffff2020Al descargar tu archivo de progreso, tu cuenta quedará bloqueada de forma inmediata.|r|n|n|cffffd200No podrás utilizar esta cuenta hasta que se restaure, en un futuro.|r|n|n|cffffffffEsta función y el archivo de progreso del juego están sujetos al Contrato de Licencia de Usuario Final de B.Net.|r|n|n|cffffd200Si deseas continuar, escribe|r |cffffffffBLOQUEAR CUENTA:|r",2
-51121,AUCTION_HOUSE_SEARCH_PARENT_HEADER,"{0} >",4
-51123,AUCTION_HOUSE_SORT_OPTION_A_TO_Z,"A to Z",4
-51124,AUCTION_HOUSE_SORT_OPTION_Z_TO_A,"Z to A",4
-51130,AUCTION_HOUSE_CANT_USE_WHILE_DEAD,"You can't access the Auction House when your character is dead",4
-51146,ERR_AUCTION_HOUSE_DISABLED_MOBILE,"Mobile Auction House is currently unavailable. Please check back later.",4
-51163,AUCTION_HOUSE_COMMODITY_COST_DIALOG_SELL_LABEL,"Sell: %s  x%s",4
 50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020Los reinos de World of Warcraft no estarán disponibles en esta región a partir del 23 de enero de 2023.|r|n|n|cffffd200Puedes descargar tu progreso del juego para poder restaurarlo en el futuro.|r|n|n|cffffd200Al guardar tu progreso en local, se bloqueará tu cuenta con independencia del tiempo de juego que te quede. Guarda en un lugar seguro tu archivo, confiamos en activar su uso más adelante.|r|n|n|n</p><h1>|cffffffffGuarda tu progreso en local.|r</h1><p>|n|cffffffffEsta función y el archivo de progreso del juego están sujetos al Contrato de Licencia de Usuario Final de B.Net.|r|n|n|cffffd200Tu cuenta está bloqueada porque has descargado los datos de tu cuenta.|r",2
 50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,"No se puede descargar el archivo de progreso en estos momentos",2
 50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,"Ya hay una descarga del archivo de progreso en curso. Vuelve a intentarlo más tarde.",2
-50258,CENSORED_MESSAGE_HIDDEN,"|cffff7f3fEl mensaje de %s es potencialmente inapropiado.|h|cffffff00|Hcensoredmessage:%d|h|W[Mostrar mensaje]|w|h|r",1
+50258,CENSORED_MESSAGE_HIDDEN,"|cffffff00Message from %s is potentially inappropriate.|Hcensoredmessage:%d|h |W[Show Message]|w|h|r",1
 50266,ACCOUNT_SAVE_FILE_BUTTON,"Abrir carpeta",2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Cerrar,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,"Copia este archivo en lugar seguro para utilizarlo en el futuro:",2
@@ -18404,11 +18410,11 @@ Tiempo estimado de espera: menos de 1 minuto",2
 50271,CENSOR_SOURCE_NO_ONE,Nadie,1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,"Todos salvo amigos",1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,"Todos salvo amigos y compañeros de hermandad",1
-50274,CENSOR_SOURCE_EXCLUDE,"Censurar mensajes",1
+50274,CENSOR_SOURCE_EXCLUDE,"Real Time Chat Filtering",1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,"Controla qué mensajes se censurarán si se consideran inapropiados.",1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,%s HK$,3
 50310,EMPTY_SOCKET_PRIMORDIAL,"Ranura primordial",1
-50332,CENSORED_MESSAGE_REPORT,"|cffffff00|Hreportcensoredmessage:%d|h |W[Informar]|w|h|r",1
+50332,CENSORED_MESSAGE_REPORT,"%s |cffffff00|Hreportcensoredmessage:%d|h|W[Report]|w|h|r",1
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,"Ahora vas a elegir tu nueva raza y personalizar a tu personaje. El cambio de raza se aplicará de forma permanente cuando termines este proceso.",2
 50348,AUCTION_TOOLTIP_BROWSE_BY_NAME_TITLE,"Buscar por nombre",1
 50349,AUCTION_TOOLTIP_BROWSE_BY_NAME_BODY,"Introduce el texto para buscar nombres de objetos que lo incluyan. Si quieres buscar un nombre exacto, escribe el texto entre comillas.",1
@@ -18458,6 +18464,12 @@ Tiempo estimado de espera: menos de 1 minuto",2
 51118,AUCTION_HOUSE_SEARCH_AND_CATEGORY,"{0} > ""{1}""",4
 51119,AUCTION_HOUSE_SEARCH_RESULTS,"Search Results: {0}",4
 51120,AUCTION_HOUSE_SEARCH_RESULTS_ALL,"Search Results: All",4
+51121,AUCTION_HOUSE_SEARCH_PARENT_HEADER,"{0} >",4
+51123,AUCTION_HOUSE_SORT_OPTION_A_TO_Z,"A to Z",4
+51124,AUCTION_HOUSE_SORT_OPTION_Z_TO_A,"Z to A",4
+51130,AUCTION_HOUSE_CANT_USE_WHILE_DEAD,"You can't access the Auction House when your character is dead",4
+51146,ERR_AUCTION_HOUSE_DISABLED_MOBILE,"Mobile Auction House is currently unavailable. Please check back later.",4
+51163,AUCTION_HOUSE_COMMODITY_COST_DIALOG_SELL_LABEL,"Sell: %s  x%s",4
 51164,AUCTION_HOUSE_ITEM_COST_DIALOG_SELL_LABEL,"List auction for:",4
 51165,AUCTION_HOUSE_BID_PRICE_LABEL,"Bid Price:",4
 51176,PVE_AND_PVP,"JcE y JcJ",1
@@ -18473,9 +18485,12 @@ Tiempo estimado de espera: menos de 1 minuto",2
 51308,ERR_CHAR_TOO_NEW_FOR_DUNGEONS,"Este personaje todavía no puede entrar en mazmorras.",1
 51309,ERR_CHAR_TOO_NEW_FOR_RAIDS,"Este personaje todavía no puede entrar en bandas.",1
 51330,BATTLE_PET_NAME_11,Mansa,0
+51385,BLIZZARD_STORE_VAS_INVALID_NAME,"- Este nombre no es válido. Elige otro.",2
 51392,SLASH_TEXTTOSPEECH_PING,aviso,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,"Activa o desactiva los mensajes de aviso",1
 51411,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,"|cnPURE_GREEN_COLOR:<Haz clic mientras pulsas la tecla Mayús para ver las preguntas frecuentes en tu navegador>|r",3
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,,2
 51446,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,"%s ha rechazado tu invitación a juego de guerra.",1
 51453,OPTION_TOOLTIP_RESTRICT_CALENDAR_INVITES,"Permitir invitaciones de calendario solo de amigos o miembros de la hermandad. ",1
 51454,RESTRICT_CALENDAR_INVITES,"Restringir invitaciones de calendario ",1
@@ -18490,6 +18505,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 51646,SELF_HIGHLIGHT_UNIT_FRAME,"Self Highlight",1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,,2
+51731,REINCARNATE_CHARACTER,,2
+51732,DEATH_REINCARNATE_CHARACTER,,3
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,"Circle and Icon",1
 51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51756,ADDON_DEP_NOT_AVAILABLE,"Dependencia no disponible",3
@@ -18505,6 +18523,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 51766,ADDON_DEP_WRONG_LOAD_PHASE,"La fase de carga de la dependencia es incorrecta",3
 51767,ADDON_USER_ADDONS_DISABLED,"Addons de usuario desactivados",3
 51768,ADDON_DEP_USER_ADDONS_DISABLED,"Addons de usuario de la dependencia desactivados",3
+51803,REINCARNATE_CHARACTER_CONFIRMATION,,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,"Current Expansion Only",1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,"The Auction House is not available to Timerunners.",5
 51959,EMPTY_SOCKET_FRAGRANCE,"Ranura de fragancia",1
@@ -18552,11 +18571,13 @@ Tiempo estimado de espera: menos de 1 minuto",2
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,"System message",2
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,"Ocultar misiones de nivel bajo",1
 52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,"No volver a mostrar",3
+52485,TOGGLE_VISIBILITY_TOOLTIP,,2
 52522,OPTION_TOOLTIP_DISABLE_CHAT,"Desactiva el chat. No podrás enviar ni recibir mensajes.",1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Para cambiarlo, ve a los ajustes de tu cuenta de Battle.net y: \n- Activa la opción del chat de texto en la configuración de privacidad y comunicación.\n- Desactiva la opción de silenciar cuenta en el control parental.",1
 52528,CLASSIC_GUILD_UI_TEXT,"Interfaz de hermandad clásica",1
 52529,OPTION_TOOLTIP_CLASSIC_GUILD_UI,"Usa la interfaz de hermandad clásica en lugar de la moderna.",1
 52644,PVP_REALM_WARNING,"Un momento, aventurero. Estás a punto de unirte a un reino |cffffffffJcJ (jugador contra jugador) |cffffd200. Te verás bajo la amenaza constante de los jugadores de la facción opuesta.|n|nSi no es lo tuyo lidiar con un elevado nivel de conflicto, te recomendamos que elijas un reino |cffffffffnormal (sin JcJ) |cffffd200.|n|n|cffffffffLos maestros de juego no intervienen en conflictos JcJ y la transferencia de personajes entre reinos JcJ y normales no está permitida.",2
+52668,WOWLABS_MODE_NAV_BUTTON,,2
 52672,PVP_CHARACTER_CREATION_WARNING,"¡Te damos la bienvenida a |cffffffffWorld of Warcraft! |cffffd200Mientras te preparas para entrar, ten en cuenta que estás a punto de unirte a un reino |cffffffffJcJ (jugador contra jugador)|cffffd200. Esto significa que, además de los desafíos del propio mundo, también te enfrentarás a la amenaza constante de otros jugadores.|n|n|cffffffffEl combate JcJ|cffffd200 es una parte fundamental de este reino, y los jugadores de la facción contraria pueden atacarte sin previo aviso y sin sentido del honor en zonas disputadas. Prepárate para escaramuzas y batallas potencialmente desiguales mientras exploras el mundo, ya sea durante misiones, recolectando recursos o viajando entre ubicaciones. Por ejemplo, aquel jugador al que mataste en el Cráter de Un'Goro mientras competíais por recolectar cueros de demosaurio podría guardarte rencor, y es posible que su hermandad te espere en la Montaña Roca Negra mientras te diriges a la banda de Núcleo de Magma para tenderte una emboscada.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nSi no te interesa este nivel de conflicto, te recomendamos que elijas un reino |cffffffffnormal (sin JcJ), |cffffd200donde el combate entre jugadores está restringido.|n|n|cffffffffLos maestros de juego no intervienen en conflictos JcJ y la transferencia de personajes entre reinos JcJ y normales no está permitida. ¡Te hemos avisado!",2
 52969,TW_FRAUD_WARNING_TEXT,"System message",2
@@ -18568,9 +18589,17 @@ Tiempo estimado de espera: menos de 1 minuto",2
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Claro,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,"Subtitles Background",3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,"Background Opacity",3
+53512,VIDEO_OPTIONS_INTEL_XELL,"Intel XeLL",3
 53744,CONFIRM_REMOVE_WOW_FRIEND,"Are you sure you want to remove this friend from your list? This action cannot be undone.",1
 54076,EMPTY_SOCKET_SINGING_SEA,"Singing Sea Socket",1
 54078,EMPTY_SOCKET_SINGING_THUNDER,"Singing Thunder Socket",1
 54079,EMPTY_SOCKET_SINGING_WIND,"Singing Wind Socket",1
+54246,CENSORED_MESSAGE_SENDER,"%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r",1
+54272,CENSORED_MESSAGE_SENT,"%s |cffffff00Message flagged as potentially inappropriate.|r",1
+54394,TRANSMOG_ITEM_SET_FAVORITE,"Set Favorite",3
+54395,TRANSMOG_ITEM_UNSET_FAVORITE,"Remove Favorite",3
 54423,CHARACTER_UPGRADE_MAX_LEVEL_POPUP_TEXT,"This character is already level %s. Are you sure you want to use this boost on this character?",3
+54719,REPORT_RESULT_TOO_MANY_REPORTS,"Report failed. Too many report attempts. Please try again in a few minutes.",1
+54720,REPORT_RESULT_REQUIRES_CHAT,"Report failed. Report type only valid on chat lines.",1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Report failed. Report type only valid on chat lines or when in voice chat",1
 49295,UNITNAME_SUMMON_TITLE36,"Guía de pesca de %s",1

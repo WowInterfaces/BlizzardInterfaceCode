@@ -814,7 +814,7 @@ ID,BaseTag,TagText_lang,Flags
 10517,MISSEDSELFOTHER,"Вы промахиваетесь по |3-2(%s).",1
 10518,VSDODGESELFOTHER,"Вы атакуете. %s уклоняется.",1
 10519,VSBLOCKSELFOTHER,"Вы атакуете. %s блокирует.",1
-12246,EMOTE63_CMD2,/massage,1
+12550,EMOTE29_CMD3,/cower,1
 10520,VSBLOCKOTHEROTHER,"%s атакует. %s ставит блок.",1
 10521,VSPARRYSELFOTHER,"Вы атакуете. %s парирует.",1
 10522,VSDEFLECTSELFOTHER,"Вы атакуете. %s уходит от удара.",1
@@ -1787,7 +1787,7 @@ ID,BaseTag,TagText_lang,Flags
 11545,NEXT_ABILITY,"Следующая способность",1
 11546,SKILLS,Навыки,1
 11547,CHAT_HELP_TEXT_LINE1,"Команды общения:",1
-11548,CHAT_HELP_TEXT_LINE10,"/mute (/молчать), /squelch (/заткнуть), /unvoice (/отклголос), /unmute (/говорить), /unsquelch (/вклголос), /voice (/голос) <канал> <игрок> – отключить голос игрока в канале или включить его",1
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,"Введите /войти <канал> [пароль], чтобы создать новый канал или присоединиться к существующему.",1
 11550,GUILD_HELP_TEXT_LINE8,"/гразжаловать <имя игрока> – понижает на одно звание указанного игрока из вашей гильдии",1
 11551,STARTUP_TEXT_LINE1,"Введите '/помощь', чтобы получить список основных команд.",1
@@ -1795,7 +1795,6 @@ ID,BaseTag,TagText_lang,Flags
 11553,REPORT_PHYSICAL_HARASSMENT,"Сообщить об оскорблении",1
 11554,ERR_ITEM_CANT_BE_DESTROYED,"Этот предмет не может быть уничтожен.",1
 11555,SPELLEVADEDOTHEROTHER,"%s применяет заклинание ""%s"", но цель (%s) избегает его.",1
-12247,EMOTE64_CMD2,/moan,1
 11556,SPELLEVADEDSELFOTHER,"Вы применили заклинание ""%s"", но цель (%s) увернулась.",1
 11557,SPELLDODGEDOTHEROTHER,"%s применяет заклинание ""%s"", но цель (%s) уворачивается.",1
 11558,SPELLDODGEDSELFOTHER,"Вы применили заклинание ""%s"", но цель (%s) уклонилась.",1
@@ -1876,9 +1875,9 @@ ID,BaseTag,TagText_lang,Flags
 11640,VOICEMACRO_6_Hu_1_FEMALE,"Я проведу вас.",1
 11641,VOICEMACRO_7_Hu_2_FEMALE,"Ждите здесь.",1
 11642,VOICEMACRO_8_Hu_1_FEMALE,"Вылечите меня!",1
-12249,EMOTE97_CMD2,/tap,1
 11644,SPELL_FAILED_NOT_INFRONT,"Вы должны находиться перед целью.",1
 11645,HELPFRAME_SUGGESTION_BUTTON_TEXT,"Отправка предложения:",1
+11713,BINDING_NAME_RESETVIEW1,"Сбросить ракурс 1",1
 11646,HELPFRAME_SUGGESTION_BUTTON_DESCRIPTION,"Все общие предложения и отзывы об игре",1
 11647,HELPFRAME_GM_BUTTON_TEXT,"Запрос к ГМ:",1
 11648,HELPFRAME_GM_BUTTON_DESCRIPTION,"Обратиться за помощ̑Πк ГМ",1
@@ -1900,7 +1899,7 @@ ID,BaseTag,TagText_lang,Flags
 11664,CHAT_SET_VOICE_NOTICE,"|Hchannel:%d|h[%s]|h %s получает разрешение на общение.",1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvite (/чпригласить), /chatinvite (/чатпригласить) <канал> <игрок> – пригласить игрока присоединиться к каналу",1
 11666,CHAT_HELP_TEXT_LINE12,"/ckick (/чвыгнать) <канал> <игрок> – исключить игрока из канала",1
-11667,CHAT_HELP_TEXT_LINE15,"/moderate (/фмодератора) <канал> – включить функции модератора канала",1
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/afk (/афк), /dnd (/днд) – поставить статус ""Отсутствует"" или ""Не беспокоить""",1
 11669,GUILD_HELP_TEXT_LINE2,"/ginfo – получение кратких сведений о вашей гильдии",1
 11670,GUILD_HELP_TEXT_LINE6,"/гудалить <игрок> – исключает указанного игрока из вашей гильдии",1
@@ -1944,7 +1943,6 @@ ID,BaseTag,TagText_lang,Flags
 11710,BINDING_NAME_OPENCHATSLASH,"Отдать команду",1
 11711,BINDING_NAME_COMBATLOGBOTTOM,"В конец журнала боя",1
 11712,BINDING_NAME_TARGETPET,"Цель: питомец",1
-11713,BINDING_NAME_RESETVIEW1,"Сбросить ракурс 1",1
 11714,BINDING_NAME_OPENALLBAGS,"Открыть все сумки",1
 11715,BINDING_NAME_TOGGLECOMBATLOG,"Журнал боя",1
 11716,ERR_GUILDEMBLEM_INVALIDVENDOR,"Это существо не торгует гербами!",1
@@ -2024,9 +2022,9 @@ ID,BaseTag,TagText_lang,Flags
 11787,SLASH_GUILD_MOTD3,/gmotd,1
 11788,SLASH_GUILD_LEAVE3,/gquit,1
 11789,ITEM_SUFFIX_TEMPLATE,"%s %s",1
-12434,SLASH_TIME2,/time,1
 11790,CONFIRM_XP_LOSS,"Отыскав свое тело, вы воскреснете без потерь. Если же я воскрешу вас, прочность всех предметов (надетых и находящихся в сумках) понизится на 25%%, а сами вы будете в течение %s испытывать временную слабость.",1
 11791,LOCK,Закрепить,1
+12551,EMOTE68_CMD3,/nod,1
 11792,RECOVER_CORPSE,Воскреснуть?,1
 11795,WHO_LIST,"Список игроков",1
 11796,PREFERENCES,Предпочтения,1
@@ -2254,12 +2252,12 @@ ID,BaseTag,TagText_lang,Flags
 12018,KEY_PAGEDOWN,"Page Down",1
 12019,KEY_RIGHT,"Стрелка вправо",1
 12020,BINDING_NAME_ACTIONBUTTON7,"Кнопка действия 7",1
-12435,SLASH_UNINVITE6,/un,1
 12021,BINDING_NAME_ACTIONPAGE3,"Страница действия 3",1
 12022,BINDING_NAME_BONUSACTIONBUTTON4,"Кнопка действия питомца 2",1
 12023,BINDING_NAME_TOGGLESPELLBOOK,"Заклинания и способности",1
 12024,BINDING_NAME_TOGGLECHARACTER2,"Окно репутации",1
 12025,BINDING_HEADER_ACTIONBAR,"Панель команд",1
+12552,EMOTE68_CMD4,/да,1
 12026,KEY_UNBOUND_ERROR,"|cffff0000Для команды ""%s"" не назначена клавиша!|r",1
 12027,BINDING_NAME_CHATPAGEDOWN,"Прокрутка окна чата вниз",1
 12028,BINDING_NAME_REPLY,"Ответ в окне чата",1
@@ -2328,12 +2326,12 @@ ID,BaseTag,TagText_lang,Flags
 12093,CAST_WHILE_MOVING,"Не удалось применить заклинание ""%s"". Необходимо остановиться.",1
 12094,MARKED_AFK,"Вы временно отсутствуете.",1
 12095,EMBLEM_BORDER_COLOR,"Цвет каймы",1
-12248,EMOTE65_CMD2,/голыйзад,1
 12096,ERR_GUILDEMBLEM_COLORSPRESENT,"У вашей гильдии уже есть герб!",1
 12097,ERR_GUILD_NOT_ALLIED,"Вы не можете приглашать противников.",1
 12098,VOICEMACRO_4_Dw_0_FEMALE,"За мной, в атаку!",1
 12099,VOICEMACRO_8_Dw_1_FEMALE,"Вылечите мои раны!",1
 12100,VOICEMACRO_5_Ni_0,"Мана заканчивается!",1
+12553,EMOTE69_CMD3,/nosepick,1
 12101,VOICEMACRO_1_Ni_1_FEMALE,Тревога!,1
 12102,VOICEMACRO_3_Ni_1_FEMALE,"Враг слишком силен!",1
 12103,VOICEMACRO_4_Ni_1_FEMALE,Сюда!,1
@@ -2401,6 +2399,7 @@ ID,BaseTag,TagText_lang,Flags
 12166,ERR_POTION_COOLDOWN,"Вы больше не можете пить.",1
 12167,ERR_LEARN_RECIPE_S,"Вы научились создавать новый предмет: %s.",1
 12168,ERR_GROUP_DISBANDED,"Ваша группа расформирована.",1
+12253,VOICEMACRO_3_Hu_0_FEMALE,Бегите!,1
 12169,ERR_GUILD_ACCEPT,"Вы присоединились к гильдии.",1
 12170,ERR_GUILD_REMOVE_SELF,"Вас исключили из гильдии.",1
 12171,ERR_LOOT_TOO_FAR,"Вы слишком далеко и не можете обыскать этот труп.",1
@@ -2466,10 +2465,13 @@ ID,BaseTag,TagText_lang,Flags
 12243,EMOTE62_CMD5,/laydown,1
 12244,EMOTE62_CMD6,/liedown,1
 12245,EMOTE62_CMD8,/lie,1
+12246,EMOTE63_CMD2,/massage,1
+12247,EMOTE64_CMD2,/moan,1
+12248,EMOTE65_CMD2,/голыйзад,1
+12249,EMOTE97_CMD2,/tap,1
 12250,EMOTE99_CMD5,/грозить,1
 12251,VOICEMACRO_4_Hu_1,"Атакуем здесь!",1
 12252,VOICEMACRO_8_Hu_0,"Исцелите меня!",1
-12253,VOICEMACRO_3_Hu_0_FEMALE,Бегите!,1
 12254,VOICEMACRO_5_Hu_1_FEMALE,"Маны не хватает!",1
 12255,VOICEMACRO_0_Or_0,"Нужна помощь!",1
 12256,TUTORIAL8,"Теперь этот предмет находится в вашем рюкзаке. Чтобы открыть рюкзак, щелкните по его изображению в правом нижнем углу экрана. Наведите указатель мыши на предмет, чтобы узнать о нем больше.",1
@@ -2637,6 +2639,8 @@ ID,BaseTag,TagText_lang,Flags
 12431,PERIODICAURAHEALOTHERSELF,"Вы получаете %d ед. здоровья. Источник - заклинание игрока %s ""%s"".",1
 12432,SIMPLECASTOTHERSELF,"%s воздействует на вас заклинанием ""%s"".",1
 12433,EMOTE154_CMD1,/хвалить,1
+12434,SLASH_TIME2,/time,1
+12435,SLASH_UNINVITE6,/un,1
 12436,DAMAGESHIELDOTHEROTHER,"%s перенаправляет %d ед. урона (%s) на противника: %s.",1
 12437,TOOLTIP_TALENT_RANK,"Уровень %d/%d",1
 12438,TOOLTIP_TALENT_LEARN,"Нажмите, чтобы изучить.",1
@@ -2747,10 +2751,6 @@ ID,BaseTag,TagText_lang,Flags
 12547,EMOTE25_CMD2,/confused,1
 12548,EMOTE26_CMD4,/congratulate,1
 12549,EMOTE26_CMD5,/grats,1
-12550,EMOTE29_CMD3,/cower,1
-12551,EMOTE68_CMD3,/nod,1
-12552,EMOTE68_CMD4,/да,1
-12553,EMOTE69_CMD3,/nosepick,1
 12554,EMOTE69_CMD4,/pick,1
 12555,EMOTE70_CMD2,/panic,1
 12556,EMOTE71_CMD2,/присмотреться,1
@@ -2830,8 +2830,6 @@ ID,BaseTag,TagText_lang,Flags
 12638,VOICEMACRO_6_Ta_0,"Идем со мной.",1
 12639,VOICEMACRO_7_Ta_1,"Оставайтесь тут.",1
 12640,TUTORIAL_TITLE20,Торговцы,1
-12701,ERR_FRIEND_ALREADY_S,"%s уже есть в вашем списке друзей.",1
-13097,VOICEMACRO_19_Hu_2_FEMALE,"Я жду героя!",1
 12641,TUTORIAL19,"За этого персонажа играет живой игрок. Это видно по тому, что у него над головой – имя, написанное синими буквами.",1
 12642,LASTONLINE,"Посл. вход",1
 12643,ITEM_WRITTEN_BY,"Автор: %s",1
@@ -2891,12 +2889,13 @@ ID,BaseTag,TagText_lang,Flags
 12698,ERR_BANKSLOT_INSUFFICIENT_FUNDS,"У вас недостаточно средств.",1
 12699,ERR_FRIEND_ADDED_S,"Вы добавили |3-3(%s) в список друзей.",1
 12700,ERR_FRIEND_REMOVED_S,"Вы удалили |3-3(%s) из списка друзей.",1
-13004,RAID_GROUPS,"Рейдовые группы",1
+12701,ERR_FRIEND_ALREADY_S,"%s уже есть в вашем списке друзей.",1
 12702,SPELLLOGOTHERSELF,"%1$s наносит вам %3$d ед. урона заклинанием ""%2$s"".",1
 12703,VSEVADESELFOTHER,"Вы атакуете. %s увертывается.",1
 12704,VSDODGEOTHERSELF,"%s атакует. Вы уклоняетесь.",1
 12705,VSPARRYOTHEROTHER,"%s aтакует. %s парирует.",1
 12706,VSPARRYOTHERSELF,"%s атакует. Вы парируете.",1
+12793,SLASH_GUILD_WHO4,/glist,1
 12707,SPELLMISSSELFOTHER,"Ваше заклинание ""%s"" не попало в цель (%s).",1
 12708,ERR_WRONG_BAG_TYPE_SUBCLASS,"Сюда можно положить только |3-6(%s).",1
 12709,SPELLCASTGOSELFTARGETTED,"Вы применили заклинание ""%s"". Цель: %s.",1
@@ -2973,7 +2972,6 @@ ID,BaseTag,TagText_lang,Flags
 12782,SIMPLECASTSELFSELF,"Вы применяете заклинание ""%s"".",1
 12783,TOOLTIP_TALENT_TIER_POINTS,"Требуется %1$d |4очко:очка:очков; в талантах категории ""%2$s""",1
 12784,PET_HAPPINESS3,Счастлив,1
-13005,EMPTY,Свободно,1
 12785,ERR_ONLY_ONE_BOLT,"Вы можете использовать только один колчан.",1
 12786,SLASH_UNIGNORE2,/unignore,1
 12787,SLASH_DUEL2,/duel,1
@@ -2982,7 +2980,6 @@ ID,BaseTag,TagText_lang,Flags
 12790,SLASH_DUEL_CANCEL6,/forfeit,1
 12791,SLASH_LOOT_FFA2,/ffa,1
 12792,SLASH_RANDOM6,/rnd,1
-12793,SLASH_GUILD_WHO4,/glist,1
 12794,EMOTE148_CMD2,/bark,1
 12795,EMOTE150_CMD2,/scared,1
 12796,EMOTE152_CMD2,/love,1
@@ -3041,12 +3038,12 @@ ID,BaseTag,TagText_lang,Flags
 12851,TOO_FAR_TO_LOOT,"Вы слишком далеко и не можете обыскать этот труп!",1
 12852,AVAILABLE_QUESTS,"Доступные задания",1
 12853,REWARD_ITEMS_ONLY,"Вы получите:",1
-15167,SLASH_RANDOM7,/roll,1
 12854,TRAINER_CAST_TIME_MIN,"Время применения заклинания: |cffffffff%d мин.|r",1
 12855,TRAINER_RANGE,"Дистанция: |cffffffff%s (%d)|r",1
 12856,TRAINER_COST_SP,"Очки навыков: |cffffffff%d|r",1
 12857,SPELL_FAILED_ONLY_MOUNTED,"Вы должны находиться на средстве передвижения.",1
 12858,SPELL_FAILED_EQUIPPED_ITEM_CLASS,"Вы должны держать в руке |3-6(%s).",1
+13011,PVP_RANK_6_0,Рубака,1
 12859,SPELL_FAILED_PACIFIED,"Вы не можете использовать эту способность в состоянии покоя.",1
 12860,SPELL_FAILED_UNIT_NOT_INFRONT,"Цель должна быть перед вами.",1
 12863,SPELL_PASSIVE_EFFECT,Пассивная,1
@@ -3107,12 +3104,13 @@ ID,BaseTag,TagText_lang,Flags
 13001,SPELLPOWERDRAINOTHERSELF,"%1$s применяет заклинание ""%2$s"". У вас похищается %4$s (%3$d).",1
 13002,NEW_LEADER,"Новый лидер",1
 13003,NUM_RAID_MEMBERS,"Участников рейда: %d",1
+13004,RAID_GROUPS,"Рейдовые группы",1
+13005,EMPTY,Свободно,1
 13006,ERR_RAID_GROUP_ONLY,"Чтобы войти в это подземелье, нужно быть членом рейдовой группы.",1
 13007,PVP_RANK_3_0_FEMALE,Изгнание,1
 13008,PVP_RANK_5_0_FEMALE,Разведчик,1
 13009,PVP_RANK_5_1,Рядовой,1
 13010,PVP_RANK_5_1_FEMALE,Рядовой,1
-13011,PVP_RANK_6_0,Рубака,1
 13012,PVP_RANK_6_0_FEMALE,Рубака,1
 13013,PVP_RANK_6_1,Капрал,1
 13014,PVP_RANK_6_1_FEMALE,Капрал,1
@@ -3197,6 +3195,7 @@ ID,BaseTag,TagText_lang,Flags
 13094,VOICEMACRO_17_Hu_0_FEMALE,"Без проблем.",1
 13095,VOICEMACRO_17_Hu_1_FEMALE,Обращайтесь.,1
 13096,VOICEMACRO_18_Hu_2_FEMALE,Ура.,1
+13097,VOICEMACRO_19_Hu_2_FEMALE,"Я жду героя!",1
 13098,VOICEMACRO_20_Hu_1_FEMALE,"У вас никогда не было такого чувства, будто вы не сами управляете своей судьбой, а ведомы некой невидимой рукой?",1
 13099,VOICEMACRO_20_Hu_3_FEMALE,"Люблю пукать в ванной.",1
 13100,VOICEMACRO_12_Or_0,Трам-ка.,1
@@ -3353,7 +3352,6 @@ ID,BaseTag,TagText_lang,Flags
 13258,VOICEMACRO_20_Dw_2_FEMALE,"Мужчина, как и пиво, должен быть темным и крепким.",1
 13259,VOICEMACRO_20_Dw_3_FEMALE,"Как сказал бы мой папа: ""Заткнись и выметайся отсюда"".",1
 13260,VOICEMACRO_12_Ni_0,Приветствую.,1
-15704,REFLECT,Отражение,1
 13261,VOICEMACRO_12_Ni_1,"Давно не виделись.",1
 13262,VOICEMACRO_12_Or_0_FEMALE,Трам-ка.,1
 13263,VOICEMACRO_12_Or_1_FEMALE,Эй!,1
@@ -3516,6 +3514,7 @@ ID,BaseTag,TagText_lang,Flags
 13430,VOICEMACRO_13_Sc_1_FEMALE,Готично!,1
 13431,VOICEMACRO_13_Sc_2_FEMALE,Удачи.,1
 13432,VOICEMACRO_14_Sc_0_FEMALE,Да.,1
+16318,EMOTE107_CMD3,/yawn,1
 13433,VOICEMACRO_14_Sc_1_FEMALE,"Почему бы и нет.",1
 13434,VOICEMACRO_14_Sc_2_FEMALE,"Думаю, да.",1
 13435,VOICEMACRO_15_Sc_0_FEMALE,Нет.,1
@@ -3594,7 +3593,6 @@ ID,BaseTag,TagText_lang,Flags
 13511,DAMAGE_TOOLTIP,"Урон от оружия",1
 13512,ARMOR_TOOLTIP,"Снижает урон от оружия в зависимости от уровня нападающего.
 Если уровень нападающего %d, то урон будет: %.1f%%",1
-13983,VOICEMACRO_17_Ta_1,"Всегда рада помочь.",1
 13513,AMMO_DAMAGE_TEMPLATE,"Добавляет %s ед. урона в секунду",1
 13514,SPELLLOGABSORBSELFSELF,"Вы поглощаете свое заклинание ""%s"".",1
 13521,ITEM_SET_BONUS,"Комплект: %s",1
@@ -3680,6 +3678,7 @@ ID,BaseTag,TagText_lang,Flags
 13601,ERR_RAID_MEMBER_ADDED_S,"%s присоединяется к рейдовой группе.",1
 13602,ERR_RAID_MEMBER_REMOVED_S,"%s покидает рейдовую группу.",1
 13603,RAID_MESSAGE,Рейд,1
+21075,GUILD_VIEW_LOG,Журнал,1
 13604,OPTION_TOOLTIP_WORLD_LOD,"Адаптация геометрической детализации ландшафта. Включение этого параметра может повысить производительность игры.",3
 13605,OPTION_TOOLTIP_OBJECT_ALPHA,PLACE_HOLDER,1
 13606,OPTION_TOOLTIP_TRILINEAR,"Высококачественная фильтрация текстурных карт. Отключение этого параметра может повысить производительность игры.",1
@@ -3744,6 +3743,7 @@ ID,BaseTag,TagText_lang,Flags
 13666,ERR_NOT_IN_RAID,"Вы не входите в рейдовую группу",1
 13667,HELP_TEXT_LINE15,"- Помощь в создании новых макросов интерфейса пользователя – /macrohelp",1
 13668,MACRO_HELP_TEXT_LINE4,"- Чтобы использовать заклинание, внесенное в макросы, используйте следующую командную строку: /cast <название заклинания> (<дополнительный текст>)",1
+24710,BANK,Банк,1
 13669,ERR_QUEST_PUSH_ACCEPTED_S,"%s принимает ваше задание.",1
 13670,ERR_QUEST_ADD_KILL_SII,"%s – убито: %d/%d",1
 13671,CHAT_HELP_TEXT_LINE3,"/chat (/чат), /chathelp (/чпомощь) – просмотр этого текста",1
@@ -3812,10 +3812,10 @@ ID,BaseTag,TagText_lang,Flags
 13737,OPTION_TOOLTIP_MUSIC_VOLUME,"Регулировка громкости музыки.",3
 13738,OPTION_TOOLTIP_AMBIENCE_VOLUME,"Регулировка громкости звуков окружающего мира.",3
 13739,OPTION_TOOLTIP_MASTER_VOLUME,"Регулировка общей громкости звука.",3
-13984,VOICEMACRO_19_Ta_2,"Для леди – бесплатно.",1
 13740,OPTION_TOOLTIP_STATUS_BAR,"Отображение текстовой информации для индикаторов опыта, здоровья, маны, ярости, энергии или настроения.",1
 13741,OPTION_TOOLTIP_SHOW_UNIT_NAMES,"Отображение названий существ.",1
 13742,OPTION_TOOLTIP_PROFANITY_FILTER,"Фильтрация грубых слов и выражений.",1
+13789,PVP_RANK_18_0_FEMALE,"Верховный вождь",1
 13743,OPTION_TOOLTIP_SIMPLE_CHAT,"Защита конфигурации общего окна чата и журнала боя от изменений.",1
 13744,OPTION_TOOLTIP_SHOW_PET_MELEE_DAMAGE,"Отображение урона, наносимого вашим питомцем.",1
 13745,OPTION_TOOLTIP_LOG_PERIODIC_EFFECTS,"Отображение урона от периодических эффектов, таких как ""Кровопускание"" и ""Слово Тьмы: Боль"".",1
@@ -3860,7 +3860,7 @@ ID,BaseTag,TagText_lang,Flags
 13786,PET_LOYALTY_LOSS,"Лояльность вашего питомца снизилась.",1
 13787,AGILITY_TOOLTIP,"Увеличивает вероятность нанести критический удар.|nТакже влияет на уклонение. У разбойников|n и то, и другое выражено в большей степени, чем у других классов.|nЛовкость напрямую влияет на характеристику ""Броня"".",1
 13788,PVP_RANK_17_0_FEMALE,Вождь,1
-13789,PVP_RANK_18_0_FEMALE,"Верховный вождь",1
+14281,RETURN_TO_GAME,Назад,1
 13790,PVP_MEDAL2,"Властитель Оргриммара",1
 13791,PVP_MEDAL6,"Вождь Громового Утеса",1
 13792,VOICEMACRO_13_Hu_0,Прощай.,1
@@ -3913,8 +3913,6 @@ ID,BaseTag,TagText_lang,Flags
 13847,OPTION_TOOLTIP_ENABLE_ALL_SHADERS,"Использование всех пиксельных шейдеров.",1
 13848,OPEN_LOCK_SELF,"Вы совершаете действие: %s. Цель: %s.",1
 13849,FULL_SCREEN_GLOW,"Эффект свечения",3
-13985,VOICEMACRO_19_Ta_4,"Знаете, у старших быков всего одна функция.",1
-13986,VOICEMACRO_20_Ta_4,"Му-у! Теперь довольны?",1
 13850,OPTION_TOOLTIP_FULL_SCREEN_GLOW,"Использование эффектов, благодаря которым происходит сглаживание углов и смягчение освещения в игре в полноэкранном режиме. Отключение этого параметра может повысить производительность игры.",3
 13851,VERTEX_ANIMATION_SHADERS,"Анимация вершинных шейдеров",1
 13852,PIXEL_SHADERS,Спецэффекты,3
@@ -3978,9 +3976,9 @@ ID,BaseTag,TagText_lang,Flags
 13922,OPTION_TOOLTIP_USE_RESOLUTION,"Изменение разрешения экрана в игре. Уменьшение значения этого параметра может повысить производительность игры.",3
 13923,BUFFER_DOUBLE,Двойной,1
 13924,TRIPLE_BUFFER,"Тройная буферизация",3
-24710,BANK,Банк,1
 13925,TUTORIAL34,"Вы выполнили первое задание! Чтобы получить награду, необходимо вернуться к персонажу, который дал вам задание. После выполнения задания позиция соответствующего поручителя задания появляется на мини-карте, при условии, что вы находитесь поблизости.",1
 13926,VOICEMACRO_19_Gn_1_FEMALE,"Если ты надеешься заключить со мной соглашение, сначала закажи мне выпивку и развлеки непринужденной беседой.",1
+32584,EMOTE517_CMD2,/whoa,1
 13927,VOICEMACRO_19_Gn_2_FEMALE,"Хорошо, что вы умеете нормально разговаривать.",1
 13928,VOICEMACRO_19_Gn_3_FEMALE,"На мой взгляд, вы не столь уж отвратительны.",1
 13929,VOICEMACRO_20_Gn_2_FEMALE,"Белка, загнанная в угол, очень опасна.",1
@@ -4039,9 +4037,14 @@ ID,BaseTag,TagText_lang,Flags
 13980,VOICEMACRO_19_Sc_2_FEMALE,"Нежить умеет хорошо повеселиться. В конце концов, самое худшее с нами уже случилось.",1
 13981,VOICEMACRO_19_Sc_4_FEMALE,"Я романов заводить не хочу. Раз уже влюбилась – и посмотрите, к чему это привело!",1
 13982,VOICEMACRO_14_Ta_1,"Я так считаю.",1
+13983,VOICEMACRO_17_Ta_1,"Всегда рада помочь.",1
+13984,VOICEMACRO_19_Ta_2,"Для леди – бесплатно.",1
+13985,VOICEMACRO_19_Ta_4,"Знаете, у старших быков всего одна функция.",1
+13986,VOICEMACRO_20_Ta_4,"Му-у! Теперь довольны?",1
 13987,VOICEMACRO_13_Ta_2_FEMALE,"Пусть наши дороги еще сойдутся.",1
 13988,VOICEMACRO_12_Gn_2,Приветствую.,1
 13989,VOICEMACRO_13_Gn_3,"Буду скучать.",1
+14282,CLICK_CAMERA_STYLE,"Выравнивание камеры",1
 13990,VOICEMACRO_16_Gn_2,"Позвольте выразить вам глубокую благодарность.",1
 13991,WIDESCREEN_TAG,"(Широкий экран)",3
 13992,SPELL_FAILED_CANT_DUEL_WHILE_INVISIBLE,"Вы невидимы и не можете начать дуэль.",1
@@ -4093,9 +4096,9 @@ ID,BaseTag,TagText_lang,Flags
 14038,VOICEMACRO_20_Dw_3,"У меня нет проблем с алкоголем. Я пью, напиваюсь и падаю под стол. Какие проблемы?",1
 14039,VOICEMACRO_19_Dw_2_FEMALE,"Хотела бы я посмотреть на тебя в килте.",1
 14040,VOICEMACRO_18_Ni_2,Великолепно.,1
-14100,VOICEMACRO_19_Tr_4_FEMALE,"Так бы и запустила в вас свои зубы!",1
 14041,VOICEMACRO_19_Ni_2,"Детка, я тоже смертен. А мы теряем время на ерунду.",1
 14042,VOICEMACRO_20_Ni_1,"Видели сторожевые древа в Дарнассе? Они не такие уж и старые.",1
+14283,SHOW_DAMAGE_TEXT,"Урон цели",1
 14043,VOICEMACRO_20_Ni_2,"Я видела Изумрудный Сон, и тут мне вдруг приспичило в туалет!",1
 14044,VOICEMACRO_20_Ni_5,"Кто хочет жить вечно?",1
 14045,VOICEMACRO_17_Ni_0_FEMALE,"На здоровье.",1
@@ -4151,8 +4154,9 @@ ID,BaseTag,TagText_lang,Flags
 14097,VOICEMACRO_14_Ni_1,Конечно.,1
 14098,VOICEMACRO_12_Ta_2_FEMALE,"Как дела?",1
 14099,VOICEMACRO_19_Tr_2,"А вы довольно аппетитны на вид.",1
-32584,EMOTE517_CMD2,/whoa,1
+14100,VOICEMACRO_19_Tr_4_FEMALE,"Так бы и запустила в вас свои зубы!",1
 14101,CHAT_PLAYER_INVITED_NOTICE,"|Hchannel:%d|h[%s]|h Вы пригласили |3-3(%s) присоединиться к каналу.",1
+14284,SHOW_PLAYER_NAMES,"Имена игроков",1
 14102,VOICEMACRO_20_Or_3,"Мы, орки, умеем есть ложками и вилками. Только не любим. Руками как-то проще.",1
 14103,VOICEMACRO_13_Or_1_FEMALE,"Успехов во всем.",1
 14104,VOICEMACRO_17_Or_1_FEMALE,"Мы же друзья!",1
@@ -4201,14 +4205,8 @@ ID,BaseTag,TagText_lang,Flags
 14177,TUTORIAL_TITLE39,Общества,1
 14178,TUTORIAL_TITLE40,"Заклинания и способности",1
 14179,TUTORIAL_TITLE41,"Элитные задания",1
-14273,RESISTANCE_EXCELLENT,Превосходная,1
-14274,RESISTANCE_VERYGOOD,Отличная,1
-14275,RESISTANCE_GOOD,Высокая,1
-14276,RESISTANCE_FAIR,Средняя,1
-14277,RESISTANCE_POOR,Низкая,1
-14278,RESISTANCE_NONE,Отсутствует,1
-14279,MACROS,Макросы,1
 14180,TUTORIAL39,"Чтобы легче одержать победу над врагами, вы можете пригласить других игроков в свою команду. Большинство трудных заданий быстро выполняются в группе, при этом награда за выполнение задания распределяется среди ее членов. Кроме того, группа получает дополнительный опыт относительно получаемого при индивидуальной игре.",1
+14285,SHOW_NPC_NAMES,"Имена NPC",1
 14181,TUTORIAL40,"Вы освоили новое заклинание или способность! Вызовите меню заклинаний и способностей, щелкнув по соответствующему значку панели команд. Для доступа к различным категориям навыков и заклинаний воспользуйтесь вкладками в правой части меню.",1
 14182,TUTORIAL41,"Вы приняли элитное задание. Подобные задания лучше выполнять в группе, потому что для их выполнения приходится забираться в области, населенные элитными созданиями. Они значительно мощнее, чем обычные монстры, но приносят больше опыта. Элитного монстра можно узнать по золотому дракону на рамке его портрета.",1
 14197,FACTION_STANDING_LABEL8,Превознесение,1
@@ -4249,12 +4247,14 @@ ID,BaseTag,TagText_lang,Flags
 14271,RESISTANCE_TOOLTIP_SUBTEXT,"Повышает устойчивость персонажа к заклинаниям, навыкам и атакам, в ходе которых используется %1$s.
 |cffffffff%3$s|r устойчивость против %2$d-го уровня.",1
 14272,RESISTANCE_LABEL,Сопротивление,1
+14273,RESISTANCE_EXCELLENT,Превосходная,1
+14274,RESISTANCE_VERYGOOD,Отличная,1
+14275,RESISTANCE_GOOD,Высокая,1
+14276,RESISTANCE_FAIR,Средняя,1
+14277,RESISTANCE_POOR,Низкая,1
+14278,RESISTANCE_NONE,Отсутствует,1
+14279,MACROS,Макросы,1
 14280,EXIT_GAME,"Выйти из игры",3
-14281,RETURN_TO_GAME,Назад,1
-14282,CLICK_CAMERA_STYLE,"Выравнивание камеры",1
-14283,SHOW_DAMAGE_TEXT,"Урон цели",1
-14284,SHOW_PLAYER_NAMES,"Имена игроков",1
-14285,SHOW_NPC_NAMES,"Имена NPC",1
 14286,SHOW_GUILD_NAMES,"Названия гильдий",1
 14287,SHOW_PLAYER_TITLES,"Звания игроков",1
 14288,CAMERA_LABEL,Камера,1
@@ -4306,9 +4306,9 @@ ID,BaseTag,TagText_lang,Flags
 14347,RESURRECT_REQUEST_TIMER,"%s хочет вас воскресить и сможет это сделать через %d %s. Вы будете испытывать временную слабость.",1
 14348,OPTION_TOOLTIP_CLICK_CAMERA1,"Выравнивание камеры по ходу движения персонажа с небольшой задержкой при передвижении по щелчку мыши (рекомендуется).",1
 14349,OPTION_TOOLTIP_CLICK_CAMERA2,"При передвижении с помощью щелчка мыши положение камеры всегда выравнивается по ходу движения персонажа.",1
-15039,ACTIONBAR_LABEL,"Панели команд",1
 14350,OPTION_TOOLTIP_CLICK_CAMERA3,"Блокировка смены ракурса камеры при управлении перемещением персонажа по щелчку мыши.",1
 14351,OPTION_TOOLTIP_CAMERA1,"Камера остается в установленном положении до тех пор, пока персонаж не начнет движение.",1
+14418,HELPFRAME_ITEM_BULLET6,"Расспросы, как добыть предмет",1
 14352,OPTION_TOOLTIP_CAMERA2,"Предпочтительное расположение камеры позади персонажа.",1
 14353,OPTION_TOOLTIP_CAMERA3,"Фиксация положения камеры с отключением автокорректировки ее положения.",1
 14354,BILLING_NAG_WARNING,"Оплаченное время игры истекает через %d |4минуту:минуты:минут;",1
@@ -4354,7 +4354,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 14415,HELPFRAME_ITEM_BULLET4,"Нечестное получение предметов",1
 14416,HELPFRAME_ITEM_BULLET5,"Ошибочная продажа предмета торговцу и невозможность выкупить его обратно",1
 14417,HELPFRAME_ITEM_BULLET_TITLE2,"Нижеперечисленное НЕ относится к проблемам с предметами:",1
-14418,HELPFRAME_ITEM_BULLET6,"Расспросы, как добыть предмет",1
 14419,HELPFRAME_ITEM_BULLET7,"Запросы предметов",1
 14420,HELPFRAME_ITEM_BUTTON_TEXT,"Сообщить о проблеме",1
 14421,HELPFRAME_ENVIRONMENTAL_TITLE,"Проблемы с окружающим миром",1
@@ -4478,6 +4477,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 14573,NEWBIE_TOOLTIP_ADDMEMBER,"Добавление нового игрока в гильдию.",1
 14574,NEWBIE_TOOLTIP_GUILDGROUPINVITE,"Приглашение выбранного представителя гильдии вступить в группу.",1
 14575,NEWBIE_TOOLTIP_GUILDCONTROL,"Здесь вы можете изменить названия рангов в вашей гильдии, равно как и связанные с ними привилегии.",1
+14787,ELITE,элита,1
+14788,BOSS,босс,1
 14576,NEWBIE_TOOLTIP_GUILDPUBLICNOTE,"Щелкните здесь для просмотра общедоступной заметки о вашем персонаже. С этой заметкой может ознакомиться любой игрок, входящий в вашу гильдию. Для редактирования заметки щелкните по ней.",1
 14577,PUBLIC_NOTE,"Общедоступное сообщение",1
 14578,GUILD_MOTD_LABEL2,"Сообщение дня для гильдии",1
@@ -4510,6 +4511,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 14622,NEWBIE_TOOLTIP_ENCHANTSLOT,"Помещенный в эту ячейку предмет не перейдет к другому игроку при торговле, но тот сможет взломать на нем замок (если это контейнер), зачаровать или отравить.",1
 14623,HELPFRAME_TECHNICAL_BULLET4,"Проблемы со звуком (отсутствие звука или музыки, шумы, эффекты зацикливания и т.п.)",1
 14624,HELPFRAME_TECHNICAL_BULLET5,"Проблемы с установкой и разрывом соединения",1
+14789,TOOLTIP_UNIT_LEVEL,"%s-й уровень",1
 14625,HELPFRAME_TECHNICAL_BULLET6,"Во время игры имели место сбои или сообщения об ошибках",1
 14626,HELPFRAME_TECHNICAL_BULLET7,"Любые другие технические проблемы",1
 14628,INPUT_ROMAN,A,1
@@ -4566,9 +4568,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 14784,DRUNK_MESSAGE_OTHER4,"%s еле держится на ногах.",1
 14785,CORPSE,"Труп существа",1
 14786,PLAYER,игрок,1
-14787,ELITE,элита,1
-14788,BOSS,босс,1
-14789,TOOLTIP_UNIT_LEVEL,"%s-й уровень",1
 14790,TOOLTIP_UNIT_LEVEL_TYPE,"%s-й уровень (%s)",1
 14791,TOOLTIP_UNIT_LEVEL_CLASS,"%2$s %1$s-го уровня",1
 14792,TOOLTIP_UNIT_LEVEL_CLASS_TYPE,"%2$s %1$s-го уровня (%3$s)",1
@@ -4622,9 +4621,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15017,ERR_GUILDEMBLEM_SAME,"Не выполнено: ваша гербовая накидка не изменилась.",1
 15037,ERR_NAME_INVALID_SPACE,"Названия не могут начинаться и заканчиваться пробелом. Введите другое название.",1
 15038,ATTACK_TOOLTIP_SUBTEXT,"Рейтинг атаки определяет вероятность нанесения урона выбранной цели и зависит от навыка владения оружием, которым вы в данный момент пользуетесь.",1
+15039,ACTIONBAR_LABEL,"Панели команд",1
 15040,ERR_NAME_CONSECUTIVE_SPACES,"Использование нескольких пробелов подряд не допускается. Введите другое название.",1
 15058,ERR_PET_SPELL_ALREADY_KNOWN_S,"Ваш питомец уже знает заклинание ""%s"".",1
 15078,SHOW_MULTIBAR1_TEXT,"Нижняя левая панель",1
+32585,EMOTE518_CMD1,/ой,1
 15079,SHOW_MULTIBAR2_TEXT,"Нижняя правая панель",1
 15080,SHOW_MULTIBAR3_TEXT,"Правая панель",1
 15081,SHOW_MULTIBAR4_TEXT,"Правая панель 2",1
@@ -4684,6 +4685,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15164,OPTION_TOOLTIP_SHOW_MULTIBAR3,"Размещение дополнительной панели команд в правой части экрана.",1
 15165,OPTION_TOOLTIP_SHOW_MULTIBAR4,"Отображение дополнительной панели команд в правой части экрана.",1
 15166,BINDING_NAME_TOGGLEACTIONBARLOCK,"Фиксация панели команд",1
+15167,SLASH_RANDOM7,/roll,1
 15168,NEWBIE_TOOLTIP_UNIT_GROUP_LOOT,"По правилам честного распределения члены группы по очереди получают доступ к убитым монстрам, однако предметы выше определенного уровня качества разыгрываются по жребию.",1
 15169,NEWBIE_TOOLTIP_UNIT_NEED_BEFORE_GREED,"Правила системы ""Приоритет по нужности"" в точности повторяют правила честного распределения, но  жребий бросают только те игроки, которые могут использовать найденный предмет.",1
 15170,NEWBIE_TOOLTIP_UNIT_LEAVE_PARTY,"Исключение игрока из группы.",1
@@ -4747,6 +4749,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15410,ENTER_BATTLE,"Начать битву",1
 15411,LEAVE_QUEUE,"Выйти из очереди",1
 15412,CHANGE_INSTANCE,"Сменить подземелье",1
+15683,ERR_GROUP_JOIN_BATTLEGROUND_TOO_MANY,"Ваша группа слишком велика для этого поля боя.",1
 15413,BATTLEFIELD_IN_QUEUE,"Вы находитесь в очереди на поле боя: %s
 Осталось ждать (примерно): %s (Последние 10 игроков)
 Время ожидания: %s",1
@@ -4814,9 +4817,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15590,WINDOWED_MAXIMIZED,"Макс. размер",3
 15591,OPTION_TOOLTIP_WINDOWED_MAXIMIZED,"Запуск игры в развернутом окне.",3
 15601,NEWBIE_TOOLTIP_RANK,"Ранг напрямую связан с честью. Исходя из сравнивания показателей на текущий момент с показателями недельной давности, ваш ранг может повыситься, понизиться или остаться на прежнем уровне. Игроки высокого уровня получают следующий ранг быстрее, чем игроки низкого уровня. Тем не менее, на более низких уровнях ранг повышается гораздо проще, чем на более высоких.",1
-15683,ERR_GROUP_JOIN_BATTLEGROUND_TOO_MANY,"Ваша группа слишком велика для этого поля боя.",1
 15701,SHOW_BUFFS,"Положительные эффекты",1
-32585,EMOTE518_CMD1,/ой,1
+15702,SHOW_DEBUFFS,"Отрицательные эффекты",1
+15704,REFLECT,Отражение,1
+15705,SPELLRESISTSELFSELF,"Вы сопротивляетесь собственному заклинанию ""%s"".",1
+15706,SPELLDODGEDSELFSELF,"Вы уклонились от собственного заклинания ""%s"".",1
 15602,NEWBIE_TOOLTIP_HONORABLE_KILLS,"Каждый раз, когда в режиме PvP от ваших рук или рук члена вашей группы погибает представитель противостоящего союза, вам присуждается почетная победа. Это происходит лишь в том случае, если цель была отмечена зеленым или другим цветом, указывающим на ее сложность (если цель – монстр, вы получите очки опыта).",1
 15603,NEWBIE_TOOLTIP_DISHONORABLE_KILLS,"Каждый раз, когда вы в режиме PvP убиваете противника, чей уровень слишком низок (цифра, показывающая уровень, окрашена в серый цвет), вы не получаете ни опыта, ни чести; напротив, вам засчитывается бесчестная победа. С каждой бесчестной победой, одержанной вами, общий рейтинг вашего персонажа снижается. Если же вы совершите несколько таких убийств в один день, то отрицательный эффект возрастет в геометрической прогрессии.",1
 15604,NEWBIE_TOOLTIP_HONOR_CONTRIBUTION_POINTS,"Игрок получает единицы чести, убивая противников в PvP-боях. Количество этих единиц прямо пропорционально величине нанесенного противнику урона. В случае коллективной победы честь распределяются между участниками группы или рейда. Убийство одного и того же противника через короткие промежутки времени будет приносить вам все меньше и меньше чести. Вскоре за его убийство вы не получите ничего.",1
@@ -4847,9 +4852,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15661,ERR_INVALID_INSPECT_TARGET,"Вы можете осмотреть только игрового персонажа.",1
 15681,ERR_GROUP_JOIN_BATTLEGROUND_S,"Ваша группа встала в очередь на поле боя ""%s"".",1
 15682,ERR_GROUP_JOIN_BATTLEGROUND_FAIL,"Ваша группа встала в очередь на поле боя, однако вы сами не можете участвовать в нем.",1
-15702,SHOW_DEBUFFS,"Отрицательные эффекты",1
-15705,SPELLRESISTSELFSELF,"Вы сопротивляетесь собственному заклинанию ""%s"".",1
-15706,SPELLDODGEDSELFSELF,"Вы уклонились от собственного заклинания ""%s"".",1
 15707,SPELLPARRIEDSELFSELF,"Вы парировали свое заклинание ""%s"".",1
 15708,SPELLEVADEDSELFSELF,"Вы увернулись от своего заклинания ""%s"".",1
 15709,SPELLIMMUNESELFSELF,"Заклинание ""%s"" не подействовало. Вы невосприимчивы.",1
@@ -4964,9 +4966,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 15967,CONFIRM_GUILD_PROMOTE,"Назначить |3-3(%s) главой гильдии?",1
 15968,CONFIRM_GUILD_LEAVE,"Покинуть команду ""%s""?",1
 15969,SPELL_FAILED_WRONG_WEATHER,"В такую погоду это невозможно.",1
-16162,GM_TICKET_SERVICE_SOON,"Ваш запрос скоро будет выполнен.",1
 15970,PHYSICAL_HARASSMENT_TEXT6,"""Приводить компанию"" (навести врагов на другого игрока, чтобы вынудить его вступить в бой)",1
 15971,GUILD_MEMBER_OPTIONS,"Параметры членов гильдии",1
+16084,SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND,"Необходимо держать |3-6(%s) во второй руке.",1
 15972,NEWBIE_TOOLTIP_GUILD_MEMBER_OPTIONS,"Щелкните правой кнопкой мыши по игроку, состоящем в гильдии, чтобы получить доступ к дополнительным параметрам.",1
 15973,MERCHANT_BUYBACK,"Выкуп у торговца",1
 15974,PET_SPELLS_TEMPLATE,"Навыки приручения: %s",1
@@ -5007,10 +5009,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16012,LOOT_ROLL_YOU_WON_NO_SPAM_NEED,"|HlootHistory:%d|h[Добыча]|h: вы выигрываете предмет %s |cff818181(""Мне это нужно"" – %d)|r.",1
 16013,LOOT_ROLL_YOU_WON_NO_SPAM_GREED,"|HlootHistory:%d|h[Добыча]|h: вы выигрываете предмет %s |cff818181(""Не откажусь"" – %d)|r.",1
 16014,LOOT_ROLL_WON_NO_SPAM_NEED,"|HlootHistory:%d|h[Добыча]|h: %s выигрывает предмет %s |cff818181(""Мне это нужно"" – %d)|r.",1
-16163,GM_TICKET_UNAVAILABLE,"Время ожидания пока неизвестно.",1
-32586,EMOTE518_CMD2,/oops,1
 16015,LOOT_ROLL_WON_NO_SPAM_GREED,"|HlootHistory:%d|h[Добыча]|h: %s выигрывает предмет %s |cff818181(""Не откажусь"" – %d)|r.",1
 16016,SHOW_LOOT_SPAM,"Подробные сведения о добыче",1
+16085,MOVE_TO_INACTIVE,Неактивно,1
+16086,SHOW_FACTION_ON_MAINSCREEN,"Добавить индикатор",1
 16017,OPTION_TOOLTIP_SHOW_LOOT_SPAM,"Отображение информации о ходе дележа добычи. При отключенном параметре вы получите только информацию о том, кому она досталась.",1
 16018,SPELL_DETAIL,"Детализация заклинаний",3
 16019,OPTION_TOOLTIP_SPELL_DETAIL,"Изменение уровня детализации визуальных спецэффектов. Уменьшение значения этого параметра может повысить производительность игры.",3
@@ -5062,12 +5064,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16070,ADDON_ACTION_FORBIDDEN,"Модификация ""%s"" заблокирована при попытке выполнения действия, доступного только интерфейсу Blizzard. 
  Вы можете отключить эту модификацию и перезагрузить интерфейс.",1
 16071,BINDING_NAME_REPLY2,"Повторить личное сообщение",1
-16244,RESISTANCE_TYPE4,лед,1
 16082,ERR_MAIL_REACHED_CAP,"Достигнуто максимально допустимое количество уникальных адресатов письма.",1
 16083,CONFIRM_BUY_BANK_SLOT,"Дополнительная ячейка для сумки будет стоить",1
-16084,SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND,"Необходимо держать |3-6(%s) во второй руке.",1
-16085,MOVE_TO_INACTIVE,Неактивно,1
-16086,SHOW_FACTION_ON_MAINSCREEN,"Добавить индикатор",1
 16087,MACRO_ACTION_FORBIDDEN,"Макрос заблокирован – это действие доступно только для интерфейса Blizzard.",1
 16088,SPELL_FAILED_NOTHING_TO_DISPEL,"Нечего рассеивать.",1
 16089,INVTYPE_RELIC,Реликвия,1
@@ -5143,7 +5141,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16159,TUTORIAL50,"Теперь у вас есть связка для хранения ключей от подземелий. Связка ключей появляется слева от сумок на панели команд.",1
 16160,CHAT_RAID_WARNING_GET,"[Объявление рейду] %s:\32",1
 16161,GM_TICKET_ESCALATED,"Ваш запрос передан в ведение специалистов.",1
-16245,RESISTANCE_TYPE5,тьма,1
+16162,GM_TICKET_SERVICE_SOON,"Ваш запрос скоро будет выполнен.",1
+16163,GM_TICKET_UNAVAILABLE,"Время ожидания пока неизвестно.",1
 16164,GM_TICKET_HIGH_VOLUME,"Сейчас у нас очень большой объем петиций.",1
 16165,GM_TICKET_WAIT_TIME,"Среднее время ожидания:\n%s",1
 16166,RAID_TARGET_1,Звезда,1
@@ -5220,6 +5219,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16241,RESISTANCE_TYPE1,свет,1
 16242,RESISTANCE_TYPE2,огонь,1
 16243,RESISTANCE_TYPE3,природа,1
+16244,RESISTANCE_TYPE4,лед,1
+16245,RESISTANCE_TYPE5,тьма,1
 16246,RESISTANCE_TYPE6,"тайная магия",1
 16248,ERR_LOOT_CANT_LOOT_THAT_NOW,"Сейчас вы этот предмет обыскивать не можете.",1
 16249,CHAT_RAID_BOSS_EMOTE_GET,,1
@@ -5279,13 +5280,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16310,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_REPUTATION,"Отображение уведомления о получении или потере репутации среди представителей одной из фракций.",1
 16311,CHAT_FILTERED,"Невозможно отправить сообщение |3-2(%s), так как оно содержит недопустимые слова.",1
 16312,SHOW_COMBAT_TEXT_TEXT,"Сообщения в бою",1
-34768,RESILIENCE_LCD,"УСТЧ %d",1
 16313,OPTION_TOOLTIP_SHOW_COMBAT_TEXT,"Отображение на экране дополнительных сообщений во время боя.",1
 16314,EMOTE44_CMD1,/gasp,1
 16315,EMOTE114_CMD1,/insult,1
 16316,EMOTE60_CMD3,/kneel,1
 16317,EMOTE101_CMD3,/victory,1
-16318,EMOTE107_CMD3,/yawn,1
 16319,SLASH_READYCHECK2,/readycheck,1
 16324,EMOTE101_CMD,/victory,1
 16326,ERR_FILTERING_YOU_S,"Невозможно отправить сообщение |3-2(%s), так как оно содержит недопустимые слова.",1
@@ -5409,11 +5408,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16483,ERROR_SLASH_TEAM_DISBAND,"Правильный формат – /краспустить [2v2, 3v3, 5v5]",1
 16484,ARENA_TEAM_INVITATION,"%s приглашает вас в команду арены ""%s"".",1
 16485,ERR_ITEM_UNIQUE_EQUIPABLE,"Такой предмет можно носить только один.",1
-16644,COMBAT_RATING_NAME15,Устойчивость,1
 16487,ITEM_UNIQUE_EQUIPPABLE,"Уникальный использующийся",1
 16488,ERR_ITEM_UNIQUE_EQUIPPABLE,"Такой предмет можно носить только один.",1
 16489,ITEM_SOCKET_BONUS,"При соответствии цвета: %s",1
 16490,TRANSFER_ABORT_DIFFICULTY1,"Для подземелья ""%s"" недоступен обычный уровень сложности.",1
+16649,ARENA_TEAM_3V3,"Команда арены 3 на 3",1
 16491,TRANSFER_ABORT_DIFFICULTY2,"Для подземелья ""%s"" недоступен героический уровень сложности.",1
 16492,TRANSFER_ABORT_DIFFICULTY3,"Для подземелья ""%s"" недоступен этот уровень сложности.",1
 16493,ADD_TEAMMEMBER_LABEL,"Добавить члена команды",1
@@ -5475,10 +5474,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16552,ERR_ALREADY_IN_ARENA_TEAM,"Вы уже состоите в команде арены такой численности.",1
 16553,ERR_ALREADY_IN_ARENA_TEAM_S,"%s уже состоит в команде такой численности.",1
 16554,ERR_INVITED_TO_ARENA_TEAM,"Вы уже приглашены в команду арены.",1
-34769,DMG_LCD,УРН,1
 16555,ERR_ALREADY_INVITED_TO_ARENA_TEAM_S,"%s уже состоит в команде.",1
 16556,ERR_ARENA_TEAM_NAME_INVALID,"Это название содержит недопустимые символы, пожалуйста, введите другое название.",1
 16557,ERR_ARENA_TEAM_NAME_EXISTS_S,"Команда арены под названием \""%s\""уже существует.",1
+32586,EMOTE518_CMD2,/oops,1
 16558,ERR_ARENA_TEAM_LEADER_LEAVE_S,"Прежде чем покинуть команду, вы должны назначить нового капитана команды, используя /ккапитан.",1
 16559,ERR_ARENA_TEAM_PERMISSIONS,"У вас недостаточно прав.",1
 16560,ERR_ARENA_TEAM_PLAYER_NOT_IN_TEAM,"Вы не состоите в команде арены такой численности.",1
@@ -5553,11 +5552,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16641,COMBAT_RATING_NAME9,"Рейтинг критического удара",1
 16642,COMBAT_RATING_NAME10,"Рейтинг критического удара",1
 16643,COMBAT_RATING_NAME11,"Рейтинг критического удара",1
+16644,COMBAT_RATING_NAME15,Устойчивость,1
 16645,WEAPON_SPEED,Скорость,1
 16646,ARENA_CHARTER_PURCHASE,"Приобрести хартию команды",1
 16647,ARENA_CHARTER_TURN_IN,"Зарегистрировать команду",1
 16648,ARENA_TEAM_2V2,"Команда арены 2 на 2",1
-16649,ARENA_TEAM_3V3,"Команда арены 3 на 3",1
 16650,ARENA_TEAM_5V5,"Команда арены 5 на 5",1
 16651,ARENA_REGISTRAR_PURCHASE_TEXT,"Чтобы собрать команду для арены, вам нужно купить эту хартию, собрать подписи нужного количества игроков и потом вернуть мне. Пожалуйста, введите название для вашей команды.",1
 16652,ARENA_BANNER_VENDOR_GREETING,"Приветствуем вас! Выберите герб и цвета своей команды.",1
@@ -5619,10 +5618,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16708,DEFAULT_STAT4_TOOLTIP,"Увеличивает запас маны на %d.|nПовышает рейтинг крит. эффекта заклинаний на %.2f%%.",1
 16709,ERR_LFG_PENDING,"Для вас уже запланировано состязание.",1
 16710,DEFAULT_STAT2_TOOLTIP,"Повышает рейтинг крит. удара на %.2f%%.|nУсиливает броню на %d.",1
-34770,AGI_LCD,ЛВК,1
 16711,DEFAULT_STAT5_TOOLTIP,"Повышает скорость восполнения здоровья вне боя на %d ед. в секунду.",1
 16712,DEFAULT_STAT3_TOOLTIP,"Увеличивает запас здоровья на %d.",1
 16713,DEFAULT_STATARMOR_TOOLTIP,"Получаемый физический урон снижен на %0.2f%%.",1
+16895,SLASH_STARTATTACK2,/начатьатаку,1
 16714,WEAPON_SKILL_RATING,"Рейтинг владения оружием: %d",1
 16715,CR_HIT_MELEE_TOOLTIP,"Вероятность нанести цели %d-го уровня урон в ближнем бою повышена на %.2f%%.
 
@@ -5685,9 +5684,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16766,OPTION_TOOLTIP_SHOW_TARGET_CASTBAR_IN_V_KEY,"Отображение индикатора сотворения заклинания рядом с полоской здоровья игрока при показе таблички с его именем.",1
 16767,MELEE_CRIT_CHANCE,"Крит. удар",1
 16768,RANGED_CRIT_CHANCE,"Крит. удар",1
-34771,STR_LCD,СИЛ,1
 16769,CR_HIT_SPELL_TOOLTIP,"Повышает вероятность поразить цель %d-го уровня заклинанием на %.2f.%%.\n\nПроникающая способность заклинаний %d (снижает сопротивление противника на %d).",1
 16770,DODGE_CHANCE,"Вероятность уклонения",1
+34767,PARRY_LCD,"ПАРИР %.2f",1
 16771,ITEM_DISENCHANT_MIN_SKILL,"Для распыления необходимо: %s (%d)",1
 16772,ITEM_DISENCHANT_ANY_SKILL,"Можно распылить",1
 16773,ITEM_DISENCHANT_NOT_DISENCHANTABLE,"Нельзя распылить",1
@@ -5745,10 +5744,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16827,BINDING_NAME_TOGGLELFGLISTINGTAB,"Панель ПГ (поиска группы)",1
 16828,BINDING_NAME_TOGGLELFGBROWSETAB,"Панель ПИ (поиска игроков)",1
 16829,MOVE_FILTER_DOWN,"Переместить ниже",1
-17034,SLASH_DISMOUNT2,/спешиться,1
-34772,STA_LCD,ВНС,1
 16830,ERR_ITEM_MAX_COUNT_SOCKETED,"У вас при себе или на предметах уже имеется максимально возможное количество таких самоцветов.",1
 16831,SPELL_FAILED_NO_MAGIC_TO_CONSUME,"Отсутствует магия, которую можно поглотить.",1
+16896,SLASH_STOPATTACK1,/stopattack,1
+16897,SLASH_STOPATTACK2,/стопатака,1
 16832,TRANSFER_ABORT_INSUF_EXPAN_LVL1,"Необходимо установить The Burning Crusade, чтобы получить доступ к этой области.",1
 16833,ERR_NOT_ENOUGH_HONOR_POINTS,"У вас недостаточно очков чести",1
 16834,ERR_NOT_ENOUGH_ARENA_POINTS,"У вас недостаточно очков арены",1
@@ -5798,15 +5797,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16885,TARGETFOCUS,"Восстановить цель",1
 16886,ERR_AUCTION_USED_CHARGES,"Разряженный предмет на аукцион выставить нельзя.",1
 16887,STAT_ATTACK_POWER,"Повышает силу атаки на %d.\n",1
-17378,VOLUME,Громкость,3
 16888,STAT_BLOCK_TOOLTIP,"Повышает вероятность блокирования на %d.",1
 16890,REWARD_AURA,"Вы получите эффект:",1
 16892,ATTACK_SPEED,"Скорость атаки",1
 16893,CR_HASTE_RATING_TOOLTIP,"Скорость %d (ускорение: %.2f%%)",1
 16894,SLASH_STARTATTACK1,/startattack,1
-16895,SLASH_STARTATTACK2,/начатьатаку,1
-16896,SLASH_STOPATTACK1,/stopattack,1
-16897,SLASH_STOPATTACK2,/стопатака,1
 16898,SLASH_CANCELAURA1,/cancelaura,1
 16899,SLASH_CANCELAURA2,/снятьауру,1
 16900,TUTORIAL_TITLE51,"Более вместительный рюкзак",1
@@ -5863,8 +5858,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 16962,SLASH_CLEARTARGET1,/сбросцели,1
 16963,SLASH_CLEARTARGET2,/cleartarget,1
 16964,LFM_NUM_RAID_MEMBER_TEMPLATE,"Участников в рейдовой группе: %d",1
-17032,ERR_SYSTEM_DISABLED,"Эта система в данный момент недоступна.",1
-17033,SLASH_DISMOUNT1,/dismount,1
 16965,TOOLTIP_ARENA_POINTS,"Очки арены присуждаются за победы на арене. Вы можете обменивать эти очки на предметы с удивительными свойствами!",1
 16966,TOOLTIP_HONOR_POINTS,"Сражаясь с персонажами противоположной стороны, вы зарабатываете очки чести. Впоследствии их можно тратить на приобретение уникальных предметов.",1
 16967,SLASH_STOPMACRO1,/stopmacro,1
@@ -5926,10 +5919,15 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17029,SPELL_FAILED_TARGET_NOT_IN_SANCTUARY,"Цель не находится в святилище.",1
 17030,TOOLTIP_RAID_CLASS_BUTTON,"Чтобы создать отдельное окно для выбранного класса игроков, перетащите эту кнопку на основной экран.",1
 17031,TOOLTIP_RAID_DRAG_TIP,"Чтобы создать отдельное окно для выбранного игрока, перетащите его портрет на основной экран.",1
+17032,ERR_SYSTEM_DISABLED,"Эта система в данный момент недоступна.",1
+17033,SLASH_DISMOUNT1,/dismount,1
+17034,SLASH_DISMOUNT2,/спешиться,1
 17035,OPTION_TOOLTIP_ENABLE_HARDWARE,"Использование аппаратного ускорения звука. Этот параметр влияет на качество представления звука.",3
 17036,ENABLE_HARDWARE,"Аппаратное ускорение",3
 17037,SLASH_YELL8,/shout,1
 17038,PVP_TEAMTYPE,%dv%d,1
+17167,SHOW_LUA_ERRORS,"Ошибки сценариев Lua",1
+17307,CALENDAR_REPEAT_WEEKLY,Еженедельно,1
 17039,LFG_DISABLED_LFM_TOOLTIP,"Поиск группы невозможен – в данный момент вы ищете нового игрока для своей группы.",1
 17040,LFG_DISABLED_PARTY_TOOLTIP,"Поиск группы невозможен – вы уже состоите в группе.",1
 17041,CHAT_NOT_IN_AREA_NOTICE,"[%s] Этот канал недоступен в данной области.",1
@@ -5987,6 +5985,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17097,DEFAULT_STATSPELLBONUS_TOOLTIP,"Дополнительный урон от атак заклинаниями.",1
 17098,SPELL_BONUS_COLON,"Бонус заклинания:",1
 17099,RESET_ALL_WINDOWS,"Обновить окна чата",1
+17243,MOVIE_RECORDING_TIME,"Доступное время записи:",1
 17100,RESET_CHAT_WINDOW,"Будут восстановлены стандартные параметры окон чата.
 Все изменения будут утрачены.",1
 17101,VOICE_CHAT_NORMAL,Обычный,1
@@ -6049,7 +6048,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17164,NO_DAILY_QUESTS_REMAINING,"Сегодня вы больше не можете выполнять повседневные задания.",1
 17165,SET_RAID_LEADER,"Назначить лидером рейда",1
 17166,ERR_NOT_WHILE_MOUNTED,"Вы находитесь на средстве передвижения и не можете этого сделать.",1
-17167,SHOW_LUA_ERRORS,"Ошибки сценариев Lua",1
+34768,RESILIENCE_LCD,"УСТЧ %d",1
 17168,OPTION_TOOLTIP_SHOW_LUA_ERRORS,"Отображение сообщений об ошибках, связанных с работой интерфейса пользователя.",1
 17169,SLASH_CLEARMAINTANK1,/clearmt,1
 17170,SLASH_CLEARMAINTANK2,/clearmaintank,1
@@ -6109,7 +6108,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17240,MOVIE_RECORDING_COMPRESSION,Сжатие,1
 17241,MOVIE_RECORDING_CODEC_TOOLTIP,"Изменение способа сжатия.",1
 17242,MOVIE_RECORDING_QUALITY_TOOLTIP,"Изменение качества видеороликов. Этот параметр определяет степень сжатия данных. Улучшение качества приведет к увеличению размера файла и ускорению процесса сжатия.",1
-17243,MOVIE_RECORDING_TIME,"Доступное время записи:",1
 17244,OPTION_TOOLTIP_ENABLE_SOUND,"Включение или отключение звука.",3
 17245,SPELL_FAILED_TARGET_IS_TRIVIAL,"Невозможно выбрать целью простых существ.",1
 17247,GUILDCONTROL_OPTION14,"Создание гильдейского мероприятия",1
@@ -6167,7 +6165,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17304,BINDING_HEADER_MOVIE_RECORDING_SECTION,"Запись видеоролика",1
 17305,BINDING_NAME_MOVIE_RECORDING_STARTSTOP,"Начать/прекратить запись",1
 17306,CALENDAR_REPEAT_NEVER,Никогда,1
-17307,CALENDAR_REPEAT_WEEKLY,Еженедельно,1
+34769,DMG_LCD,УРН,1
 17308,CALENDAR_REPEAT_BIWEEKLY,"2 раза в неделю",1
 17309,CALENDAR_REPEAT_MONTHLY,Ежемесячно,1
 17310,CALENDAR_TYPE_RAID,Рейд,1
@@ -6237,9 +6235,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17375,SOUND_OPTIONS,"Настройка звука",1
 17376,HARDWARE,"Аппаратное обеспечение",3
 17377,PLAYBACK,"Воспроизведение звука",3
+17378,VOLUME,Громкость,3
 17379,ERR_NOT_DURING_ARENA_MATCH,"Вы не можете этого делать, пока участвуете в состязании арены",1
 17380,UNITNAME_TITLE_COMPANION,"Спутник |3-1(%s)",1
 17381,AUCTION_INVOICE_FUNDS_NOT_YET_SENT,"Деньги еще не отправлены.",1
+34770,AGI_LCD,ЛВК,1
 17382,AUCTION_INVOICE_FUNDS_DELAY,"Оплата ожидается в %s.",1
 17383,AUCTION_INVOICE_PENDING_FUNDS_COLON,"Ожидаемая сумма:",1
 17384,AUCTION_INVOICE_MAIL_SUBJECT,"Ожидается оплата: %s",1
@@ -6299,8 +6299,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17445,MOVIE_RECORDING_UNCOMPRESSED_RGB,"Несжатый RGB",1
 17446,MOVIE_RECORDING_AIC,"Промежуточный кодек Apple",1
 17447,MOVIE_RECORDING_ENABLE_COMPRESSION,"Сжимать после записи",1
-17510,FORMATED_HOURS,"%d ч.",1
-34773,INT_LCD,ИНТ,1
 17448,MOVIE_RECORDING_ENABLE_COMPRESSION_TOOLTIP,"Если этот параметр включен, сжатие видеоролика будет производиться сразу после окончания записи. В противном случае для обработки видеоролика вам потребуется нажать соответствующую кнопку.",1
 17449,MOVIE_RECORDING_COMPRESSDIALOG,Сжать...,1
 17450,MOVIE_RECORDING_COMPRESSBUTTON,Сжать,1
@@ -6356,6 +6354,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17506,ITEM_COOLDOWN_TOTAL_HOURS,"(Восстановление: %d |4час:часа:часов;)",1
 17508,ITEM_COOLDOWN_TOTAL_MIN,"(Восстановление: %d мин.)",1
 17509,ITEM_COOLDOWN_TOTAL_SEC,"(Восстановление: %d сек.)",1
+17510,FORMATED_HOURS,"%d ч.",1
 17512,HAVE_MAIL_FROM,"Новое письмо от:",1
 17513,BINDING_NAME_TOGGLE_VOICE_SELF_MUTE,"Голосовой чат: вкл./выкл. микрофон",1
 17514,TRIVIAL_QUEST_DISPLAY,"|cff000000%s (низкий уровень)|r",1
@@ -6617,10 +6616,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17790,UNIT_NAME_FRIENDLY_MINIONS,Прислужники,1
 17791,UNIT_NAME_FRIENDLY_TOTEMS,Тотемы,1
 17792,OPTION_TOOLTIP_UNIT_NAME_NONCOMBAT_CREATURE,"Отображение имен безобидных существ и спутников.",1
-17915,ACTION_SPELL_AURA_REMOVED_DOSE_DEBUFF,Уменьшение,1
-34774,HIT_LCD,МЕТК,1
 17793,OPTION_TOOLTIP_UNIT_NAME_ENEMY,"Отображение имен игроков-противников на основном экране игры.",1
 17794,OPTION_TOOLTIP_UNIT_NAME_ENEMY_TOTEMS,"Отображение названий тотемов враждебных игроков на основном экране игры.",1
+17864,ACTION_SPELL_DAMAGE_FULL_TEXT_NO_SOURCE,"""%2$s"" наносит |3-2(%4$s) урон: %5$s. %6$s",1
 17795,OPTION_TOOLTIP_UNIT_NAME_ENEMY_MINIONS,"Отображение имен питомцев, прислужников и тотемов враждебных игроков на основном экране игры.",1
 17796,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY_MINIONS,"Отображение имен питомцев, прислужников и тотемов дружественных игроков на основном экране игры.",1
 17797,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY_TOTEMS,"Отображение имен тотемов дружественных игроков на основном экране игры.",1
@@ -6688,7 +6686,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17861,ACTION_DAMAGE_SHIELD_FULL_TEXT_NO_SOURCE,"""%2$s"" отражает %9$s |4единицу:единицы:единиц; %7$s на |3-3(%4$s)%6$s.",1
 17862,ACTION_SPELL_DAMAGE,Попадание,1
 17863,ACTION_SPELL_DAMAGE_FULL_TEXT,"""%2$s"" |3-1(%1$s) наносит |3-2(%4$s) %5$s%6$s.",1
-17864,ACTION_SPELL_DAMAGE_FULL_TEXT_NO_SOURCE,"""%2$s"" наносит |3-2(%4$s) урон: %5$s. %6$s",1
 17865,ACTION_SPELL_DRAIN,Похищение,1
 17866,ACTION_SPELL_DRAIN_FULL_TEXT,"""%1$s"" |3-1(%2$s) отнимает  %9$s |4единицу:единицы:единиц; |3-1(%8$s) у |3-1(%4$s).",1
 17867,ACTION_SPELL_DRAIN_FULL_TEXT_NO_SOURCE," %2$s отнимает у |3-1(%4$s) %9$s |4единицу:единицы:единиц; |3-1(%8$s ).",1
@@ -6739,6 +6736,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17912,ACTION_SPELL_AURA_REMOVED_DOSE,Сокращение,1
 17913,ACTION_SPELL_AURA_REMOVED_DOSE_BUFF,Сокращение,1
 17914,ACTION_SPELL_AURA_REMOVED_DOSE_BUFF_FULL_TEXT,"Действие эффекта |3-1(%1$s) ""%2$s"" (%9$s) проходит.",1
+17915,ACTION_SPELL_AURA_REMOVED_DOSE_DEBUFF,Уменьшение,1
 17916,ACTION_SPELL_AURA_REMOVED_DOSE_DEBUFF_FULL_TEXT,"Действие эффекта ""%2$s"" |3-1(%1$s) (%9$s) заканчивается.",1
 17917,ACTION_SPELL_DISPEL,Развеивание,1
 17918,ACTION_SPELL_DISPEL_BUFF,Развеивание,1
@@ -6809,6 +6807,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 17983,ACTION_SPELL_MISSED_ABSORB_FULL_TEXT,"""%2$s"" |3-1(%1$s) поглощается |3-4(%4$s)%6$s",1
 17984,ACTION_SPELL_MISSED_ABSORB_FULL_TEXT_NO_SOURCE,"%4$s поглощает заклинание ""%2$s""%6$s",1
 17985,ACTION_SPELL_MISSED_BLOCK,Блок,1
+34771,STR_LCD,СИЛ,1
 17986,ACTION_SPELL_MISSED_BLOCK_FULL_TEXT,"%4$s блокирует заклинание ""%2$s"" |3-1(%1$s)%6$s",1
 17987,ACTION_SPELL_MISSED_BLOCK_FULL_TEXT_NO_SOURCE,"%4$s блокирует заклинание ""%2$s""%6$s.",1
 17988,ACTION_SPELL_MISSED_DEFLECT,Отклонение,1
@@ -6922,6 +6921,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18096,ACTION_ENVIRONMENTAL_DAMAGE_FATIGUE,Усталость,1
 18097,ACTION_ENVIRONMENTAL_DAMAGE_FATIGUE_FULL_TEXT,"%4$s от усталости теряет %9$s |4единицу:единицы:единиц; здоровья.",1
 18098,ACTION_ENVIRONMENTAL_DAMAGE_FALLING,Падение,1
+34772,STA_LCD,ВНС,1
 18099,ACTION_ENVIRONMENTAL_DAMAGE_FALLING_FULL_TEXT,"%4$s падает и теряет %9$s |4единицу:единицы:единиц; здоровья.",1
 18100,ACTION_ENVIRONMENTAL_DAMAGE_FIRE,Огонь,1
 18101,ACTION_ENVIRONMENTAL_DAMAGE_FIRE_FULL_TEXT,"%4$s получает %9$s |4единицу:единицы:единиц; урона от огня.",1
@@ -7000,6 +7000,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18177,COMBAT_LOG_UNIT_YOU_ENABLED,1,1
 18178,DONE_BY,Источник:,1
 18179,SOUND_QUALITY,"Качество звука",3
+18280,ACTION_ENVIRONMENTAL_DAMAGE_POSSESSIVE,0,1
+18281,ACTION_ENVIRONMENTAL_DAMAGE_DROWNING_POSSESSIVE,0,1
 18180,OPTION_TOOLTIP_SOUND_QUALITY,"Изменение качества звука в игре.
 Уменьшение значения этого параметра может повысить производительность игры.",3
 18181,ACTION_SWING_DAMAGE_POSSESSIVE,1,1
@@ -7095,8 +7097,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18277,ACTION_DAMAGE_SPLIT_POSSESSIVE,0,1
 18278,ACTION_ENCHANT_APPLIED_POSSESSIVE,0,1
 18279,ACTION_ENCHANT_REMOVED_POSSESSIVE,0,1
-18280,ACTION_ENVIRONMENTAL_DAMAGE_POSSESSIVE,0,1
-18281,ACTION_ENVIRONMENTAL_DAMAGE_DROWNING_POSSESSIVE,0,1
 18282,ACTION_ENVIRONMENTAL_DAMAGE_FATIGUE_POSSESSIVE,0,1
 18283,ACTION_ENVIRONMENTAL_DAMAGE_FALLING_POSSESSIVE,0,1
 18284,ACTION_ENVIRONMENTAL_DAMAGE_FIRE_POSSESSIVE,0,1
@@ -7218,6 +7218,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18409,SPELL_CAST_START_COMBATLOG_TOOLTIP,"Отображение сообщений о начале применения заклинаний.",1
 18410,SPELL_CAST_SUCCESS_COMBATLOG_TOOLTIP,"Отображение сообщений об успешном завершении заклинаний.",1
 18411,SPELL_CAST_FAILED_COMBATLOG_TOOLTIP,"Отображение сообщений о невозможности применения заклинаний.",1
+18464,MONSTER_BOSS_EMOTE,"Эмоции боссов",1
 18412,SPELL_PERIODIC_COMBATLOG_TOOLTIP,"Отображение информации о заклинаниях постепенного действия.",1
 18413,SPELL_PERIODIC_DAMAGE_COMBATLOG_TOOLTIP,"Отображение сообщений о периодическом уроне от заклинаний или способностей (""Слово Тьмы: Боль"", ""Порча"" и т. п.).",1
 18414,SPELL_PERIODIC_MISSED_COMBATLOG_TOOLTIP,"Отображение сообщений о частично неудачном применении боевых заклинаний и способностей, в т.ч., связанных с невосприимчивостью, поглощением и уверткой.",1
@@ -7269,7 +7270,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18461,ERR_GUILD_BANK_BOUND_ITEM,"Персональные предметы нельзя хранить в банке гильдии.",1
 18462,ERR_GUILD_BANK_WRAPPED_ITEM,"Упакованные предметы нельзя хранить в банке гильдии.",1
 18463,JOIN_AS_PARTY,"Вся группа",1
-18464,MONSTER_BOSS_EMOTE,"Эмоции боссов",1
 18465,MONSTER_BOSS_WHISPER,"Шепот боссов",1
 18466,PLAYER_MESSAGES,"Сообщения игроков",1
 18467,CREATURE_MESSAGES,"Сообщения существ",1
@@ -7337,6 +7337,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18533,ERR_REFER_A_FRIEND_TOO_FAR,"Этот игрок слишком далеко.",1
 18584,SPELL_FAILED_CUSTOM_ERROR_1,"Ааа! Что-то плохое случилось! Поэтому вы меня и видите!",1
 18585,SPELL_FAILED_CUSTOM_ERROR_2,"Алекс испортил вам все задание! Скажите ему потом спасибо!",1
+18661,ACTION_SPELL_AURA_BROKEN_DEBUFF_POSSESSIVE,0,1
+34773,INT_LCD,ИНТ,1
 18586,SPELL_FAILED_CUSTOM_ERROR_3,"Это заклинание можно использовать только на тех беспомощных селянинах Крепости Стражей Зимы, которые еще не спасены.",1
 18587,MINIMAP_TRACKING_MAILBOX,"Почтовый ящик",1
 18588,SPELL_FAILED_CUSTOM_ERROR_4,"Требуется облик орка из клана Песни Войны.",1
@@ -7399,7 +7401,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 18658,ACTION_SPELL_AURA_BROKEN_BUFF_POSSESSIVE,0,1
 18659,ACTION_SPELL_AURA_BROKEN_DEBUFF,прервано,1
 18660,ACTION_SPELL_AURA_BROKEN_DEBUFF_FULL_TEXT,"""%4$s"" |3-1(%2$s) снято |3-4(%1$s).",1
-18661,ACTION_SPELL_AURA_BROKEN_DEBUFF_POSSESSIVE,0,1
 18663,ACTION_SPELL_AURA_BROKEN_SPELL_BUFF,прервано,1
 18664,ACTION_SPELL_AURA_BROKEN_SPELL_BUFF_FULL_TEXT,"%5$s |3-1(%1$s) прекращает действие эффекта ""%2$s"" на |3-3(%4$s).",1
 18665,ACTION_SPELL_AURA_BROKEN_SPELL_BUFF_POSSESSIVE,1,1
@@ -7947,6 +7948,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19240,GLYPH_EMPTY,Свободно,1
 19241,GLYPH_LOCKED,Заблокировано,1
 19243,GLYPH_INACTIVE,Свободно,1
+34774,HIT_LCD,МЕТК,1
 19244,GLYPH_EMPTY_DESC,"Используйте символ в вашем рюкзаке, чтобы начертать его в своей книге заклинаний.",1
 19245,MINIMAP_TRACKING_HIDDEN_QUESTS,"Задания низкого уровня",1
 19246,GLYPH_SLOT_TOOLTIP1,"Требуется 15-й уровень.",1
@@ -8013,7 +8015,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19307,FULLDATE_MONTH_NOVEMBER,Ноябрь,3
 19308,FULLDATE_MONTH_OCTOBER,Октябрь,3
 19309,FULLDATE_MONTH_SEPTEMBER,Сентябрь,3
-21070,GUILD_PERKS,"Гильдейские бонусы",1
 19310,TRANSFER_ABORT_UNIQUE_MESSAGE1,"Вы не можете покинуть это место, находясь под властью Короля-лича.",1
 19311,FLOOR,Уровни,1
 19312,FLOOR_NUMBER,"Уровень %d",1
@@ -8133,6 +8134,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19436,CUSTOM,Вручную,3
 19437,VIDEO_QUALITY_S,"Качество изображения: %s",3
 19438,VIDEO_QUALITY_SUBTEXT1,"Рекомендуемые минимальные настройки изображения, позволяющие добиться наивысшей производительности.",3
+19492,SPELL_FAILED_CUSTOM_ERROR_52,"Цель должна быть привязана к вам.",1
+19494,SPELL_FAILED_CUSTOM_ERROR_53,"Цель должна быть нежитью.",1
 19439,VIDEO_QUALITY_SUBTEXT2,"Средний уровень детализации текстур, маленькое расстояние видимости объектов, низкое качество эффектов заклинаний. Настройки, позволяющие добиться хорошей производительности.",3
 19440,VIDEO_QUALITY_SUBTEXT3,"Высокий уровень детализации текстур, среднее расстояние видимости объектов, среднее качество эффектов заклинаний. Настройки, позволяющие добиться сбалансированной производительности.",3
 19441,VIDEO_QUALITY_SUBTEXT4,"Высокий уровень детализации текстур, максимальное расстояние видимости объектов, высокое качество эффектов заклинаний. Эти настройки позволяют добиться прекрасного качества изображения.",3
@@ -8181,11 +8184,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19485,SPELL_FAILED_CUSTOM_ERROR_48,"Создание из Железных Рун находится слишком далеко.",1
 19486,SPELL_FAILED_CUSTOM_ERROR_49,"Требуется быть великим мастером инженерного дела",1
 19487,OPTION_TOOLTIP_SHOW_NUMERIC_THREAT,"Отображать угрозу по отношению к противникам в процентах.",1
-21342,DISPLAY_BORDERS,"Показывать границы",1
 19488,SPELL_FAILED_CUSTOM_ERROR_50,"Вы не можете использовать это средство передвижения.",1
 19489,SPELL_FAILED_CUSTOM_ERROR_51,"Некого выбрасывать!",1
-19492,SPELL_FAILED_CUSTOM_ERROR_52,"Цель должна быть привязана к вам.",1
-19494,SPELL_FAILED_CUSTOM_ERROR_53,"Цель должна быть нежитью.",1
 19495,DUNGEON_NAME_WITH_DIFFICULTY,"%1$s (%2$s)",1
 19496,SPELL_FAILED_CUSTOM_ERROR_54,"Вы не выбрали цель или ваша цель находится слишком далеко.",1
 19497,OPTION_TOOLTIP_SHOW_TARGET_EFFECTS,"Отображать на вашей цели эффекты, такие как немота и замедление.",1
@@ -8424,7 +8424,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19754,STEREO_HARDWARE_CURSOR,"Аппаратный указатель",3
 19755,OPTION_TOOLTIP_STEREO_HARDWARE_CURSOR,"Хотя включение параметра и улучшает быстродействие компьютера, 3D-курсор с этой настройкой не работает.",3
 19756,INSTANCE_LEAVE,"Покинуть подземелье",1
-21417,ITEM_GLYPH_ONUSE,"Заучить этот символ.",1
 19757,SPELL_FAILED_CUSTOM_ERROR_60,"Необходимо вооружиться копьем.",1
 19759,OBJECTIVES_WATCH_QUESTS_ARENA,"Невозможно следить за выполнением заданий, находясь на арене.",1
 19760,SHOW_ARENA_ENEMY_CASTBAR_TEXT,"Индикаторы заклинаний",1
@@ -8547,7 +8546,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19879,ITEM_MOD_SPELL_POWER_SHORT,"Сила заклинаний",1
 19880,ITEM_MOD_BLOCK_VALUE_SHORT,"к показателю блокирования",1
 19881,ITEM_MOD_DAMAGE_PER_SECOND_SHORT,"к урону в секунду",1
-21768,GRAVEYARD_ELIGIBLE,"Доступное кладбище",1
 19882,ITEM_MOD_FERAL_ATTACK_POWER_SHORT,"к силе атаки в зверином облике",1
 19883,ITEM_MOD_POWER_REGEN0_SHORT,"маны в 5 сек.",1
 19884,ITEM_MOD_POWER_REGEN1_SHORT,"ярости в 5 сек.",1
@@ -8614,7 +8612,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 19948,BIND_TRADE_TIME_REMAINING,"В течение %s вы можете отдать этот предмет игроку, если тот тоже имеет право получить его.",1
 19949,ERR_TRADE_NOT_ON_TAPLIST,"Вы можете передавать персональные предметы только тем игрокам, которые могли подобрать их сами.",1
 19952,ITEM_REQ_ARENA_RATING_3V3,"Требуется личный рейтинг и рейтинг команды Арены %d|nв команде 3 на 3 или 5 на 5",1
-20082,ALTERED_FORM_CAN_NEVER_TRANSFORM,"Вы не можете сменить облик",1
 19953,ITEM_REQ_ARENA_RATING_5V5,"Требуется личный рейтинг и рейтинг команды Арены %d|nв команде 5 на 5",1
 19954,KEY_BUTTON6,"Кнопка мыши 6",1
 19955,ERR_RAID_DIFFICULTY_CHANGED_S,"Установленный режим сложности рейда: %s.",1
@@ -8672,7 +8669,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20010,GM_RESPONSE_POPUP_VIEW_RESPONSE,"Просмотреть ответ",1
 20011,GM_RESPONSE_POPUP_NEED_MORE_HELP_WARNING,"Вы не сможете просматривать свой ответ, если запросите дополнительную помощь. Вы уверены, что хотите отправить повторный запрос?",1
 20012,GM_RESPONSE_POPUP_RESOLVE_CONFIRM,"Вы не сможете просматривать свой ответ, если отметите его как прочтенный. Уверены, что хотите отметить его?",1
-21895,GUILD_PLAYSTYLE_CASUAL,Обычные,1
 20013,ERR_GMRESPONSE_DB_ERROR,"Не удается получить ответ от гейм-мастера.",1
 20014,INBOX_TOO_MUCH_MAIL,"Ваш почтовый ящик полон.",1
 20015,END_BOUND_TRADEABLE,"После выполнения этого действия вы больше не сможете передать этот предмет другому игроку.",1
@@ -8733,6 +8729,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20077,SLASH_SET_TITLE2,/звание,1
 20080,BINDING_NAME_STARTATTACK,"Начать атаку",1
 20081,SPELL_FAILED_CUSTOM_ERROR_128,"Сейчас вы не можете сменить облик.",1
+20082,ALTERED_FORM_CAN_NEVER_TRANSFORM,"Вы не можете сменить облик",1
 20084,ERR_REMOVE_FROM_PVP_QUEUE_FACTION_CHANGE_NONE,"Вы покинули PvP-очередь, так как сменили фракцию.",1
 20085,REPUTATION_ABBR,Репутация,1
 20086,SKILLS_ABBR,Навыки,1
@@ -8745,7 +8742,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20095,TRADE_POTENTIAL_BIND_ENCHANT,"Если вы зачаруете этот предмет, он станет персональным.",1
 20096,ERR_TRADE_TEMP_ENCHANT_BOUND,"Вы не можете обменивать предмет с временным улучшением.",1
 20097,POWER_TYPE_HEAT,Жар,1
-20098,PRESS_TAB,"Нажмите Tab",1
+20098,PRESS_TAB,"Нажмите Tab",3
 20099,ITEM_MOD_HEALTH_REGEN,"Восстанавливает %s здоровья раз в 5 сек.",1
 20100,CALENDAR_STATUS_TENTATIVE,"Под вопросом",1
 20101,MERCHANT_HONOR_POINTS,"%d |4очко чести:очка чести:очков чести;",1
@@ -8795,7 +8792,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20148,ERR_PARTY_LFG_BOOT_LIMIT,"Вы не можете начинать других голосований в группе.",1
 20149,ERR_PARTY_LFG_BOOT_COOLDOWN_S,"Подождите %s, прежде чем начинать новое голосование.",1
 20150,ERR_PARTY_LFG_BOOT_IN_PROGRESS,"Сейчас проводится другое голосование.",1
-20253,INSTANCE_UNAVAILABLE_OTHER_LEVEL_TOO_HIGH,"Уровень |3-1(%s) слишком высок.",1
 20151,SPELL_FAILED_CUSTOM_ERROR_80,"Сначала нагрузить барахлящий генератор, потом разжечь прохудившуюся печку, а затем бросить сигару на легковоспламеняющуюся кровать.",1
 20152,SPELL_FAILED_CUSTOM_ERROR_81,"Вы уже воспользовались газоботом и уничтожили главный штаб!",1
 20153,SPELL_FAILED_ROCKET_PACK,"Вы находитесь слишком далеко от транспонстера Зафода! Ракетный ускоритель не сработает.",1
@@ -8854,8 +8850,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20208,TUTORIAL_TITLE60,"Особые способности",1
 20209,TUTORIAL60,"Не забывайте, что у вашего персонажа есть способности, которые вынесены на панель команд внизу экрана.|n|nС их помощью он убьет противника значительно быстрее, чем при помощи одного лишь оружия.",1
 20210,TUTORIAL59,"Чтобы освободить сумки и заработать немного денег, вы можете продать часть добычи.|n|nНайдите торговца и щелкните по нему |cffffd200правой кнопкой мыши|r. Откройте сумки и щелкните |cffffd200правой кнопкой мыши|r по тем предметам, которые хотите продать.",1
-20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,"Размер карты мира",1
 20211,TUTORIAL55,"Поздравляем! Вы одолели достаточно противников.|n|nВернитесь к тому, кто дал вам задание, и получите награду.",1
+20254,INSTANCE_UNAVAILABLE_OTHER_GEAR_TOO_LOW,"Средний уровень экипировки |3-1(%1$s) недостаточно высок (требуется: %2$d-й; сейчас: %3$d-й).",1
+20255,INSTANCE_UNAVAILABLE_OTHER_GEAR_TOO_HIGH,"Средний уровень экипировки |3-1(%1$s) слишком высок (требуется: %2$d-й; сейчас: %3$d-й).",1
+20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, |3-6(%3$s) %2$d-го уровня",1
 20212,TUTORIAL56,"В верхнем левом углу экрана находится зеленый индикатор вашего здоровья. Если он опустится до нуля, персонаж погибнет, так что будьте внимательны.|n|nПод индикатором здоровья находится вторая полоса, которая показывает уровень доступных ресурсов для использования способностей, например, маны, ярости или энергии.",1
 20213,TUTORIAL57_HUMAN,"У |cffffd200маршала Макбрайда|r. есть новое задание для вас! Щелкните по нему |cffffd200правой кнопкой мыши|r, когда указатель превратится в |cffffd200желтый вопросительный знак|r.",1
 20214,TUTORIAL58,"Ваши сумки полны, и вы больше не можете подбирать добычу. Чтобы освободить место, подойдите к торговцу и продайте ему ненужные вещи.|n|nТорговцы встречаются в каждом городе, деревне и лагере.",1
@@ -8894,8 +8892,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20250,INSTANCE_UNAVAILABLE_SELF_OTHER,"Вы не удовлетворяете требованиям для этого подземелья.",1
 20251,INSTANCE_UNAVAILABLE_OTHER_EXPANSION_TOO_LOW,"У |3-1(%s) не установлено необходимое дополнение к World of Warcraft.",1
 20252,INSTANCE_UNAVAILABLE_OTHER_LEVEL_TOO_LOW,"|3-2(%s) следует получить более высокий уровень.",1
-20254,INSTANCE_UNAVAILABLE_OTHER_GEAR_TOO_LOW,"Средний уровень экипировки |3-1(%1$s) недостаточно высок (требуется: %2$d-й; сейчас: %3$d-й).",1
-20255,INSTANCE_UNAVAILABLE_OTHER_GEAR_TOO_HIGH,"Средний уровень экипировки |3-1(%1$s) слишком высок (требуется: %2$d-й; сейчас: %3$d-й).",1
+20253,INSTANCE_UNAVAILABLE_OTHER_LEVEL_TOO_HIGH,"Уровень |3-1(%s) слишком высок.",1
+20613,FRIENDS_LIST_AWAY,Отсутствует,1
 20256,INSTANCE_UNAVAILABLE_OTHER_RAID_LOCKED,"За |3-4(%s) уже сохранена копия этого подземелья.",1
 20257,INSTANCE_UNAVAILABLE_OTHER_OTHER,"%s не отвечает требованиям подземелья.",1
 20258,UNIT_NAMEPLATES,"Индикаторы здоровья",1
@@ -8958,7 +8956,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20316,DUNGEON_FLOOR_ICECROWNCITADEL7,"Ледяной Трон",1
 20317,DUNGEON_FLOOR_ICECROWNCITADEL8,"Ледяная Скорбь",1
 20318,ERR_LFG_RANDOM_COOLDOWN_PLAYER,"Вы не можете встать в очередь в случайное подземелье, пока не прошло время восстановления предыдущего случайного подземелья.",1
-20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Все,1
 20319,ERR_LFG_RANDOM_COOLDOWN_PARTY,"Как минимум у одного участника группы еще не окончилось время восстановления предыдущего случайного подземелья.",1
 20320,QUEST_DASH,-,1
 20321,KBASE_LAG,"Сообщить о задержке",1
@@ -9010,8 +9007,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20368,BUFFOPTIONS_SUBTEXT,"Позволяет управлять отображением положительных и отрицательных эффектов.",1
 20369,CONSOLIDATE_BUFFS_TEXT,"Объединять положительные эффекты",1
 20370,SHOW_CASTABLE_DEBUFFS_TEXT,"Наложенные вами отрицательные эффекты",1
-21067,GUILD_TAB_REWARDS,Награды,1
 20371,OPTION_TOOLTIP_CONSOLIDATE_BUFFS,"Фильтр положительных эффектов, отображаемых в соответствующем поле. Непродолжительные эффекты отображаются всегда. Долговременные эффекты отображаются, только когда срок их действия начинает истекать.",1
+20614,FRIENDS_LIST_BUSY,"Не беспокоить",1
+20615,FRIENDS_LIST_ENTER_TEXT,"Сообщение для друзей",1
 20372,OPTION_TOOLTIP_SHOW_CASTABLE_DEBUFFS,"Отображать только те отрицательные эффекты, которые наложили вы.",1
 20373,ITEM_MISSING,"Предмет для ячейки %s отсутствует",1
 20374,FINGER0SLOT_UNIQUE,"Кольцо 1",1
@@ -9122,8 +9120,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20481,VOTE_BOOT_REASON_REQUIRED,"Укажите причину для исключения |3-1(%s) из группы:",1
 20482,CHAT_PARTY_GUIDE_GET,"|Hchannel:PARTY|h[Лидер]|h %s:\32",1
 20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,"Добавить или удалить задание из списка отслеживаемых.|nВы также можете щелкнуть по заданию или значку задания, удерживая Shift.",1
+20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,"Размер карты мира",1
 20485,SPELL_FAILED_CUSTOM_ERROR_91,"Вы уже уничтожили нефтяную платформу ТКК.",1
 20486,SPELL_FAILED_CUSTOM_ERROR_92,"Вы уже запустили достаточно клеток.",1
+20616,FRIENDS_LIST_PLAYING,"Также в игре:",1
 20487,LOOT_ROLL_INELIGIBLE_REASON1,"Персонажи вашего класса не могут выбрать ""Мне это нужно"" при розыгрыше этой вещи.",1
 20488,LOOT_ROLL_INELIGIBLE_REASON2,"У вас уже есть максимально допустимое количество таких предметов.",1
 20489,LOOT_ROLL_INELIGIBLE_REASON3,"Этот предмет нельзя распылить.",1
@@ -9181,7 +9181,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20543,ERR_IN_NON_RANDOM_BG,"Невозможно встать в очередь на случайное поле боя, пока вы стоите в очереди на другое поле боя.",1
 20544,POWER_TYPE_ARCANE_ENERGY,"Чародейская энергия",1
 20545,TIME_IN_QUEUE,"Время ожидания: %s",1
-21068,GUILD_TAB_INFO,Справка,1
 20546,ERR_AUCTION_HOUSE_DISABLED,"В данный момент аукционный дом закрыт.|nПожалуйста, зайдите позже.",1
 20547,ERR_AUCTION_ENOUGH_ITEMS,"У вас недостаточно предметов.",1
 20548,LFG_RANDOM_COOLDOWN_YOU,"Недавно вы занимали очередь на прохождение случайного подземелья.\nВ следующий раз вы сможете занять очередь через:",1
@@ -9239,11 +9238,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20609,BLOCK_INVITES,"Заблокировать приглашения",1
 20611,FRIENDS_LIST_ONLINE,"В сети",1
 20612,FRIENDS_LIST_OFFLINE,"Не в сети",1
-20613,FRIENDS_LIST_AWAY,Отсутствует,1
-20614,FRIENDS_LIST_BUSY,"Не беспокоить",1
-20615,FRIENDS_LIST_ENTER_TEXT,"Сообщение для друзей",1
-20616,FRIENDS_LIST_PLAYING,"Также в игре:",1
-20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, |3-6(%3$s) %2$d-го уровня",1
 20618,FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE,"%1$s: |3-6(%3$s), |3-6(%4$s) %2$s-го уровня",1
 20619,FRIENDS_LIST_ZONE,"Зона: ",1
 20620,FRIENDS_LIST_REALM,"Игровой мир: ",1
@@ -9300,6 +9294,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20681,POWER_TYPE_SHADOWFLAME_ENERGY,"Энергия темного пламени",1
 20682,FLIGHT_MAP,"Карта полетов",1
 20683,FRIENDS_FRIENDS_HEADER,"Друзья игрока |3-1(%s)",1
+20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Все,1
 20685,FRIENDS_FRIENDS_CHOICE_POTENTIAL,"Вероятные друзья",1
 20686,FRIENDS_FRIENDS_CHOICE_MUTUAL,"Общие друзья",1
 20687,FRIENDS_FRIENDS_MUTUAL_TEXT,(Общие),1
@@ -9418,7 +9413,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 20805,BN_INLINE_TOAST_FRIEND_ONLINE,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s входит в сеть.",1
 20806,BN_INLINE_TOAST_FRIEND_OFFLINE,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s выходит из сети.",1
 20807,BN_INLINE_TOAST_BROADCAST,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s",1
-21896,GUILD_PLAYSTYLE_MODERATE,Обычный,1
 20808,BN_INLINE_TOAST_BROADCAST_INFORM,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tВаша рассылка отправлена.",1
 20810,BN_INLINE_TOAST_FRIEND_REQUEST,"|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tВы получили новое предложение стать друзьями.",1
 20811,REMOVE_PLAYER,Удалить,1
@@ -9589,9 +9583,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21000,STAT_MASTERY_TOOLTIP,"Показатель искусности: %s [+%.2F%%]",1
 21001,STAT_RUNIC_POWER_TOOLTIP,"Максимальный запас силы рун.",1
 21002,STAT_MANA_TOOLTIP,"Максимальный запас маны. Мана расходуется на произнесение заклинаний.",1
-21069,GUILD_REPUTATION_COLON,"Репутация в гильдии:",1
 21003,STAT_ENERGY_TOOLTIP,"Максимальный запас энергии. Энергия расходуется при применении способностей и восстанавливается со временем.",1
 21004,STAT_RAGE_TOOLTIP,"Максимальный запас ярости. Ярость расходуется при применении способностей и накапливается, когда персонаж атакует врагов или получает урон.",1
+21073,GUILD_NO_GUILD_EVENTS,"Нет близящихся событий",1
+21074,GUILD_LATEST_PERK,"Последний бонус",1
 21005,STAT_FOCUS_TOOLTIP,"Максимальный уровень концентрации. Концентрация понижается при применении способностей и повышается со временем.",1
 21006,ERR_GUILD_NAME_INVALID,"Некорректное название гильдии.",1
 21007,ERR_QUEST_FAILED_SPELL,"Вы не выучили требуемое заклинание.",1
@@ -9650,11 +9645,12 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21064,GUILD_TAB_GUILD,Гильдия,1
 21065,GUILD_TAB_ROSTER,Список,1
 21066,GUILD_TAB_NEWS,Новости,1
+21067,GUILD_TAB_REWARDS,Награды,1
+21068,GUILD_TAB_INFO,Справка,1
+21069,GUILD_REPUTATION_COLON,"Репутация в гильдии:",1
+21070,GUILD_PERKS,"Гильдейские бонусы",1
 21071,GUILD_NEWS_AND_EVENTS,"Новости и события гильдии",1
 21072,GUILD_NO_GUILD_NEWS,"Нет новостей",1
-21073,GUILD_NO_GUILD_EVENTS,"Нет близящихся событий",1
-21074,GUILD_LATEST_PERK,"Последний бонус",1
-21075,GUILD_VIEW_LOG,Журнал,1
 21076,GUILD_VIEW_ALL_RECIPES_LINK,[Все],1
 21077,GUILD_TRADE_SKILL_TITLE,"Гильдейский навык: %s",1
 21078,GUILD_TRADE_SKILL_VIEW_CRAFTERS,Ремесленники,1
@@ -9715,9 +9711,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21135,PET_ACTION_ATTACK_TOOLTIP,"Приказать питомцу или прислужнику атаковать вашу текущую цель.",1
 21136,PET_ACTION_FOLLOW_TOOLTIP,"Приказать питомцу или прислужнику следовать за вами.",1
 21137,PET_ACTION_MOVE_TO_TOOLTIP,"Приказать питомцу или прислужнику переместиться в указанную точку.",1
-21897,GUILD_PLAYSTYLE_HARDCORE,Серьезный,1
 21138,PET_ACTION_WAIT_TOOLTIP,"Приказать питомцу или прислужнику оставаться в указанной точке.",1
 21139,PET_MODE_AGGRESSIVE_TOOLTIP,"Ваш питомец или прислужник будет атаковать находящихся рядом противников.",1
+21201,GUILD_NEWS_MAKE_STICKY,"Прикрепить новость",1
 21140,PET_MODE_DEFENSIVE_TOOLTIP,"Ваш питомец или прислужник будет атаковать только тех противников, которые атакуют его или вас.",1
 21141,PET_MODE_PASSIVE_TOOLTIP,"Ваш питомец или прислужник не будет атаковать, пока вы не отдадите соответствующую команду.",1
 21142,AMOUNT_TO_PICKUP,"Вы хотите отдать:",1
@@ -9774,7 +9770,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21198,GUILD_NEWS_FILTERS,"Фильтры новостей гильдии",1
 21199,GUILD_NEWS_VIEW_ACHIEVEMENT,"Просмотреть достижение",1
 21200,GUILD_NEWS_LINK_ITEM,"Отправить ссылку на предмет в чат",1
-21201,GUILD_NEWS_MAKE_STICKY,"Прикрепить новость",1
 21202,GUILD_NEWS_REMOVE_STICKY,"Открепить новость",1
 21203,GUILD_NEWS,"Новости гильдии",1
 21204,GUILD_SET_FILTERS_LINK,"[Щелкните, чтобы задать фильтры.]",1
@@ -9834,7 +9829,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21262,PET_STATS_EXPAND_TOOLTIP,"Показать информацию о питомце",1
 21263,GUILD_LEVEL,"Уровень гильдии: %d",1
 21264,SHOW_POINTS_AS_AVG,"Усредненные показатели",1
-21898,GUILD_AVAILABILITY,Доступность,1
 21265,OPTION_TOOLTIP_SHOW_POINTS_AS_AVG,"Переключение отображаемых численных значений в описаниях заклинаний (урон, лечение и т. д.) между средними и минимальными/максимальными значениями.",1
 21266,GUILD_ROSTER_ARENA_RATING,"%d (%dх%d)",1
 21267,PRIME_GLYPHS,"Основные символы",1
@@ -9906,6 +9900,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21339,GUILD_REPUTATION_WARNING,"Вы потеряете один уровень репутации, заработанной в гильдии ""%s"".",1
 21340,ERR_RANK_REQUIRES_AUTHENTICATOR,"Для получения этого гильдейского звания требуется Authenticator.",1
 21341,GUILD_REPUTATION_WARNING_GENERIC,"Вы потеряете один уровень репутации, заработанной в предыдущей гильдии.",1
+21342,DISPLAY_BORDERS,"Показывать границы",1
 21343,OPTION_TOOLTIP_SHOW_BORDERS,"Отображать художественно оформленные границы интерфейса рейда.",1
 21344,RAID_USE_CLASS_COLORS,"Цвета классов",1
 21345,OPTION_TOOLTIP_RAID_USE_CLASS_COLORS,"Окрашивать индикаторы здоровья участников рейда цветами, соответствующими их классу.",1
@@ -9976,8 +9971,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21414,WARGAME_TOOLTIP,"В рамках маневров вы можете сразиться с другой группой игроков на любом поле боя или арене. Чтобы начать маневры, лидер группы должен указать поле боя или арену, выбрать в качестве цели лидера другой группы и нажать кнопку ""Начать маневры"".",1
 21415,STAT_AVERAGE_ITEM_LEVEL,"Уровень предметов",1
 21416,STAT_AVERAGE_ITEM_LEVEL_TOOLTIP,"Средний уровень предметов вашего снаряжения.",1
+21417,ITEM_GLYPH_ONUSE,"Заучить этот символ.",1
 21418,LEVEL_UP_GLYPH3_LINK,"Доступен новый |cffFF4E00|Hglyphpane:|h[основной символ]|h|r!",1
 21419,SPELL_FAILED_CUSTOM_ERROR_122,"Сначала нужно выбрать специализацию.",1
+21537,VRN_UNSUPPORTED,"Ваша система не поддерживает данную опцию.",3
 21420,INSTANCE_LOCK_WARNING_PREVIOUSLY_SAVED,"Вы вошли в подземелье, прохождение которого было |cffffd200продлено|r. После победы над любым боссом ваш прогресс в подземелье ""%1$s"" будет сохранен.",1
 21421,GUILD_EXPERIENCE,"Опыт гильдии",1
 21422,GUILD_EXPERIENCE_TOOLTIP,"Опыт гильдии можно получать, выполняя задания, убивая боссов и зарабатывая победы на рейтинговых полях боя в составе гильдии.",1
@@ -10009,8 +10006,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21448,HELPFRAME_ACCOUNTSECURITY_TEXT3,"Одна из наиболее распространенных причин взлома учетных записей – сторонние вредоносные программы, называемые ""клавиатурными шпионами"". Они могут устанавливаться без вашего ведома, поэтому важно, чтобы ваш компьютер всегда был защищен антивирусными программами.",1
 21449,HELPFRAME_ACCOUNTSECURITY_FOOTER,"Дополнительную информацию о безопасности учетной записи можно найти на сайте |cffffd200www.battle.net|r.",1
 21450,HELPFRAME_OPENTICKETINSTRUCTIONS_TITLE,Запрос,1
-21533,OPTION_MAXFPSBK_CHECK,"Воспользуйтесь этой функцией, чтобы ограничить частоту кадров игры в фоновом режиме.",3
 21451,HELPFRAME_OPENTICKETINSTRUCTIONS_TEXT1,"Служба внутриигровой поддержки доступна круглосуточно. Для более быстрого получения ответа отправляйте, пожалуйста, не более одного запроса по каждой проблеме.",1
+21538,VRN_GRAPHICS,"Ваша видеосистема не поддерживает данную опцию.",3
 21452,HELPFRAME_OPENTICKETINSTRUCTIONS_TEXT2,"Для связи со службой внутриигровой поддержки, пожалуйста, перейдите по этой ссылке |cffffd200https://battle.net/help/",1
 21453,HELPFRAME_OPENTICKETINSTRUCTIONS_TEXT3,"Более подробную информацию можно найти на форумах World of Warcraft по адресу |cffffd200www.wow-europe.com|r.",1
 21454,TUTORIAL5_HUNTER,"Чтобы вступить в бой, щелкните по значку |cffffd200Чародейский выстрел|r на |cffffd200панели команд|r.",1
@@ -10041,8 +10038,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21479,TUTORIAL1_NIGHTELF,"Персонажи, дающие задания, помечены желтыми восклицательными знаками (|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0|t). Вы можете получить задание у |cffffd200Илталайна|r, поговорив с ним.|n|nЧтобы поговорить с |cffffd200Илталайном|r, щелкните по нему |cffffd200правой кнопкой мыши|r.",1
 21480,TUTORIAL1_TAUREN,"Персонажи, дающие задания, помечены желтыми восклицательными знаками (|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0|t). Вы можете получить задание у |cffffd200вождя Соколиного Ветра|r, поговорив с ним.|n|nЧтобы поговорить с |cffffd200Соколиным Ветром|r, щелкните по нему |cffffd200правой кнопкой мыши|r.",1
 21481,TUTORIAL1_SCOURGE,"Персонажи, дающие задания, помечены желтыми восклицательными знаками (|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0|t). Вы можете получить задание у |cffffd200Агаты|r, поговорив с ней.|n|nЧтобы поговорить с |cffffd200Агатой|r, щелкните по ней |cffffd200правой кнопкой мыши|r.",1
-21534,VIDEO_OPTIONS_RECOMMENDED,Рекомендуется,3
 21482,TUTORIAL10_DWARF,"Вы получили задание разделаться с |cffffd200захватчиками из племени Каменной Челюсти|r.\nОриентируйтесь по мини-карте в правом верхнем углу экрана.",1
+21539,VRN_NEEDS_2_0,"Требуется видеокарта с поддержкой шейдерной модели 2.",3
 21483,TUTORIAL10_NIGHTELF,"Вы получили задание разделаться с |cffffd200молодыми ночными саблезубами|r. \nОриентируйтесь по мини-карте в правом верхнем углу экрана.",1
 21484,TUTORIAL10_GNOME,"Вы получили задание разделаться с |cffffd200безумными лепрогномами|r. \nОриентируйтесь по мини-карте в правом верхнем углу экрана.",1
 21485,TUTORIAL10_ORC,"Вы получили задание разделаться с |cffffd200пятнистыми вепрями|r. \nОриентируйтесь по мини-карте в правом верхнем углу экрана.",1
@@ -10092,11 +10089,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21530,MAXFPS_CHECK,"Ограничение активного быстродействия",3
 21531,OPTION_MAXFPS_CHECK,"Воспользуйтесь этой функцией, чтобы ограничить частоту кадров в активном режиме.",3
 21532,MAXFPSBK_CHECK,"Ограничение фонового быстродействия",3
+21533,OPTION_MAXFPSBK_CHECK,"Воспользуйтесь этой функцией, чтобы ограничить частоту кадров игры в фоновом режиме.",3
+21534,VIDEO_OPTIONS_RECOMMENDED,Рекомендуется,3
 21535,VRN_NOMULTISAMPLE,"Параметр сглаживания должен быть 1x.",3
 21536,VRN_ILLEGAL,"Неверное значение",3
-21537,VRN_UNSUPPORTED,"Ваша система не поддерживает данную опцию.",3
-21538,VRN_GRAPHICS,"Ваша видеосистема не поддерживает данную опцию.",3
-21539,VRN_NEEDS_2_0,"Требуется видеокарта с поддержкой шейдерной модели 2.",3
 21540,VRN_NEEDS_3_0,"Требуется видеокарта с поддержкой шейдерной модели 3.",3
 21541,VRN_NEEDS_4_0,"Требуется видеокарта с поддержкой шейдерной модели 4.",3
 21542,VRN_NEEDS_5_0,"Требуется видеокарта с поддержкой шейдерной модели 5.",3
@@ -10136,6 +10132,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21583,TUTORIAL57_TROLL_HUNTER,"Обратившись к |cffffd200Ортеззе|r, вы сможете получить задание! Щелкните по Ортеззе |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
 21584,TUTORIAL57_TROLL_MAGE,"Обратившись к |cffffd200Сорате|r, вы сможете получить задание! Щелкните по Сорате |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
 21585,TUTORIAL57_TROLL_WARLOCK,"Обратившись к |cffffd200Волдреке|r, вы сможете получить задание! Щелкните по Волдреке |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
+21713,GUILD_INVITE_DECLINE,Отказаться,1
 21586,TUTORIAL57_TROLL_PRIEST,"Обратившись к |cffffd200Тунари|r, вы сможете получить задание! Щелкните по Тунари |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
 21587,TUTORIAL57_TROLL_ROGUE,"Обратившись к |cffffd200Легати|r, вы сможете получить задание! Щелкните по Легати |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
 21588,TUTORIAL57_TROLL_SHAMAN,"Обратившись к |cffffd200Некали|r, вы сможете получить задание! Щелкните по Некали |cffffd200правой кнопкой мыши|r, когда указатель мыши превратится в |cffffd200желтый вопросительный знак|r.",1
@@ -10173,7 +10170,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21624,VIDEO_OPTIONS_SHADOW_QUALITY_HIGH,"Тени высокого разрешения от объектов и персонажей. Высокая дистанция.",3
 21625,VIDEO_OPTIONS_SHADOW_QUALITY_ULTRA,"Мягкие тени высокого разрешения от объектов и персонажей. Высокая дистанция.",3
 21626,VIDEO_OPTIONS_LIQUID_DETAIL_LOW,"Анимированные текстуры водных поверхностей, текстурированные волны, отсутствие отражений.",3
-21766,GRAVEYARD_SELECTED,"Выбранное кладбище",1
 21627,VIDEO_OPTIONS_LIQUID_DETAIL_FAIR,"Текстуры водных поверхностей с картами нормалей, текстурированные волны, отражение неба.",3
 21628,VIDEO_OPTIONS_LIQUID_DETAIL_MEDIUM,"Текстуры водных поверхностей с картами нормалей, шейдерные волны, отражение видимых объектов.",3
 21629,VIDEO_OPTIONS_LIQUID_DETAIL_ULTRA,"Текстуры водных поверхностей с картами нормалей, шейдерные волны, отражение всех объектов.",3
@@ -10222,7 +10218,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21672,WORLD_MARKER4,"|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:14:14|t |cffff2020Красная|r метка",1
 21673,WORLD_MARKER5,"|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:14:14|t |cffffff00Желтая|r метка",1
 21674,BATTLEFIELD_IN_QUEUE_RATED,"В очереди |3-9(%s)\nОсталось ждать (примерно): %s\nВремя ожидания: %s",1
-21767,GRAVEYARD_SELECTED_TOOLTIP,"Вы будете воскрешены на кладбище.",1
+21710,ITEM_REQ_ARENA_RATING_3V3_BG,"Требуется рейтинг поля боя %d или |nличный рейтинг арены %d|nв команде 3 на 3.",1
+21711,TUTORIAL1,"Персонажи, дающие задания, помечены желтыми восклицательными знаками. Щелкните по ним правой кнопкой мыши, чтобы получить то или иное задание.",1
+21712,GUILD_INVITE_JOIN,Вступить,1
 21675,WINTERGRASP_DESCRIPTION,"Древняя крепость титанов, построенная для защиты Склепа Аркавона. Герои Орды и Альянса ведут постоянную войну за контроль над крепостью в надежде получить доступ к сберегаемым в склепе артефактам, которые могут оказаться очень полезными в походе против Короля-лича.\n\nГномские и гоблинские инженеры работают не покладая рук в наскоро организованных мастерских, снабжая армии мощными осадными машинами для разрушения стен и ворот крепости.\n\n",1
 21676,TOL_BARAD_DESCRIPTION,"Тол Барад когда-то был хорошо обороняемой островной цитаделью королевства Стромгард, но во время Второй войны орки разрушили ее до основания. Годы спустя островом завладел Кул-Тирас, и под управлением группы волшебников на руинах крепости была построена огромная магическая темница.\n\nДля победы в масштабном сражении нужно одновременно удерживать Железный гарнизон, Пост Стража и Шлакозавод. На острове находятся три обзорные башни, разрушая которые можно продлить отведенное на битву время.\n\n",1
 21677,ERROR_CINEMATIC,"Этот ролик недоступен.",3
@@ -10258,10 +10256,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21707,TUTORIAL55_TROLL_WARLOCK,"Поздравляем! Вы уничтожили достаточно |cffffd200манекенов-тики|r|n|nВернитесь к |cffffd200Волдреке|r и получите награду.",1
 21708,REMOTE_CHAT,"Удаленный чат",1
 21709,PLAYER_LEVEL_NO_SPEC,"|c%2$s%3$s|r %1$s-го уровня",1
-21710,ITEM_REQ_ARENA_RATING_3V3_BG,"Требуется рейтинг поля боя %d или |nличный рейтинг арены %d|nв команде 3 на 3.",1
-21711,TUTORIAL1,"Персонажи, дающие задания, помечены желтыми восклицательными знаками. Щелкните по ним правой кнопкой мыши, чтобы получить то или иное задание.",1
-21712,GUILD_INVITE_JOIN,Вступить,1
-21713,GUILD_INVITE_DECLINE,Отказаться,1
 21714,ITEM_REQ_ARENA_RATING_BG,"Требуется рейтинг поля боя %d|n или личный рейтинг арены %d",1
 21715,ARCHAEOLOGY_RANK_TOOLTIP,"Навык археологии.",1
 21716,ARCHAEOLOGY_POJECTBAR_TOOLTIP,"Количество фрагментов, необходимое для сборки артефакта.\n\nЕдиновременно у вас может быть не более %d фрагментов артефактов каждой расы.",1
@@ -10312,7 +10306,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21763,RAID_SUMMON_FAILED_DEAD_OR_GHOST,"%s: игрок мертв или находится в облике призрака и не может быть призван.",1
 21764,RAID_SUMMON_FAILED_OFFLINE,"%s находится вне сети. Призыв невозможен.",1
 21765,RATEDBG_NOT_USABLE,"Использование на рейдовых полях боя невозможно.",1
+21766,GRAVEYARD_SELECTED,"Выбранное кладбище",1
+21767,GRAVEYARD_SELECTED_TOOLTIP,"Вы будете воскрешены на кладбище.",1
+21768,GRAVEYARD_ELIGIBLE,"Доступное кладбище",1
 21769,GRAVEYARD_ELIGIBLE_TOOLTIP,"Щелкните, чтобы выбрать это кладбище. После смерти вы будете воскрешены на нем.",1
+21838,ERR_LEARN_MOUNT_S,"Вы добавили средство передвижения ""%s"" в свою коллекцию.",1
 21770,PVP_CONQUEST_TOOLTIP,"Каждую неделю вы можете заработать ограниченное количество очков завоевания. Это количество зависит от максимального pvp-рейтинга, полученного на прошлой неделе.",1
 21771,DUNGEON_FLOOR_RAGEFIRE1,"Огненная Пропасть",1
 21772,STAT_MOVEMENT_SPEED,"Скорость движения",1
@@ -10368,7 +10366,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21835,HEADER_COLON,:,3
 21836,PVP_NOT_LEADER,"Очередь может занять только лидер группы.",1
 21837,PVP_NO_QUEUE_GROUP,"Ваша группа не может занять эту очередь.",1
-21838,ERR_LEARN_MOUNT_S,"Вы добавили средство передвижения ""%s"" в свою коллекцию.",1
+21898,GUILD_AVAILABILITY,Доступность,1
 21839,PVP_REWARD_FAILURE,"Зарабатывать очки завоевания могут только персонажи максимального уровня, входящие в состав подходящей группы.",1
 21840,BN_BLOCK_FAILED_TOO_MANY_RID,"Вы уже заблокировали максимальное число игроков по их ""настоящему имени"" и BattleTag.",1
 21841,BN_BLOCK_FAILED_TOO_MANY_CID,"Вы уже заблокировали максимальное число персонажей в службе Blizzard.",1
@@ -10423,6 +10421,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 21892,PICKUP_ACTION_KEY_TEXT,"Клавиша перетаскивания",1
 21893,LOOT_DISENCHANT_CREDIT,"Предмет %s был распылен |3-4(%s).",1
 21894,GUILDBANK_AWARD_MONEY_SUMMARY_FORMAT,"За прошлую неделю благодаря гильдейскому бонусу ""Денежный поток"" в банк было помещено %s.",1
+21895,GUILD_PLAYSTYLE_CASUAL,Обычные,1
+21896,GUILD_PLAYSTYLE_MODERATE,Обычный,1
+21897,GUILD_PLAYSTYLE_HARDCORE,Серьезный,1
 21899,GUILD_AVAILABILITY_WEEKDAYS,"По будням",1
 21900,GUILD_AVAILABILITY_WEEKENDS,"По выходным",1
 21901,GUILD_PLAYSTYLE,"Стиль игры",1
@@ -15142,7 +15143,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34102,CLASS_HUNTER_FEMALE,"Дикая природа – родная стихия охотника, а животные для него – почти как братья. Охотник умеет стрелять из ружей, арбалетов и луков. В бою ему помогают и прирученные звери. Ловушки могут наносить противнику повреждения или удерживать его на расстоянии. Основные характеристики этого класса – сила атаки и ловкость.",2
 34103,CLASS_HUNTER_SPELLDESC1,"Мощная атака дальнего боя.",2
 34104,CLASS_HUNTER_SPELLDESC2,"Призовите вашего верного питомца, который будет сражаться на вашей стороне.",2
-34603,SUGGEST_REALM,Автовыбор,2
+34660,VAS_ERROR_ERROR_HAS_OCCURRED,Ошибка,2
 34109,CLASS_INFO_DEATHKNIGHT0,"- Роль: танкование, нанесение урона",2
 34110,CLASS_INFO_DEATHKNIGHT1,"- Тяжелая броня (латы)",2
 34111,CLASS_INFO_DEATHKNIGHT2,"- Рыцари смерти – это бывшие слуги Короля-лича.",2
@@ -15199,7 +15200,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34162,CLASS_INFO_WARLOCK1,"- Легкая броня (ткань)",2
 34163,CLASS_INFO_WARLOCK2,"- Призывает прислужников-демонов.",2
 34164,CLASS_INFO_WARLOCK3,"- Акцент на проклятиях, вытягивании сил и эффектах, наносящих периодический урон.",2
-34662,VERSION_TEMPLATE,"%s %s (%s) (%s)\n%s",2
+34661,VERSION,Версия,2
 34165,CLASS_INFO_WARLOCK_ROLE_TT,"Роль: нанесение урона в дальнем бою",2
 34166,CLASS_INFO_WARRIOR0,"- Роль: танкование, нанесение урона",2
 34167,CLASS_INFO_WARRIOR1,"- Тяжелая броня (кольчуга/латы и щит)",2
@@ -15262,7 +15263,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34224,CLASS_WARLOCK_SPELLNAME2,"Камень души",2
 34225,CLASS_WARLOCK_SPELLNAME3,"Призыв демона",2
 34255,CONTEST_NOTICE,"Некоторые пункты Правил были изменены. Просмотрите весь текст Соглашения прежде, чем принимать его условия.",2
-34663,VETERAN_FEATURE_1,"Возобновите свои приключения!",2
+34662,VERSION_TEMPLATE,"%s %s (%s) (%s)\n%s",2
 34226,CLASS_WARRIOR,"Воины – бойцы в латных доспехах, стремящиеся достичь совершенства во владении оружием. Когда воин наносит урон или получает удар, он накапливает ярость, которую затем расходует на применение способностей.|n|nПерсонаж может посвятить себя освоению двуручного оружия, на бой с оружием в каждой руке или на классическое сочетание меча и щита. Воин также наделен способностями, которые позволяют ему быстро перемещаться по полю боя. Главная характеристика класса – сила, хотя воины, принимающие на себя урон, должны думать и о выносливости.",2
 34227,CLASS_WARRIOR_FEMALE,"Воины – бойцы в латных доспехах, стремящиеся достичь совершенства во владении оружием. Когда воин наносит урон или получает удар, он накапливает ярость, которую затем расходует на применение способностей.|n|nПерсонаж может посвятить себя освоению двуручного оружия, на бой с оружием в каждой руке или на классическое сочетание меча и щита. Воин также наделен способностями, которые позволяют ему быстро перемещаться по полю боя. Главная характеристика класса – сила, хотя воины, принимающие на себя урон, должны думать и о выносливости.",2
 34228,CLASS_WARRIOR_SPELLDESC1,"Вы можете попытаться добить противника, у которого осталось менее 20% здоровья.",2
@@ -15430,7 +15431,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34390,LOGIN_NOTIME,"<html><body><p align=""CENTER"">Оплаченное игровое время для этой учетной записи подошло к концу. Вы можете оплатить дополнительное время на странице <a href=""http://eu.battle.net/account/management/"">http://eu.battle.net/account/management/</a>.</p></body></html>",2
 34393,LOGIN_NO_GAME_ACCOUNT,"Не удалось войти в игру с данной учетной записью.|nВозможно, к вашей учетной записи Battle.net не прикреплена ни одна учетная запись World of Warcraft или же вы пытаетесь авторизоваться в регионе, в котором у вас нет прикрепленных учетных записей. Если проблема не исчезнет, обратитесь, пожалуйста, в службу поддержки пользователей.",2
 34394,LOGIN_NO_GAME_ACCOUNTS_IN_REGION_NONE,"<html><body><p align=\""CENTER\"">У вас нет игровых учетных записей в этом регионе.</p></body></html>",2
-34765,BLOCK_LCD,"БЛОК %.2f",1
+34775,DURABILITY_LCD,"ПРОЧН %d",1
 34395,LOGIN_PARENTALCONTROL,"Доступ к данной учетной записи ограничен на правах родительского контроля. Изменить параметры доступа можно посредством меню управления учетными записями.",2
 34396,LOGIN_SERVER_DOWN,"Сервер входа недоступен",2
 34397,LOGIN_SRP_ERROR,"Ошибка авторизации",2
@@ -15484,8 +15485,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34443,PATCH_DOWNLOAD_REQUIRED_TEXT,"Нажмите на кнопку ""Выход"" внизу, чтобы выйти из World of Warcraft и загрузить обновление.",2
 34533,RESPONSE_CONNECTED,"Соединение установлено",2
 34534,RESPONSE_DISCONNECTED,"Соединение с сервером разорвано",2
-34659,VAS_ERROR_ADDRESS_THESE_ISSUES,"Необходимо разрешить следующие вопросы:",2
-34766,DODGE_LCD,"УКЛОН %.2f",1
+34663,VETERAN_FEATURE_1,"Возобновите свои приключения!",2
+35060,DUNGEON_FLOOR_VAULTOFTHEWARDENS1,"Суд Стражей",1
 34444,PATCH_FAILED_DISK_FULL,"Невозможно загрузить обновление – недостаточно свободного пространства на диске. Освободите как минимум %d Мб и повторите попытку. Внимание: для запуска обновления понадобится дополнительное свободное пространство.",2
 34445,PATCH_FAILED_MESSAGE,"Ошибка инициализации обновления. Повторите попытку позднее. Если проблема не разрешится, попробуйте переустановить его или обратиться в службу технической поддержки.",2
 34446,PENETRATION,"ПРОНИК %d",2
@@ -15541,7 +15542,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34545,ROLE_TANK,Танк,2
 34546,RPPVP_PARENTHESES,(RPPvP),2
 34547,RP_PARENTHESES,(RP),2
-34767,PARRY_LCD,"ПАРИР %.2f",1
 34484,RACE_INFO_NIGHTELF_FEMALE,"Десять тысяч лет назад ночные эльфы основали огромную империю, но неразумное использование первородной магии привело ее к падению. Полные скорби, они удалились в леса и пребывали в изоляции вплоть до возвращения их вековечного врага, Пылающего Легиона. Тогда ночным эльфам пришлось пожертвовать своим уединенным образом жизни и сплотиться, чтобы отвоевывать свое место в новом мире.",3
 34485,RACE_INFO_ORC,"Орки происходят с планеты Дренор. Пока Пылающий Легион не подчинил этот народ своей власти, орки посвящали себя исключительно мирным занятиям и шаманизму. Но однажды демоны поработили орков и погнали на войну с людьми Азерота. Много лет потребовалось, чтобы избавиться от гнета Легиона и обрести долгожданную свободу. Теперь орки вынуждены сражаться за место в чужом для них мире.",3
 34486,RACE_INFO_ORC_FEMALE,"Орки происходят с планеты Дренор. Пока Пылающий Легион не подчинил этот народ своей власти, орки посвящали себя исключительно мирным занятиям и шаманизму. Но однажды демоны поработили орков и погнали на войну с людьми Азерота. Много лет потребовалось, чтобы избавиться от гнета Легиона и обрести долгожданную свободу. Теперь орки вынуждены сражаться за место в чужом для них мире.",3
@@ -15556,8 +15556,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34549,SCANDLL_BUTTON_CONTINUEANYWAY,Продолжить,2
 34550,SCANDLL_BUTTON_MOREINFO,Подробнее,2
 34551,SCANDLL_MESSAGE_HACK,"<html><body><p>В вашей системе обнаружена программа \""%1$s\"". Ее запуск может привести к нежелательным последствиям – вплоть до невозможности игры в World of Warcraft. Крайне рекомендуется устранить эту проблему до начала игры.</p><p>Подробнее см. <a href='%2$s'>здесь</a></p></body></html>",2
-34660,VAS_ERROR_ERROR_HAS_OCCURRED,Ошибка,2
-34661,VERSION,Версия,2
+34664,VETERAN_FEATURE_2,"Снова общайтесь со своими друзьями!",2
 34494,RACE_INFO_WORGEN,"Впервые воргены попали в Восточные королевства благодаря стараниям верховного мага Аругала во время Третьей войны. Сначала зверей использовали как живое оружие против Плети, но вскоре они стали бременем куда более тяжким, чем народ Лордерона мог вынести. Среди тех, кто сражался вместе с воргенами, начало распространяться таинственное проклятие, заставлявшее людей обращаться в воргенов. Занесенная в Гилнеас болезнь мгновенно распространилась, превратив добровольное затворничество граждан в вынужденную изоляцию. Все, кто выжил после страшного проклятия, ищут новый путь, которым последует их народ, и пытается предугадать судьбу, которая его ожидает...",3
 34495,RACIAL_ABILITIES,"Расовые способности",2
 34496,RANDOMIZE,"Случайный выбор",2
@@ -15620,11 +15619,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34573,SELECT_RACE,"Выберите расу",2
 34574,SELECT_SPEC_ACTIVE_LABEL,"Выберите специализацию:",2
 34575,SELECT_SPEC_RESULTS_LABEL,Специализация:,2
-34576,SERVER_ALERT_BETA_URL,http://beta.wow-europe.com/ru/alert,2
 34577,SERVER_ALERT_BUTTON_TEXT,Подробнее,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,"Последние новости",2
-34580,SERVER_ALERT_URL,http://eu.launcher.battle.net/service/tbc-client/alert/ru-ru,2
 34581,SERVER_DOWN,"Сервер недоступен",2
 34582,SERVER_SELECTION,"Выбор мира",2
 34583,SERVER_SPLIT,"Этот игровой мир полностью загружен – он будет разделен на два разных игровых мира. Вы можете выбрать, в каком из миров продолжите играть – сделать это необходимо до |cffffffff%s|r. В противном случае вашего персонажа переместят в автоматическом порядке. Подробности: www.wow-europe.com.\n\nУкажите предпочитаемый вами игровой мир. Вы можете изменить решение до времени разделения.",2
@@ -15648,6 +15645,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34600,SPD,"СКР %d",2
 34601,STREAMING_BUILD,Потоковый,2
 34602,SUGGESTED_REALM_TEXT,"|cffffffffВыбранный мир:|r %s.",2
+34603,SUGGEST_REALM,Автовыбор,2
+34659,VAS_ERROR_ADDRESS_THESE_ISSUES,"Необходимо разрешить следующие вопросы:",2
 34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">Эта система не будет поддерживаться в следующих версиях World of Warcraft. Более подробную информацию вы найдете здесь: <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a>.</p></body></html>",2
 34605,TAIWAN,Тайвань,2
 34606,TECH_SUPPORT,"Техническая поддержка",2
@@ -15703,7 +15702,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34656,USE_ENGLISH_SPEECH_PACK,"Английский набор звуков",2
 34657,VAS_CHARACTER_TRANSFER_CONFIRMATION,"%s, %s|nПеренос на: %s",2
 34658,VAS_DESTINATION_REALM_LABEL,"Новый игровой мир",2
-34664,VETERAN_FEATURE_2,"Снова общайтесь со своими друзьями!",2
 34665,VETERAN_FEATURE_3,"Верните своего героя к жизни!",2
 34666,VIDEO_OPTIONS_RESET,"Параметры изображения были изменены.",2
 34667,VIEW_ALL_REALMS,"Список миров",2
@@ -15774,7 +15772,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34760,LEGENDARY_ITEM_LOOT_LABEL,"Легендарный предмет!",1
 34761,SPELL_FAILED_CUSTOM_ERROR_288,"Вы не можете сделать этого, пока у вас выбран талант ""Тотем вуду"".",1
 34763,TRANSMOG_NO_VALID_ITEMS_EQUIPPED,"Не надето подходящих предметов.",1
-34775,DURABILITY_LCD,"ПРОЧН %d",1
+34765,BLOCK_LCD,"БЛОК %.2f",1
+34766,DODGE_LCD,"УКЛОН %.2f",1
 34776,SPELL_FAILED_CUSTOM_ERROR_289,"У вас уже есть эта модель.",1
 34777,BATTLEFIELD_ALERT_LCD,"%s: вы можете начать бой. Вас исключат из очереди |3-9(%s).",1
 34778,ENTER_YOUR_EMAIL,"Адрес электронной почты",2
@@ -15935,7 +15934,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 34961,BOOST2_PALADINRET_DIVINESTORM,"Используйте |cFFFFFFFFБожественную бурю|r, чтобы поразить несколько целей.",1
 34962,ORDER_HALL_FOLLOWER_ADDED_TOAST,"К вам присоединился соратник",1
 34963,ORDER_HALL_FOLLOWER_ADDED_UPGRADED_TOAST,"У вас появился улучшенный соратник",1
-35060,DUNGEON_FLOOR_VAULTOFTHEWARDENS1,"Суд Стражей",1
 34964,ORDER_HALL_TROOP_ADDED_TOAST,"К вам присоединились войска",1
 34965,ORDER_HALL_TROOP_ADDED_UPGRADED_TOAST,"Улучшенный отряд получен",1
 34966,CHARACTER_BOOST_RECOMMENDED_SPEC_ONLY_TRIAL_VERSION,"|n|nЭта специализация недоступна пробным персонажам. Вы сможете выбрать ее позже.",2
@@ -15975,7 +15973,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35004,HUNTER_PET_TENACITY_CORE_ABILITY_6,"Пассивная способность, увеличивающая запас здоровья вашего питомца.",1
 35005,HUNTER_PET_CUNNING_CORE_ABILITY_1,"Способность, ненадолго уменьшающая весь урон, получаемый вашим питомцем, и рассеивающая эффекты замедления движения.",1
 35006,HUNTER_PET_CUNNING_CORE_ABILITY_2,"Способность, ненадолго повышающая скорость передвижения вашего питомца.",1
-35351,DUNGEON_FLOOR_HELHEIMRAID2,Хельхейм,1
+35061,DUNGEON_FLOOR_VAULTOFTHEWARDENS2,"Казематы Стражей",1
+35062,DUNGEON_FLOOR_VAULTOFTHEWARDENS3,"Каземат Предателя",1
 35007,HUNTER_PET_CUNNING_CORE_ABILITY_3,"Способность, благодаря которой питомец получает часть наносимого дружественной цели урона.",1
 35008,HUNTER_PET_CUNNING_CORE_ABILITY_4,"Пассивная способность, повышающая скорость передвижения вашего питомца.",1
 35009,HUNTER_PET_CUNNING_CORE_ABILITY_5,"Пассивная способность, увеличивающая весь урон, наносимый вашим питомцем.",1
@@ -16026,8 +16025,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35057,DUNGEON_FLOOR_SURAMARRAID7,"Ночной Шпиль",1
 35058,DUNGEON_FLOOR_SURAMARRAID8,"Жилище Элисанды",1
 35059,DUNGEON_FLOOR_SURAMARRAID9,"Купель Ночи",1
-35061,DUNGEON_FLOOR_VAULTOFTHEWARDENS2,"Казематы Стражей",1
-35062,DUNGEON_FLOOR_VAULTOFTHEWARDENS3,"Каземат Предателя",1
 35063,DUNGEON_FLOOR_ABYSSALMAWSHAMANACQUISITION1,"Глубинные залы",1
 35064,DUNGEON_FLOOR_ABYSSALMAWSHAMANACQUISITION2,"Трон Нептулона",1
 35065,CANNOT_CREATE_CURRENT_CLASS_WITH_BOOST,"Мгновенное повышение уровня недоступно для этого класса.",2
@@ -16199,8 +16196,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35241,BOOST2_SHAMANENHANCE_REMIND_ROCKBITER,"Используйте |cFFFFFFFFКамнедробитель|r, чтобы накопить энергию Водоворота.",1
 35242,BOOST2_SHAMANENHANCE_REMIND_LAVALASH,"Используйте |cFFFFFFFFВскипание лавы|r.",1
 35243,BOOST2_SHAMANENHANCE_REMIND_FLAMETONGUE,"Используйте |cFFFFFFFFЯзык пламени|r.",1
-35352,DUNGEON_FLOOR_HELHEIMRAID0,Хауствальд,1
 35245,ARTIFACT_TUTORIAL_KNOWLEDGE,"Наведите указатель мыши, чтобы увидеть уровень артефакта.",1
+35303,LEGION,Легион,2
+35354,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON2,Cтойла,1
 35246,ARTIFACT_TRAITS_NO_FORGE_ERROR,"Чтобы приобрести для артефакта новые особенности, посетите кузницу артефактов в вашем оплоте класса.",1
 35247,TALENT_TOOLTIP_ADD_REST_ERROR_PVP,"Вы можете изменить таланты только в зоне отдыха или перед началом PvP-матча.",1
 35248,ILLIDAN_ORIGINS_RL_ABILITY_ARCANE_SIPHON_01,"Используйте способность |cFFFFFFFF""Вытягивание чародейской силы""|r, чтобы восполнить здоровье и ману, а также открыть новые способности.",1
@@ -16251,7 +16249,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35299,GARRISON_FOLLOWER_XP_ADDED_ZONE_SUPPORT_QUALITY_UP,"%s получает новый уровень качества!",1
 35300,GARRISON_MISSION_BONUS_REWARD_MOMENT,БОНУС!,1
 35301,ERR_PETBATTLE_RESTRICTED_ACCOUNT,"Владельцы бесплатной пробной версии не могут участвовать в битвах питомцев.",1
-35303,LEGION,Легион,2
 35304,DANGEROUS_SCRIPTS_WARNING,"Вы пытаетесь запустить сторонний скрипт. Это может подвергнуть риску вашего персонажа и повлечь за собой потерю предметов или золота.|n|nРазрешить запуск сторонних скриптов?",1
 35305,DUNGEON_FLOOR_SURAMARNOBLESDISTRICT0,"Квартал Звезд",1
 35306,ERR_BATTLEGROUND_JOIN_TOO_MANY_DAMAGE,"Вы не можете сражаться на арене этого типа, пока в вашей группе более двух бойцов.",1
@@ -16298,8 +16295,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35348,EXPERIMENTAL_FEATURE_TURNED_ON_WARNING,"Вы включили одну или несколько экспериментальных возможностей, что может вызвать визуальный дискомфорт в некоторых ситуациях.",1
 35349,TRADE_ACCEPT_CONFIRMATION,"Вы уверены, что согласны на этот обмен?",1
 35350,DUNGEON_FLOOR_HELHEIMRAID1,"Испытание доблести",1
+35351,DUNGEON_FLOOR_HELHEIMRAID2,Хельхейм,1
+35352,DUNGEON_FLOOR_HELHEIMRAID0,Хауствальд,1
 35353,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON1,"Комнаты cлуг",1
-35354,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON2,Cтойла,1
 35355,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON3,"Пиршественный зал",1
 35356,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON4,"Гостевые комнаты",1
 35357,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON5,"Балкон в опере",1
@@ -16363,7 +16361,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35420,QUICK_JOIN_TOAST_EXTRA_QUEUES,"%s (+%d)",1
 35421,GARRISON_FOLLOWER_FULL_MISSION_ADD_ERR,"Все ячейки заданий заполнены.",1
 35422,GARRISON_FOLLOWER_INACTIVE_ADD_ERR,"Этот соратник неактивен.",1
-35674,VAS_QUEUE_THREE_SIX_HOURS,"3-6 ч.",2
 35423,GARRISON_FOLLOWER_COMBAT_ALLY_ADD_ERR,"Этому соратнику назначена роль боевого спутника.",1
 35424,GARRISON_FOLLOWER_ON_MISSION_ADD_ERR,"Этот соратник уже находится на задании.",1
 35425,GARRISON_FOLLOWER_WORKING_ADD_ERR,"Этот соратник занят работой.",1
@@ -16472,7 +16469,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35546,ERR_COMPLETED_TRANSMOG_SET_S,"Вы полностью собрали комплект: %s.",1
 35547,TRANSMOG_SET_LINK_FORMAT,"%s (%s)",1
 35548,AUTO_ACCEPT_QUICK_JOIN_TEXT,"Автоматически принимать запросы\nна присоединение",1
-35675,VAS_QUEUE_SIX_TWELVE_HOURS,"6-12 ч.",2
 35549,OPTION_TOOLTIP_AUTO_ACCEPT_QUICK_JOIN,"Позволяет друзьям и членам гильдии мгновенно присоединяться к вашим очередям без подтверждения.",1
 35550,CHARACTER_LINK_CLASS_LEVEL_TOOLTIP,"%2$s %1$d-го уровня",1
 35551,CHARACTER_LINK_ITEM_LEVEL_TOOLTIP,"Уровень предмета: %d",1
@@ -16537,10 +16533,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35612,CONTRIBUTION_REWARD_TOOLTIP_TEXT,"Внеся вклад в строительство этого здания, вы получите следующие награды:",1
 35613,VISITABLE_URL35,https://support.blizzard.com/help/product/wow/,2
 35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
-35676,VAS_QUEUE_TWELVE_HOURS,"более 12 ч.",2
-35677,VAS_QUEUE_ONE_DAY,"более 1 дня",2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,"Здесь вы можете просмотреть все косметические комплекты, доступные для вашего класса.",1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,"Здесь вы можете просмотреть и использовать имеющиеся косметические комплекты.",1
+35680,VAS_QUEUE_FOUR_DAY,"более 4 дней",2
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,"Продолжайте улучшать репутацию с превозносящими вас фракциями и получайте дополнительные награды.",1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,Разблокировать!,2
 35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"Вы уверены, что хотите разблокировать этого тестового персонажа? Если вы нажмете кнопку ""Разблокировать!"", то уже не сможете отменить это действие.",2
@@ -16595,9 +16590,12 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35671,SPELL_FAILED_CUSTOM_ERROR_335,"Ваши припасы промерзли.",1
 35672,VAS_QUEUE_SEVERAL_MINUTES,"несколько минут",2
 35673,VAS_QUEUE_ONE_THREE_HOURS,"1-3 ч.",2
+35674,VAS_QUEUE_THREE_SIX_HOURS,"3-6 ч.",2
+35675,VAS_QUEUE_SIX_TWELVE_HOURS,"6-12 ч.",2
+35676,VAS_QUEUE_TWELVE_HOURS,"более 12 ч.",2
+35677,VAS_QUEUE_ONE_DAY,"более 1 дня",2
 35678,VAS_QUEUE_TWO_DAY,"более 2 дней",2
 35679,VAS_QUEUE_THREE_DAY,"более 3 дней",2
-35680,VAS_QUEUE_FOUR_DAY,"более 4 дней",2
 35681,VAS_QUEUE_FIVE_DAY,"более 5 дней",2
 35682,VAS_QUEUE_SIX_DAY,"более 6 дней",1
 35683,VAS_QUEUE_SEVEN_DAY,"более 7 дней",2
@@ -16662,8 +16660,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35744,PVP_ENLISTMENT_BONUS_DESCRIPTION,"Вашей фракции требуется больше солдат!n|nВы получаете на 25% больше чести за почетные победы, выполнение задач и победы на полях боя.",1
 35745,QUEST_KHADGAR,Кадгар,1
 35748,SPELL_FAILED_AP_ITEM_FROM_PREVIOUS_TIER,"Ваш артефакт уже слишком мощен, этот предмет не усилит его.",1
-35891,CHALLENGE_MODE_DEATH_COUNT_TITLE,"Смертей: %d",1
 35749,SPELL_FAILED_CUSTOM_ERROR_337,"Для использования этого фолианта уровень ваших знаний об артефакте должен быть не ниже 25-го.",1
+35893,TALENT_GRANTED_BY_ITEM,"Источник: %s.",1
 35750,BLIZZARD_STORE_VAS_ERROR_HAS_HEIRLOOM,"– У этого персонажа имеются наследуемые предметы. Удалите их и повторите попытку.",3
 35752,CONTRIBUTION_POI_TOOLTIP_REMAINING_TIME,"Осталось: %s",1
 35753,BLIZZARD_STORE_VAS_ERROR_INVALID_DESTINATION_ACCOUNT,"– Неверная запись World of Warcraft, на которую осуществляется перенос.",3
@@ -16778,8 +16776,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 35886,COMMENTATOR_DAMPENING_PERCENT,-%d%%,1
 35888,ACCOUNT_SUSPENSION_EXPIRATION,"Доступ к учетной записи будет восстановлен через %d |4день:дня:дней;, %d |4час:часа:часов; и %d |4минуту:минуты:минут;.",2
 35890,SPELL_FAILED_CUSTOM_ERROR_340,"Необходимо находиться рядом с раненой Хроми на горе Хиджал.",1
+35891,CHALLENGE_MODE_DEATH_COUNT_TITLE,"Смертей: %d",1
 35892,CHALLENGE_MODE_DEATH_COUNT_DESCRIPTION,"Потеряно времени: |cffffffff%s|r",1
-35893,TALENT_GRANTED_BY_ITEM,"Источник: %s.",1
 35894,BLIZZARD_STORE_VAS_ERROR_BOOSTED_TOO_RECENTLY,"- Прошло слишком мало времени с момента повышения уровня этого персонажа. Пожалуйста, попробуйте позже.",3
 35895,COMMENTATOR_VICTORY_FANFARE_TEXT,ПОБЕДИТЕЛЬ,1
 35896,ACHIEVEMENT_TOOLTIP_COMPLETE_EU,"Достижение получено |3-4(%1$s) %3$02d/%2$d/20%4$02d",1
@@ -17121,7 +17119,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 36273,PETTAME_ELITE_TOOHIGHLEVEL,"Уровень элитного существа слишком высок, вы не можете его приручить.",1
 36274,CHARACTER_SELECT_PADLOCK_DROP_DOWN_USE_BOOST,"Использовать ""%s""",3
 36275,ENTER_WORLD_UNLOCK_REVOKED_CHARACTER_UPGRADE,Разблокировать,1
-36348,COMMUNITIES_CHAT_MESSAGE_FORMAT,"[%s]: %s",1
 36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,"Приобретите игру, чтобы развивать персонажа дальше.",1
 36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,"Вы получили опыт, превышающий допустимый. Приобретите игру, чтобы воспользоваться им и заработать %d |4уровень:уровня:уровней;.",1
 36278,TRIAL_CAP_BANKED_XP_TOOLTIP,"Вы получили опыт, превышающий допустимый. Приобретите игру, чтобы воспользоваться им.",1
@@ -17170,6 +17167,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 36340,COMMUNITY_INVITATION_FRAME_INVITATION_TEXT,"%s приглашает вас вступить в сообщество",1
 36341,COMMUNITIES_CREATE_COMMUNITY,"Создать общество",1
 36344,COMMUNITY_MEMBER_LIST_DROP_DOWN_REMOVE,"Исключить из общества",1
+36348,COMMUNITIES_CHAT_MESSAGE_FORMAT,"[%s]: %s",1
 36352,COMMUNITY_MEMBER_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t%s,1
 36353,COMMUNITY_MEMBER_LIST_DROP_DOWN_SET_NOTE,"Создать заметку об участнике",1
 36354,COMMUNITY_MEMBER_LIST_DROP_DOWN_ROLES,Роли,1
@@ -17513,6 +17511,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 41008,WOW_ERROR_333,"Очередь на вход в этот игровой мир переполнена. Пожалуйста, выберите другой.",2
 41019,VISITABLE_URL45,https://eu.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
+41090,BLIZZARD_STORE_VAS_ERROR_NOT_GUILD_MASTER,"- услугами для гильдии может пользоваться только глава гильдии; этот персонаж не является главой гильдии.",3
+41091,BLIZZARD_STORE_VAS_ERROR_NOT_IN_GUILD,"- услугами для гильдии может пользоваться только участник гильдии; этот персонаж не является участником гильдии.",3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,"Настоящее имя или BattleTag",1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Выполнено,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,"Не выполнено",0
@@ -17522,6 +17522,14 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 41105,CRITERIA_TREE_OPERATOR_COUNT,"Начало (мин.)",0
 41106,CRITERIA_TREE_OPERATOR_COMPLETE_AT_LEAST,"Выполнение (мин.)",0
 41107,CRITERIA_TREE_OPERATOR_WEIGHTED_CUMULATIVE,"Взвешенная сумма критериев",0
+41113,BLIZZARD_STORE_VAS_ERROR_NEW_LEADER_INVALID,"- Выбранный вами персонаж не может быть главой гильдии. Пожалуйста выберите другого.",3
+41118,BLIZZARD_STORE_VAS_ERROR_AUTHENTICATOR_INSUFFICIENT,"- Необходимо прикрепить Authenticator и войти в игру персонажем – главой гильдии как минимум за 7 дней до покупки услуг для гильдии.|n|nПодробнее в нашей статье |HurlIndex:47|h|cff006995Не могу заказать услугу для гильдии|r|h.",3
+41403,AUCTION_HOUSE_POST_BUTTON,"Объявить аукцион",5
+41119,BLIZZARD_STORE_VAS_ERROR_ALREADY_RENAME_FLAGGED,"- Ваш персонаж – глава гильдии ожидает смены имени. Дождитесь завершения этой процедуры и повторите попытку.",3
+41120,BLIZZARD_STORE_VAS_ERROR_GM_SENORITY_INSUFFICIENT,"- Для покупки услуг для гильдии ваш персонаж должен быть главой гильдии не менее 7 дней.|nПодробнее в нашей статье|HurlIndex:47|h|cff006995Не могу заказать услугу для гильдии|r|h.",3
+41121,BLIZZARD_STORE_VAS_ERROR_OPERATION_ALREADY_IN_PROGRESS,"- Ваша последняя гильдейская транзакция еще находится в обработке.|n|nПроверьте |HurlIndex:48|h|cff006995историю ваших транзакций|r|h.",3
+41122,BLIZZARD_STORE_VAS_ERROR_LOCKED_FOR_VAS,"- Перед покупкой новой услуги для гильдии необходимо подождать 30 дней после предыдущей покупки услуги для данного персонажа или его гильдии.|nПодробнее в нашей статье|HurlIndex:47|h|cff006995Не могу заказать услугу для гильдии|r|h.",3
+41123,BLIZZARD_STORE_VAS_ERROR_MOVE_IN_PROGRESS,"- Ваша последняя гильдейская транзакция еще находится в обработке.|n|nПроверьте |HurlIndex:48|h|cff006995историю ваших транзакций|r|h.",3
 41124,AUCTION_CATEGORY_PROJECTILE,Боеприпасы,1
 41125,AUCTION_CATEGORY_QUIVER,Колчан,1
 41126,AUCTION_CATEGORY_REAGENT,Реагент,1
@@ -17580,7 +17588,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 41394,AUCTION_HOUSE_BROWSE_HEADER_PRICE,Цена,5
 41395,AUCTION_HOUSE_BROWSE_HEADER_NAME,Название,5
 41396,AUCTION_HOUSE_BROWSE_HEADER_QUANTITY,Доступно,1
-41403,AUCTION_HOUSE_POST_BUTTON,"Объявить аукцион",5
 41404,AUCTION_HOUSE_DEPOSIT_LABEL,Вклад,5
 41405,AUCTION_HOUSE_BUYOUT_MODE_CHECK_BOX,"Режим выкупа",1
 41406,AUCTION_HOUSE_DURATION_LABEL,Длительность,1
@@ -17652,6 +17659,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 41618,AUCTION_HOUSE_DROPDOWN_SET_FAVORITE,"Добавить в ""Избранное""",1
 41619,AUCTION_HOUSE_DROPDOWN_REMOVE_FAVORITE,"Удалить из ""Избранного""",1
 41621,AUCTION_HOUSE_FAVORITES_SEARCH_TOOLTIP_TITLE,Избранное,1
+42233,BINDING_NAME_COMMENTATORLOOKAT_1_13,"Следить за игроком 13 команды 1",1
 41622,AUCTION_HOUSE_FAVORITES_SEARCH_TOOLTIP_NO_FAVORITES,"Ваш список избранного пуст. Щелкните ПКМ по предмету на аукционе, чтобы добавить его в список избранного.",1
 41633,GUILD_OFFICER_PERMISSION_FINDER_LIST,,1
 41634,GUILD_OFFICER_PERMISSION_INVITE_APPLICANTS,,1
@@ -17710,6 +17718,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,"Возможность совершать покупки ограничена",3
 42038,BLIZZARD_STORE_ERROR_CLIENT_RESTRICTED,"Функция недоступна из-за ограничений, наложенных на персонажа.",3
 42041,ERR_AUCTION_ITEM_HAS_QUOTE,"Этот аукцион нельзя отменить, поскольку на товар сделана ставка.",5
+42234,BINDING_NAME_COMMENTATORLOOKAT_1_14,"Следить за игроком 14 команды 1",1
 42063,AUCTION_HOUSE_FAVORITES_MAXED_TOOLTIP,"Ваш список избранного заполнен. Освободите место, чтобы добавить новый предмет.",5
 42066,AUCTION_POSTING_ERROR_TEXT,"Items can't be posted right now.|n|nThe auction house is about to undergo a major update.",1
 42067,CONFIRM_AUCTION_POSTING_TEXT,"Во время еженедельного перерыва на техническое обслуживание аукционный дом будет обновлен.|n|nЕсли ваш товар не будет продан к тому времени, предмет будет возвращен и вы потеряете залоговую сумму.",1
@@ -17726,7 +17735,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42191,BINDING_NAME_COMMENTATORFOLLOW_1_8,"Следовать за игроком 8 команды 1",1
 42192,BINDING_NAME_COMMENTATORFOLLOW_1_9,"Следовать за игроком 9 команды 1",1
 42193,BINDING_NAME_COMMENTATORFOLLOW_1_10,"Следовать за игроком 1 команды 1",1
-49038,SETTINGS_CONFIRM_TIMEOUT_BUTTON,ОК,3
 42194,BINDING_NAME_COMMENTATORFOLLOW_1_11,"Следовать за игроком 11 команды 1",1
 42196,BINDING_NAME_COMMENTATORFOLLOW_1_12,"Следовать за игроком 12 команды 1",1
 42197,BINDING_NAME_COMMENTATORFOLLOW_1_13,"Следовать за игроком 13 команды 1",1
@@ -17765,8 +17773,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42230,BINDING_NAME_COMMENTATORLOOKAT_1_10,"Следить за игроком 10 команды 1",1
 42231,BINDING_NAME_COMMENTATORLOOKAT_1_11,"Следить за игроком 11 команды 1",1
 42232,BINDING_NAME_COMMENTATORLOOKAT_1_12,"Следить за игроком 12 команды 1",1
-42233,BINDING_NAME_COMMENTATORLOOKAT_1_13,"Следить за игроком 13 команды 1",1
-42234,BINDING_NAME_COMMENTATORLOOKAT_1_14,"Следить за игроком 14 команды 1",1
 42235,BINDING_NAME_COMMENTATORLOOKAT_1_15,"Следить за игроком 15 команды 1",1
 42236,BINDING_NAME_COMMENTATORLOOKAT_2_7,"Следить за игроком 7 команды 2",1
 42237,BINDING_NAME_COMMENTATORLOOKAT_2_8,"Следить за игроком 8 команды 2",1
@@ -17786,8 +17792,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42263,VIDEO_OPTIONS_SPELL_DENSITY_ONLY_ESSENTIAL,"Показывать только критически важные заклинания. Ваши заклинания отображаются всегда.",3
 42264,VIDEO_OPTIONS_SOME,Часть,3
 42265,VIDEO_OPTIONS_MOST,"Почти все",3
-42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,"Верхний ярус",1
-42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
 42266,VIDEO_OPTIONS_SPELL_DENSITY_DYNAMIC,"Некритичные заклинания не отображаются при низкой частоте кадров. Если частота обновления экрана выше указанного значения, все заклинания отображаются.",3
 42267,VIDEO_OPTIONS_SPELL_DENSITY_SOME,"Уменьшение количества некритичных отображаемых заклинаний примерно на 75%.",3
 42268,VIDEO_OPTIONS_SPELL_DENSITY_MOST,"Уменьшение количества некритичных отображаемых заклинаний примерно на 25%.",3
@@ -17821,6 +17825,8 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42645,BNET_ERROR_40011,"(CN Only) Secondary Parental Control",2
 42646,BNET_ERROR_40012,"(CN Only) Secondary Parental Control (2)",2
 42662,GXAPI_MTL_LEGACY,"Наследие металла",3
+43211,EVENTTRACE_TIMESTAMP,Время:,3
+43212,EVENTTRACE_OPTIONS,Параметры,3
 42743,BLIZZARD_STORE_VAS_ERROR_PENDING_ITEM_AUDIT,"- В сумках этого персонажа имеются предметы, которые невозможно перенести.",3
 42748,GAMEMENU_SUPPORT,Поддержка,1
 42752,MOTION_SICKNESS_CHARACTER_CENTERED,"Удерживать персонажа в центре",1
@@ -17840,7 +17846,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 42874,JAILERS_TOWER_LEVEL_TOAST_MORTREGAR,Морт'регар,1
 42875,JAILERS_TOWER_LEVEL_TOAST_SOULFORGES,"Кузни душ",1
 42876,JAILERS_TOWER_LEVEL_TOAST_COLDHEART,"Междумирье Бессердечных",1
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,"Верхний ярус",1
+42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к специальным возможностям. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42883,MAC_INPUT_MONITORING1015,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к функциям мониторинга ввода. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42885,MAC_REQUEST_MICROPHONE1014,"Чтобы воспользоваться голосовым чатом, вы должны предоставить программе %s доступ к функциям микрофона. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
@@ -17879,8 +17887,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 43208,EVENTTRACE_HEADER,"Журнал события",3
 43209,EVENTTRACE_LOG_HEADER,Журнал,3
 43210,EVENTTRACE_FILTER_HEADER,Фильтр,3
-43211,EVENTTRACE_TIMESTAMP,Время:,3
-43212,EVENTTRACE_OPTIONS,Параметры,3
 43213,EVENTTRACE_APPLY_DEFAULT_FILTER,"Применить фильтр по умолчанию",3
 43214,EVENTTRACE_MESSAGE_FORMAT,"--- %s ---",3
 43220,EVENTTRACE_SHOW_ARGUMENTS,"Отображать аргументы события",3
@@ -18072,7 +18078,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 44126,MOUNT_JOURNAL_FILTER_GROUND,Наземный,1
 44127,MOUNT_JOURNAL_FILTER_TYPE,Тип,1
 44128,SLASH_TEXTTOSPEECH_STOP,стоп,1
-48774,LFG_LIST_CROSS_FACTION,"Только %s",1
 44129,SLASH_TEXTTOSPEECH_HELP_STOP,"Прервать воспроизведение",1
 44130,SLASH_TEXTTOSPEECH_ALTSAMPLE,образец,1
 44131,SLASH_TEXTTOSPEECH_HELP_ALTSAMPLE,"Зачитать образец текста альтернативным голосом для системных сообщений",1
@@ -18100,6 +18105,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 44278,BEHAVIORAL_DETAILS_CLOSE_BUTTON,Закрыть,1
 44279,BEHAVIORAL_DETAILS_TY_TITLE,"Благодарим вас за сообщение",1
 44280,BEHAVIORAL_DETAILS_TY_MESSAGE,"Спасибо за сообщение. Игроки, которые нарушают правила поведения World of Warcraft, портят удовольствие от игры для всех остальных, и ваши жалобы помогают нам их выявить.\n\nМы не можем разглашать подробности о наказании для нарушителя, но благодаря вашей недавней жалобе мы приняли меры к его учетной записи.\n\nВаши сообщения помогают сохранить в World of Warcraft дружелюбную атмосферу.",1
+48615,SLASH_TEXTTOSPEECH_HELP_CREATURE_EMOTE,"Включить или выключить эмоции существ",1
+48616,SLASH_TEXTTOSPEECH_HELP_CREATURE_WHISPER,"Включить или выключить шепот существ",1
+50159,AUCTION_TOOLTIP_TOTAL_BID_PREFIX,"Общая ставка:",1
 44283,GROUP_FINDER_AUTHENTICATOR_POPUP_DESC,"Прикрепите аутентификатор и услугу SMS-уведомлений к учетной записи и откройте доступ ко всем функциям поиска группы.|n|nАутентификатор Battle.net – это бесплатный и простой способ защитить учетную запись от взлома, а SMS-уведомления оповещают вас о важных изменениях в вашей учетной записи.|n|nНажмите ""Активировать"", чтобы перейти на сайт подключения аутентификатора.",1
 44285,RESAMPLE_QUALITY_POINT,Точечный,3
 44286,RESAMPLE_QUALITY_FSR,"FidelityFX Super Resolution",3
@@ -18157,8 +18165,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 48612,SLASH_TEXTTOSPEECH_BOSS_EMOTE,боссыэмоции,1
 48613,SLASH_TEXTTOSPEECH_BOSS_WHISPER,боссышепот,1
 48614,SLASH_TEXTTOSPEECH_HELP_CREATURE_YELL,"Включить или выключить крики существ",1
-48615,SLASH_TEXTTOSPEECH_HELP_CREATURE_EMOTE,"Включить или выключить эмоции существ",1
-48616,SLASH_TEXTTOSPEECH_HELP_CREATURE_WHISPER,"Включить или выключить шепот существ",1
 48617,SLASH_TEXTTOSPEECH_HELP_BOSS_WHISPER,"Включить или выключить шепот боссов",1
 48618,SLASH_TEXTTOSPEECH_HELP_BOSS_EMOTE,"Включить или выключить эмоции боссов",1
 48695,ERR_ARENA_TEAM_DISQUALIFIED,"Ваша команда утратила возможность участвовать в рейтинговых играх данного типа.",1
@@ -18176,7 +18182,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 48748,VIDEO_OPTIONS_NOTCH_MODE_SHIFT_UI,"Сдвигает интерфейс ниже выреза",3
 48749,NOTCH_MODE_WINDOW_BELOW,"Сдвиг окна",3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,"Сдвигает окно ниже выреза и добавляет черную полосу",3
+48774,LFG_LIST_CROSS_FACTION,"Только %s",1
 48775,LFG_LIST_CROSS_FACTION_TOOLTIP,"Группу видят только игроки фракции %s.|n|nИз-за этого вы можете получить меньше заявок.",1
+48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,"– Требуется завершить обучающий сценарий",3
 48779,LFG_LIST_TOOLTIP_LEADER_FACTION,"Лидер: |cffffffff%s (%s)|r",1
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,"%2$s %1$d-го уровня (%3$s)",1
 48783,INVTYPE_PROFESSION_TOOL,"Инструмент для профессии",1
@@ -18223,6 +18231,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 48856,REPORTING_MINOR_CATEGORY_GUILD_NAME,"Название гильдии",1
 48857,REPORTING_MINOR_CATEGORY_DESCRIPTION,Описание,1
 48858,REPORTING_MINOR_CATEGORY_NAME,Имя,1
+50160,AUCTION_TOOLTIP_TOTAL_BUYOUT_PREFIX,"Общая выкупная цена:",1
 48861,ERR_MAIL_RECEPIENT_CANT_RECEIVE_MAIL,"Адресат в настоящее время не может получать почту.",1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,"Новая фракция:",2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,"Далее вы сможете персонализировать героя.",2
@@ -18238,9 +18247,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 48917,BLIZZARD_STORE_CURRENCY_FORMAT_UAH,"UAH %s",3
 48918,BLIZZARD_STORE_LICENSE_ACK_TEXT_GEL,"Нажимая кнопку ""Оплатить"", вы принимаете |HurlIndex:16|h|cff71d5ff[Условия продажи]|r|h, а также соглашаетесь на немедленное выполнение вашего заказа. Вы утрачиваете право отменить заказ, как только начинается его выполнение.",3
 48919,BLIZZARD_STORE_LICENSE_ACK_TEXT_TRY,"Нажимая кнопку ""Оплатить"", вы принимаете |HurlIndex:16|h|cff71d5ff[Условия продажи]|r|h, а также соглашаетесь на немедленное выполнение вашего заказа. Вы утрачиваете право отменить заказ, как только начинается его выполнение.",3
-49035,SETTINGS_UNAPPLIED_EXIT,Выйти,3
-49036,SETTINGS_UNAPPLIED_APPLY_AND_EXIT,"Сохранить и выйти",3
-49037,SETTINGS_UNAPPLIED_CANCEL,Отмена,3
 48920,BLIZZARD_STORE_LICENSE_ACK_TEXT_KZT,"Нажимая кнопку ""Оплатить"", вы принимаете |HurlIndex:16|h|cff71d5ff[Условия продажи]|r|h, а также соглашаетесь на немедленное выполнение вашего заказа. Вы утрачиваете право отменить заказ, как только начинается его выполнение.",3
 48921,BLIZZARD_STORE_LICENSE_ACK_TEXT_UAH,"Нажимая кнопку ""Оплатить"", вы принимаете |HurlIndex:16|h|cff71d5ff[Условия продажи]|r|h, а также соглашаетесь на немедленное выполнение вашего заказа. Вы утрачиваете право отменить заказ, как только начинается его выполнение.",3
 48932,AUCTION_CATEGORY_PROFESSION_EQUIPMENT,"Profession Equipment",1
@@ -18255,6 +18261,15 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,"Выйти из игры",2
 48952,SOCIAL_CONTRACT_TEXT1,"|cffffffffЗдравствуйте и добро пожаловать в World of Warcraft!|r|n|n|cffffd200Азерот населяют игроки из разных стран, которые собрались вместе, чтобы поиграть в World of Warcraft. Каждый игрок имеет право чувствовать себя в безопасности, поэтому, пожалуйста, ознакомьтесь с нашим общественным договором.|r|n|n|n|cffffffffНаходясь на Азероте, старайтесь придерживаться следующих правил.|r|n|n",2
 48953,SOCIAL_CONTRACT_TEXT2,"|cffffd200- Общайтесь с другими игроками и заводите друзей! Будьте вежливыми во время совместной игры, чтобы все могли хорошо провести время. Дружелюбное общение помогает группе добиваться успеха.|n|n- Поддерживайте свою команду в подземельях и рейдах, на полях сражений или аренах, а также выполняя задания в игровом мире. Помогайте другим игрокам словом и делом, чтобы потом вместе отпраздновать успех.|n|n- Помогайте другим игрокам, которых встречаете в игровом мире. Кому-то нужна помощь, чтобы победить сильного монстра, а кто-то оценит, если вы его полечите!|n|n- Отвечайте на вопросы, которые другие игроки задают в общем или торговом канале чата. Мы все когда-то были новичками, и дружеский совет может быть очень кстати!|n|n",2
+49318,ERR_INFORM_SUGGEST_INVITE_S,"%s предлагает своей группе пригласить вас.",1
+49319,ERR_INFORM_SUGGEST_INVITE_SS,"%1$s предлагает |3-2(%2$s) пригласить вас в группу.",1
+49324,BOOST_REALM_RESTRICTED,"Услугу повышения уровня нельзя использовать в этом игровом мире.",2
+49332,CREDITS_EXPANSION_NAME_2_0,"Wrath of the Lich King (2008)",2
+49333,CREDITS_EXPANSION_NAME_2_1,"Wrath of the Lich King Classic (2022)",2
+49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,"Вы уже подали запрос на вступление в другую группу",1
+49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,"Вы уже ждете приглашения в другую группу",1
+49340,CHARACTER_UPGRADE_CONFIRMATION_TEXT,"Имя:  %s \nИгровой мир:  %s \nКласс:  |c%s%s|r \nТекущий уровень:  %s \nБудущий уровень:  %s",2
+50233,CHARACTER_SELECT_ACCOUNT_LOCKED,"Учетная запись заблокирована",2
 48954,SOCIAL_CONTRACT_TEXT3,"Мы понимаем, что интернет – не всегда безопасное пространство. Но все-таки имейте в виду, что следующие вещи на Азероте неприемлемы:|n|n- Призывы к ненависти, в том числе комментарии о личных особенностях игроков, таких как раса, пол или мастерство.|n|n- Травля, угрозы и оскорбительные/унизительные комментарии и поступки.|n|n- Спам, реклама и другие отвлекающие действия.|n|nЕсли вы обидите других искателей приключений одним из этих способов, вы можете быть наказаны вплоть до приостановки действия учетной записи.|n|nАзерот – огромный мир, и в нем живут разные люди. Пожалуйста, уважайте друг друга – и если вы увидите, что кто-то нарушает эти правила, пожалуйста, сообщите об этом нашей команде, и мы рассмотрим ситуацию. Вместе мы сделаем World of Warcraft уникальным безопасным домом.|r",2
 48971,USE_COMBINED_BAGS_TEXT,"Объединить сумки",1
 48972,OPTION_TOOLTIP_USE_COMBINED_BAGS,"Отображать содержимое рюкзака в одном окне.",1
@@ -18277,6 +18292,10 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49032,SETTINGS_TITLE,Параметры,3
 49033,SETTINGS_CONFIRM_DISCARD,"Вы не сохранили некоторые настройки.\nВы точно хотите выйти?",3
 49034,SETTINGS_TIMED_CONFIRMATION,"Сохранить изменения?\n\nВозвращение к редактированию через %d сек.",3
+49035,SETTINGS_UNAPPLIED_EXIT,Выйти,3
+49036,SETTINGS_UNAPPLIED_APPLY_AND_EXIT,"Сохранить и выйти",3
+49037,SETTINGS_UNAPPLIED_CANCEL,Отмена,3
+49038,SETTINGS_CONFIRM_TIMEOUT_BUTTON,ОК,3
 49039,SETTINGS_CANCEL_TIMEOUT_BUTTON,Отмена,3
 49040,SETTINGS_KEYBINDINGS_LABEL,"Назначение клавиш",3
 49041,SETTINGS_BIND_KEY_TO_COMMAND_OR_CANCEL,"Назначьте клавишу \""%s\""или нажмите %s для отмены",3
@@ -18305,14 +18324,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49292,LFG_SELF_LISTING,"Ваша группа",1
 49293,CHAR_CREATE_NO_BOOST_CLASS,"Вы не можете повысить уровень персонажа этого класса",2
 49317,BODY_TYPE,Телосложение,3
-49318,ERR_INFORM_SUGGEST_INVITE_S,"%s предлагает своей группе пригласить вас.",1
-49319,ERR_INFORM_SUGGEST_INVITE_SS,"%1$s предлагает |3-2(%2$s) пригласить вас в группу.",1
-49324,BOOST_REALM_RESTRICTED,"Услугу повышения уровня нельзя использовать в этом игровом мире.",2
-49332,CREDITS_EXPANSION_NAME_2_0,"Wrath of the Lich King (2008)",2
-49333,CREDITS_EXPANSION_NAME_2_1,"Wrath of the Lich King Classic (2022)",2
-49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,"Вы уже подали запрос на вступление в другую группу",1
-49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,"Вы уже ждете приглашения в другую группу",1
-49340,CHARACTER_UPGRADE_CONFIRMATION_TEXT,"Имя:  %s \nИгровой мир:  %s \nКласс:  |c%s%s|r \nТекущий уровень:  %s \nБудущий уровень:  %s",2
 49371,WORLD_PVP_AUTO_QUEUE_EJECT,"Битва за %s скоро начнется. Вы сможете вернуться после ее завершения.",1
 49373,ABILITY_INFO_TROLL5,"- Уменьшенное время действия затрудняющих передвижение эффектов.",2
 49374,ABILITY_INFO_HUMAN5,"- Может избавляться от эффектов, снижающих скорость и препятствующих передвижению.",2
@@ -18330,7 +18341,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49386,CLASS_INFO_ROGUE5,"- Использует в качестве ресурса энергию.",2
 49387,CLASS_INFO_MAGE5,"- Использует в качестве ресурса ману.",2
 49388,CLASS_INFO_SHAMAN5,"- Использует в качестве ресурса ману.",2
-53469,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_DARK,Темный,3
 49389,CLASS_INFO_DEATHKNIGHT5,"- Использует в качестве ресурса руны.",2
 49390,CLASS_INFO_WARLOCK5,"- Использует в качестве ресурса ману.",2
 49391,CLASS_INFO_PALADIN5,"- Использует в качестве ресурса ману.",2
@@ -18362,6 +18372,9 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49736,VIDEO_OPTIONS_STANDARD,Стандартный,3
 49737,VIDEO_OPTIONS_AGGRESSIVE,Агрессивный,3
 49738,VRS_MODE,"Режим VRS",3
+50156,AUCTION_SORT_HEADER_TOTAL_BUYOUT_PRICE,Выкуп,1
+50157,AUCTION_SORT_HEADER_UNIT_BID_PRICE,"Текущая ставка за штуку",1
+50158,AUCTION_SORT_HEADER_UNIT_BUYOUT_PRICE,"Выкупная цена за штуку",1
 49739,OPTION_TOOLTIP_VRS_MODE,"Интенсивность режима оптимизации шейдинга (VRS). VRS – это функция графического процессора, снижающая его нагрузку без значимого ущерба качеству изображения. Активация этой функции на поддерживаемом устройстве может повысить быстродействие.",3
 49743,SETTING_GROUP_GAMEPLAY,"Игровой процесс",1
 49744,SETTING_GROUP_SYSTEM,Настройки,3
@@ -18380,7 +18393,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49767,KEY_BINDING_TOOLTIP,"<ПКМ, чтобы отвязать>",1
 49768,NAMEPLATES_LABEL,"Индикаторы здоровья",1
 49769,ALTERNATE_SCREEN_EFFECTS_SEARCH_TAG,Светочувствительность,1
-53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Светлый,3
 49771,NAMEPLATE_HIDE_HEALTH_AND_POWER,"Скрыть шкалу здоровья и ресурсов",1
 49772,DISPLAY_PERSONAL_COOLDOWNS,"Показать восстановление способностей",1
 49773,DISPLAY_PERSONAL_FRIENDLY_BUFFS,"Показать положительные эффекты союзников",1
@@ -18410,6 +18422,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 49925,ENABLE_INTERACT_SOUND_OPTION,"Звуковой сигнал клавиши взаимодействия",3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,"Звуковой сигнал, срабатывающий, когда вы получаете или теряете возможность взаимодействовать с целью.",3
 49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,"%s %s",1
+50048,BLIZZARD_STORE_VAS_ERROR_HAS_CRAFTING_ORDERS,"– Завершите все принятые и отправленные заказы этого персонажа.",3
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,"Нельзя сменить фракцию, пока вы состоите в команде арены.",2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,"Настройка сортировки по цене",1
 50148,AUCTION_SORT_OPTIONS_PROMPT,"Сортировка по цене:",1
@@ -18420,12 +18433,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 50153,UNIT_BUYOUT_COST,Выкуп,1
 50154,AUCTION_PRICE_STACK_SIZE_LABEL,%dx,1
 50155,AUCTION_SORT_HEADER_TOTAL_BID_PRICE,"Текущая ставка",1
-50156,AUCTION_SORT_HEADER_TOTAL_BUYOUT_PRICE,Выкуп,1
-50157,AUCTION_SORT_HEADER_UNIT_BID_PRICE,"Текущая ставка за штуку",1
-50158,AUCTION_SORT_HEADER_UNIT_BUYOUT_PRICE,"Выкупная цена за штуку",1
-50159,AUCTION_TOOLTIP_TOTAL_BID_PREFIX,"Общая ставка:",1
-50160,AUCTION_TOOLTIP_TOTAL_BUYOUT_PREFIX,"Общая выкупная цена:",1
-50233,CHARACTER_SELECT_ACCOUNT_LOCKED,"Учетная запись заблокирована",2
 50234,ACCOUNT_SAVE_CONFIRM_STRING,ЗАБЛОКИРОВАТЬ,2
 50235,ACCOUNT_SAVE_IN_PROGRESS,"Архив прогресса загружается|nНе закрывайте клиент",2
 50236,ACCOUNT_SAVE_SUCCESS,"Архив прогресса успешно загружен.",2
@@ -18436,17 +18443,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 50241,ACCOUNT_SAVE_ERROR_FILE_INVALID,"Не удалось загрузить архив прогресса: ошибка при открытии целевого файла",2
 50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,"Не удалось загрузить архив прогресса: ошибка при записи данных в целевой файл",2
 50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,"Загрузить архив прогресса",2
-50442,OPTIONS_TOOLTIP_SELF_CAST_AUTO_AND_KEY_PRESS,"Автоматически применять благотворные заклинания к себе, если не выбран целью союзник. Также вы можете удерживать выбранную клавишу, чтобы применять заклинания к себе независимо от выбранной цели.",1
-50444,BINDING_HEADER_ACTIONBAR2,"Панель команд 2",1
-50445,BINDING_HEADER_ACTIONBAR3,"Панель команд 3",1
-50446,BINDING_HEADER_ACTIONBAR4,"Панель команд 4",1
-50447,BINDING_HEADER_ACTIONBAR5,"Панель команд 5",1
-50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,"Услуга недоступна в данном игровом мире.",2
 50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020Начиная с 23 января 2023 года серверы World of Warcraft будут временно недоступны в вашем регионе.|r|n|n|cffffd200Вы сможете загрузить свой игровой прогресс (а именно персонажей и снаряжение вашей учетной записи), чтобы восстановить его в будущем.|r|n|n|cffffd200Когда вы сохраните прогресс, ваша учетная запись потеряет доступ к игре вне зависимости от того, сколько активного игрового времени у вас оставалось. Сохраните архив в надежном месте, чтобы использовать его в будущем.|r|n|n|n</p><h1>|cffffffffСохраните игровой прогресс на своем носителе|r</h1><p>|n|cffff2020Как только закончится загрузка архива, ваша учетная запись будет заблокирована.|r|n|n|cffffd200Вы не сможете ею пользоваться до тех пор, пока не восстановите.|r|n|n|cffffffffФункция сохранения архива и сам архив подпадают под действие лицензионного соглашения с конечным пользователем Battle.net.|r|n|n|cffffd200Если вы готовы приступить к загрузке, наберите|r |cffffffffЗАБЛОКИРОВАТЬ:|r",2
 50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020Начиная с 23 января 2023 года серверы World of Warcraft станут недоступны в вашем регионе.|r|n|n|cffffd200Вы сможете загрузить свой игровой прогресс, чтобы восстановить его в будущем.|r|n|n|cffffd200Когда вы сохраните прогресс, ваша учетная запись потеряет доступ к игре вне зависимости от того, сколько активного игрового времени у вас оставалось. Сохраните архив в надежном месте, чтобы использовать его в будущем.|r|n|n|n</p><h1>|cffffffffСохраните игровой прогресс на своем носителе|r</h1><p>|n|cffffffffФункция сохранения архива и сам архив подпадают под действие лицензионного соглашения с конечным пользователем Battle.net.|r|n|n|cffffd200Вы успешно загрузили данные учетной записи, теперь она заблокирована.|r",2
 50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,"Загрузка архива прогресса в данный момент недоступна",2
 50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,"Прогресс архива уже загружается. Попробуйте позже.",2
-50258,CENSORED_MESSAGE_HIDDEN,"|cffff7f3fСообщение от игрока %s может носить неприемлемый характер.|h|cffffff00|Hcensoredmessage:%d|h |W[Показать сообщение]|w|h|r",1
+50258,CENSORED_MESSAGE_HIDDEN,"|cffffff00Message from %s is potentially inappropriate.|Hcensoredmessage:%d|h |W[Show Message]|w|h|r",1
 50266,ACCOUNT_SAVE_FILE_BUTTON,"Открыть папку",2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Закрыть,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,"Сохраните этот файл в безопасном месте:",2
@@ -18455,11 +18456,11 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 50271,CENSOR_SOURCE_NO_ONE,"Ни от кого",1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,"От всех, кроме друзей",1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,"От всех, кроме друзей и соратников по гильдии",1
-50274,CENSOR_SOURCE_EXCLUDE,"Цензурировать сообщения",1
+50274,CENSOR_SOURCE_EXCLUDE,"Real Time Chat Filtering",1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,"Чьи сообщения вы хотите подвергать цензуре.",1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,"%s HKD",3
 50310,EMPTY_SOCKET_PRIMORDIAL,"Изначальное гнездо",1
-50332,CENSORED_MESSAGE_REPORT,"|cffffff00|Hreportcensoredmessage:%d|h |W[Пожаловаться]|w|h|r",1
+50332,CENSORED_MESSAGE_REPORT,"%s |cffffff00|Hreportcensoredmessage:%d|h|W[Report]|w|h|r",1
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,"Выберите новую расу и персонализируйте героя. Когда вы завершите этот процесс, ваш герой навсегда превратится в представителя другой расы..",2
 50348,AUCTION_TOOLTIP_BROWSE_BY_NAME_TITLE,"Поиск по имени",1
 50349,AUCTION_TOOLTIP_BROWSE_BY_NAME_BODY,"Введите текст, который должно содержать название предмета поиска. Для поиска точных соответствий заключите текст в кавычки.",1
@@ -18479,8 +18480,13 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 50439,SELF_CAST_AUTO_AND_KEY_PRESS,"Автоматически и по нажатию",1
 50440,OPTIONS_TOOLTIP_SELF_CAST_AUTO,"Автоматически применять благотворные заклинания к себе, если не выбран целью союзник.",1
 50441,OPTIONS_TOOLTIP_SELF_CAST_KEY_PRESS,"Удерживайте выбранную клавишу, чтобы применять заклинания к себе независимо от выбранной цели.",1
+50442,OPTIONS_TOOLTIP_SELF_CAST_AUTO_AND_KEY_PRESS,"Автоматически применять благотворные заклинания к себе, если не выбран целью союзник. Также вы можете удерживать выбранную клавишу, чтобы применять заклинания к себе независимо от выбранной цели.",1
+50444,BINDING_HEADER_ACTIONBAR2,"Панель команд 2",1
+50445,BINDING_HEADER_ACTIONBAR3,"Панель команд 3",1
+50446,BINDING_HEADER_ACTIONBAR4,"Панель команд 4",1
+50447,BINDING_HEADER_ACTIONBAR5,"Панель команд 5",1
+50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,"Услуга недоступна в данном игровом мире.",2
 50459,LFG_LIST_TOO_MANY_ACTIVITIES_SELECTED,"Выбрано слишком много вариантов контента.",1
-53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,"Subtitles Background",3
 50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,"Вид отображения здоровья в интерфейсе рейда.",1
 50560,AUDIO_OUTPUT_DEVICE,"Устройство воспроизведения",3
 50561,OPTION_TOOLTIP_AUDIO_OUTPUT,"Выбор устройства воспроизведения звуков игры.",3
@@ -18525,9 +18531,12 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 51308,ERR_CHAR_TOO_NEW_FOR_DUNGEONS,"Этот персонаж пока не может заходить в подземелья.",1
 51309,ERR_CHAR_TOO_NEW_FOR_RAIDS,"Этот персонаж пока не может заходить в рейды.",1
 51330,BATTLE_PET_NAME_11,Спутник,0
+51385,BLIZZARD_STORE_VAS_INVALID_NAME,"Данное имя недопустимо. Выберите другое.",2
 51392,SLASH_TEXTTOSPEECH_PING,проверка,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,"Включить или выключить оповещения о проверках",1
 51411,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,"|cnPURE_GREEN_COLOR:<Щелкните, удерживая Shift, чтобы открыть страницу часто задаваемых вопросов в браузере>|r",3
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,,2
 51446,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,"%s отклоняет ваше предложение провести маневры.",1
 51453,OPTION_TOOLTIP_RESTRICT_CALENDAR_INVITES,"Приглашать вас через календарь смогут только друзья и участники гильдии. ",1
 51454,RESTRICT_CALENDAR_INVITES,"Ограничить приглашения ",1
@@ -18542,13 +18551,15 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 51646,SELF_HIGHLIGHT_UNIT_FRAME,"Self Highlight",1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,,2
+51731,REINCARNATE_CHARACTER,,2
+51732,DEATH_REINCARNATE_CHARACTER,,3
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,"Circle and Icon",1
 51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51756,ADDON_DEP_NOT_AVAILABLE,"Зависимая модификация недоступна",3
 51757,ADDON_EXCLUDED_FROM_BUILD,"Исключено из данной версии",3
 51758,ADDON_DEP_EXCLUDED_FROM_BUILD,"Зависимая модификация не включена в данную версию",3
 51759,ADDON_NO_ACTIVE_INTERFACE,"Нет активного интерфейса",3
-53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,"Пример субтитров",3
 51760,ADDON_DEP_NO_ACTIVE_INTERFACE,"Для зависимой модификации не выбран интерфейс",3
 51761,ADDON_WRONG_ACTIVE_INTERFACE,"Некорректный активный интерфейс",3
 51762,ADDON_DEP_WRONG_ACTIVE_INTERFACE,"Для зависимой модификации выбран некорректный интерфейс",3
@@ -18558,6 +18569,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 51766,ADDON_DEP_WRONG_LOAD_PHASE,"Для зависимой модификации выбрана некорректная фаза загрузки",3
 51767,ADDON_USER_ADDONS_DISABLED,"Пользовательские модификации отключены",3
 51768,ADDON_DEP_USER_ADDONS_DISABLED,"Зависимые модификации отключены",3
+51803,REINCARNATE_CHARACTER_CONFIRMATION,,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,"Current Expansion Only",1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,"The Auction House is not available to Timerunners.",5
 51959,EMPTY_SOCKET_FRAGRANCE,"Гнездо для ароматов",1
@@ -18580,6 +18592,7 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,"Может причинить вред несовершеннолетним.",3
 52137,CHINA_GM_BUILD,"ГМ (Китай)",2
 52228,PHOTOSENSITIVITY_WARNING_TITLE,"ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ",2
+52529,OPTION_TOOLTIP_CLASSIC_GUILD_UI,"Использовать классический интерфейс гильдии вместо современного.",1
 52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"Некоторые источники света, узоры и изображения могут вызывать припадки даже у людей, ранее не страдавших эпилепсией.|n|nЕсли вы или ваши родственники страдаете эпилепсией, обратитесь к врачу, прежде чем начинать игру.|n|nЕсли во время игры вы почувствуете головокружение, нарушение зрительного восприятия, судороги, потерю сознания, дезориентацию, конвульсии или начнете совершать непроизвольные движения, незамедлительно обратитесь за медицинской помощью.",2
 52235,PHOTOSENSITIVITY_WARNING_CONTINUE,"Нажмите любую клавишу, чтобы продолжить",2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,"Может причинить вред несовершеннолетним",1
@@ -18591,8 +18604,6 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 52351,COMPAT_SETTING_FRAME_OVERLAP,"Наложение кадров",3
 52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,"Многопоточный рендеринг",3
 52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Позволяет использовать новейшие функции видеокарты. Если отключить этот параметр, в игре будут задействованы только самые необходимые функции. Различные графические возможности будут отключены, а качество изображения, вероятно, снизится. Это поможет обойти неполадки, связанные с драйверами, или другие проблемы, связанные с более новым функционалом видеокарты.",3
-53467,CINEMATIC_SUBTITLES_DISPLAY_SUBHEADER,Экран,3
-53468,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_NONE,"Нет (по умолчанию)",3
 52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,"Позволяет асинхронно создавать графические ресурсы, такие как текстуры и шейдеры. Отключение этого параметра может вызвать подергивание изображения, но поможет обойти такие неполадки, как некорректное завершение работы или проблемы с изображением из-за очень старых драйверов или оборудования.",3
 52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Позволяет ЦП обрабатывать по два кадра одновременно. Если отключить этот параметр, частота кадров может стать нестабильной или снизиться, однако это поможет избежать некоторых видов некорректного завершения работы игры при определенных сочетаниях оборудования, драйверов и ОС. ",3
 52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Позволяет игре использовать многопоточность ЦП для рендеринга. Отключение этого параметра значительно снизит частоту кадров, но иногда может помочь в разрешении проблем с некорректным завершением работы или ошибками изображения. ",3
@@ -18607,19 +18618,34 @@ http://www.wow-europe.com/ru/policy/harassmentp1.html.",1
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,"System message",2
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,"Скрыть задания низкого уровня",1
 52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,"Больше не показывать",3
+52485,TOGGLE_VISIBILITY_TOOLTIP,,2
 52522,OPTION_TOOLTIP_DISABLE_CHAT,"Отключить чат. Теперь вы не сможете отправлять и получать сообщения.",1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Для изменения этих настроек перейдите на страницу параметров вашей учетной записи Battle.net и убедитесь, что: \nВ разделе ""Конфиденциальность"" включен текстовый чат.\nВ разделе ""Родительский контроль"" отключена функция ""Заблокировать чат учетной записи"".",1
 52528,CLASSIC_GUILD_UI_TEXT,"Классический интерфейс гильдии",1
-52529,OPTION_TOOLTIP_CLASSIC_GUILD_UI,"Использовать классический интерфейс гильдии вместо современного.",1
 52644,PVP_REALM_WARNING,"Минуточку внимания! Вы собираетесь войти в игровой мир |cffffffffPvP (игрок против игрока)|cffffd200, в котором будете постоянно сталкиваться с нападениями игроков из вражеской фракции.|n|nЕсли вас не интересует такое ожесточенное противостояние, мы рекомендуем перейти в |cffffffffобычный игровой мир (без свободного PvP)|cffffd200.|n|n|cffffffffГейм-мастера не вмешиваются в PvP-конфликты, и вы не сможете перенести вашего героя из игрового мира PvP в обычный игровой мир.",2
+52668,WOWLABS_MODE_NAV_BUTTON,,2
 52672,PVP_CHARACTER_CREATION_WARNING,"Добро пожаловать в |cffffffffWorld of Warcraft! |cffffd200Выбирая данный игровой мир, имейте в виду, что он предназначен для игры |cffffffffPvP (игрок против игрока)|cffffd200. Это значит, что кроме опасностей в самом игровом мире вы будете сталкиваться с нападениями других игроков.|n|n|cffffffffPvP-бои |cffffd200– важная часть игрового процесса в данном мире. Пока вы находитесь на оспариваемой территории, игроки из враждебной фракции могут атаковать вас без предупреждения и не соблюдая правил честной дуэли. На вас могут напасть, когда вы выполняете задание, собираете ресурсы или просто перемещаетесь из одного места в другое, а у противника может быть перед вами нечестное преимущество. Например, если вы не поделите с кем-то дьявозавра в Ун'Горо и убьете этого игрока, то он может это припомнить, и его гильдия будет поджидать ваш рейд на пути к Огненным Недрам в Черной горе.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nЕсли вы не ищете такого ожесточенного противостояния, мы рекомендуем перейти в |cffffffffобычный игровой мир (без свободного PvP)|cffffd200, где сражения между игроками ограничены.|n|n|cffffffffПредупреждаем, что гейм-мастера не вмешиваются в PvP-конфликты, а перенос персонажей между PvP-мирами и обычными мирами невозможен!",2
 52969,TW_FRAUD_WARNING_TEXT,"System message",2
 53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Субтитры,3
+53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,"Пример субтитров",3
+53467,CINEMATIC_SUBTITLES_DISPLAY_SUBHEADER,Экран,3
+53468,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_NONE,"Нет (по умолчанию)",3
+53469,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_DARK,Темный,3
+53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Светлый,3
+53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,"Subtitles Background",3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,"Background Opacity",3
+53512,VIDEO_OPTIONS_INTEL_XELL,"Intel XeLL",3
 53744,CONFIRM_REMOVE_WOW_FRIEND,"Are you sure you want to remove this friend from your list? This action cannot be undone.",1
 54076,EMPTY_SOCKET_SINGING_SEA,"Singing Sea Socket",1
 54078,EMPTY_SOCKET_SINGING_THUNDER,"Singing Thunder Socket",1
 54079,EMPTY_SOCKET_SINGING_WIND,"Singing Wind Socket",1
+54246,CENSORED_MESSAGE_SENDER,"%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r",1
+54272,CENSORED_MESSAGE_SENT,"%s |cffffff00Message flagged as potentially inappropriate.|r",1
+54394,TRANSMOG_ITEM_SET_FAVORITE,"Set Favorite",3
+54395,TRANSMOG_ITEM_UNSET_FAVORITE,"Remove Favorite",3
 54423,CHARACTER_UPGRADE_MAX_LEVEL_POPUP_TEXT,"This character is already level %s. Are you sure you want to use this boost on this character?",3
+54719,REPORT_RESULT_TOO_MANY_REPORTS,"Report failed. Too many report attempts. Please try again in a few minutes.",1
+54720,REPORT_RESULT_REQUIRES_CHAT,"Report failed. Report type only valid on chat lines.",1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Report failed. Report type only valid on chat lines or when in voice chat",1
 49295,UNITNAME_SUMMON_TITLE36,"Руководство по рыбной ловле от |3-1(%1$s)",1
